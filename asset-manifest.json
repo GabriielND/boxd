@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/boxd/static/css/main.d4a92085.css",
+    "main.js": "/boxd/static/js/main.b92bbdcb.js",
+    "static/js/453.523d5300.chunk.js": "/boxd/static/js/453.523d5300.chunk.js",
+    "index.html": "/boxd/index.html",
+    "main.d4a92085.css.map": "/boxd/static/css/main.d4a92085.css.map",
+    "main.b92bbdcb.js.map": "/boxd/static/js/main.b92bbdcb.js.map",
+    "453.523d5300.chunk.js.map": "/boxd/static/js/453.523d5300.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4a92085.css",
+    "static/js/main.b92bbdcb.js"
+  ]
+}
