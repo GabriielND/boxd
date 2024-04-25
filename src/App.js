@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import './App.css';
 import {validarResposta} from './tmdbAPI.js';
 
+const versaoAtual = "1.0"
 let tabuleiroTexto
 let dataCompleta
 let tabuleiroCache = "000000000"
@@ -66,10 +67,22 @@ function Boxd() {
     opacity : 0,
   });
 
+  function limparCache(){
+    if (typeof localStorage["versao"] == "undefined" || localStorage["versao" != versaoAtual] ||
+        typeof localStorage["data"] == "undefined" || localStorage["data"] != dataCompleta){
+      localStorage.clear()
+      localStorage["versao"] = versaoAtual
+      localStorage["data"] = dataCompleta
+      location.reload()
+    }
+  }
+
   function atualizaVariaveis(){
+    console.log((typeof localStorage["tabuleiroCache"] != undefined))
     if (typeof localStorage["tabuleiroCache"] != "undefined" &&
         typeof localStorage["pontos"] != "undefined" &&
         typeof localStorage["chutes" != "undefined"]){
+      console.log("Cachê")
       setPonto(Number(localStorage["pontos"]))
       setChute(Number(localStorage["chutes"]))
       tabuleiroCache = localStorage["tabuleiroCache"]
@@ -80,6 +93,7 @@ function Boxd() {
 
   useEffect(() => {
     fetchData()
+    limparCache()
     atualizaVariaveis()
   }, [])
 
