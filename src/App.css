@@ -2,13 +2,19 @@
 
 :root{
   --celula-tamanho: 100px;
+  --celula-tamanhoMobile: 80px;
+}
+
+html, body{
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #122230;
+  background-color: #001c2d;
   color: white;
   font-family: "Gabarito", sans-serif;
 }
@@ -19,8 +25,9 @@ button:hover{
 
 .grid{
   border-spacing: 2px;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-right: 101px;
+  min-width: 410px;
 }
 
 .grid td{
@@ -28,9 +35,6 @@ button:hover{
   width: var(--celula-tamanho);
   max-width: var(--celula-tamanho);
   height: var(--celula-tamanho);
-}
-
-.grid th{
 }
 
 .brdrLinha{
@@ -43,7 +47,7 @@ button:hover{
 }
 
 .brdrColuna{
-  background-color: #e46821;
+  background-color: #ff6811;
   padding: 8px;
   width: max-content;
   max-width: calc(var(--celula-tamanho) - 20px);
@@ -70,6 +74,7 @@ button:hover{
 .botao:disabled{
   font-size: 30px;
   color: rgb(0, 0, 0);
+  cursor:default;
 }
 
 .container{
@@ -99,10 +104,17 @@ button:hover{
   padding-bottom: 12px;
 }
 
+.vitoria span{
+  width: 30%;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
 .vict {
   transition: visibility 300ms linear 0s, opacity 300ms;
   width: 50%;
   display: flex;
+  /* flex-direction: column; */
   justify-content: center;
   align-content: center;
   text-align: center;
@@ -111,10 +123,18 @@ button:hover{
   margin-bottom: 0px;
 }
 
+.vict img{
+  width: 180px;
+}
+
 .pontuacao{
   display: flex;
   justify-content: center;
   margin-top: 5px;
+}
+
+.pontuacao table{
+  width: 55%;
 }
 
 #erroAviso{
@@ -155,6 +175,60 @@ button:hover{
   border-radius: 10px;
   padding: 5px;
   padding-inline: 10px
+}
+
+@media screen and (max-width: 600px){
+
+  body{
+    position: relative;
+    font-size: 15px;
+  }
+
+  .grid td{
+    padding: 0;
+    min-width: var(--celula-tamanhoMobile);
+    max-width: var(--celula-tamanhoMobile);
+    height: var(--celula-tamanhoMobile);
+  }
+
+  .grid{
+    border-spacing: 2px;
+    margin-top: 0px;
+    margin-right: 40px;
+    min-width: 410px;
+  }
+
+  .grid{
+    min-width: 0px;
+  }
+
+  .brdrColuna{
+    padding: 8px;
+    max-width: calc(var(--celula-tamanho) - 20px);
+    margin: auto;
+    overflow-wrap: break-word;
+  }
+
+  .pontuacao table{
+    width: 65%;
+    margin-left: 40px; 
+  }
+
+  .vitoria span{
+    width: 25%;
+  }
+
+  .container{
+    top: 40%;
+  }
+
+  /* .palpite{
+    min-width: 300px;
+    min-height: 150px;
+    padding-bottom: 20px;
+    font-family: "Gabarito", sans-serif;
+  } */
+
 }
 
 

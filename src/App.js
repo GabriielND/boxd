@@ -4,7 +4,37 @@ import {validarResposta} from './tmdbAPI.js';
 
 let tabuleiroTexto
 let dataCompleta
+let tabuleiroCache = "000000000"
+let botoesLista = ["btNO","btN","btNE","btO","btC","btL","btSO","btS","btSE"]
 
+function setCharAt(str,index,chr) {
+  if(index > str.length-1) return str;
+  return str.substring(0,index) + chr + str.substring(index+1);
+}
+
+function salvarTabuleiro(idBotao, valor){
+  const posicao = botoesLista.indexOf(idBotao)
+  tabuleiroCache = setCharAt(tabuleiroCache, posicao, valor)
+  localStorage["tabuleiroCache"] = tabuleiroCache
+  console.log(tabuleiroCache)
+}
+
+function replicarTabuleiro(){
+  for (let i = 0; i < 9; i++){
+    console.log(tabuleiroCache.charAt(i))
+    if (tabuleiroCache.charAt(i) != "0") {
+        document.getElementById(botoesLista[i]).disabled = true
+        document.getElementById(botoesLista[i]).textContent = "✅"
+    }
+    if (tabuleiroCache.charAt(i) == "1"){
+      document.getElementById(botoesLista[i]).style.backgroundColor = "#1b961b";
+    } else if (tabuleiroCache.charAt(i) == "2"){
+      document.getElementById(botoesLista[i]).style.backgroundColor = "#e8b51e";
+    }
+  }
+}
+
+//INICIO DO APP -------------------------------------------------
 function Boxd() {
   const [coluna1, setColuna1] = useState([])
   const [coluna2, setColuna2] = useState([])
@@ -15,7 +45,6 @@ function Boxd() {
   
   const [pontos, setPonto] = useState(0)
   const [chutes, setChute] = useState(0)
-  const [texto, setTexto] = useState("")
   const [btAtual, setBtAtual] = useState("")
   const [linhaAtual, setLinha] = useState([])
   const [colunaAtual, setColuna] = useState([])
@@ -27,7 +56,6 @@ function Boxd() {
   const botaoAtual = document.getElementById(btAtual)
   const avisoTexto = document.getElementById("erroAviso")
 
-
   const [estiloPalpite, setEstiloPalpite] = useState({
     visibility : "hidden",
     opacity : 0,
@@ -38,16 +66,38 @@ function Boxd() {
     opacity : 0,
   });
 
+  function atualizaVariaveis(){
+    if (typeof localStorage["tabuleiroCache"] != "undefined" &&
+        typeof localStorage["pontos"] != "undefined" &&
+        typeof localStorage["chutes" != "undefined"]){
+      setPonto(Number(localStorage["pontos"]))
+      setChute(Number(localStorage["chutes"]))
+      tabuleiroCache = localStorage["tabuleiroCache"]
+      replicarTabuleiro()
+    }
+  }
+  
+
   useEffect(() => {
     fetchData()
+    atualizaVariaveis()
   }, [])
 
   useEffect(() => {
+    if (pontos != 0){
+      localStorage["pontos"] = pontos
+    }
     if(pontos == 9){
       completaTabuleiro()
       vitoria()
     }
   }, [pontos])
+
+  useEffect(() =>{
+    if (chutes != 0){
+      localStorage["chutes"] = chutes
+    }
+  }, [chutes])
 
   let fetchData = async() => {
     let hoje = new Date()
@@ -55,11 +105,11 @@ function Boxd() {
     let mes = String(hoje.getMonth() + 1).padStart(2,"0")
     let ano = hoje.getFullYear()
     dataCompleta = dia+"-"+mes+"-"+ano
-    let endereco = dataCompleta+".txt"
+    let endereco = "/boxd/"+dataCompleta+".txt"
     let resp = await fetch(endereco)
     let final = await resp.text()
     let lista = final.split("\n")
-    
+
     for (let i = 0; i < lista.length; i++){
       lista[i] = lista[i].replace("\r", "")
     }
@@ -69,9 +119,7 @@ function Boxd() {
     setLinha1([lista[9], [lista[10], lista[11]]])
     setLinha2([lista[12], [lista[13], lista[14]]])
     setLinha3([lista[15], [lista[16], lista[17]]])
-    console.log(lista)
   }
-
 
   function palpite(fromButton = false){
     if (!mostraPalpite && fromButton){
@@ -106,21 +154,20 @@ function Boxd() {
     }
   }
   
-  function copiar(){
+ function copiar(){
     const textoShare = "Joguei Boxd " + dataCompleta + " e consegui em " + chutes + " tentativas\n\n" +
-    tabuleiroTexto + "\n <link>"
+    tabuleiroTexto + "\n gabriielnd.github.io/boxd/"
     navigator.clipboard.writeText(textoShare)
     document.getElementById("compartilhar").textContent="🔗 Copiado!"
   }
 
   async function jogar(linha, coluna, palpite){
-    console.log(coluna)
-    enviarBotao.textContent="⏳";
+    enviarBotao.textContent="⌚";/*⏳*/
     enviarBotao.disabled=true;
 
     setChute(chutes + 1)
     
-    const sucesso = await await validarResposta(linha, coluna, palpite)
+    const sucesso = await validarResposta(linha, coluna, palpite)
     if (sucesso){
       setPonto(pontos + 1)
       setMostraPalpite(!mostraPalpite)
@@ -130,8 +177,10 @@ function Boxd() {
       })
       if (botaoAtual.value == 0){
         botaoAtual.style.backgroundColor = "#1b961b";
+        salvarTabuleiro(btAtual, 1)
       } else {
         botaoAtual.style.backgroundColor = "#e8b51e";
+        salvarTabuleiro(btAtual, 2)
       }
       botaoAtual.textContent = "✅";
       botaoAtual.disabled = true;
@@ -153,7 +202,6 @@ function Boxd() {
   }
 
   function completaTabuleiro(){
-    let botoesLista = ["btNO","btN","btNE","btO","btC","btL","btSO","btS","btSE"]
     tabuleiroTexto = ""
     for (let i = 0; i < 9; i++){
       if (document.getElementById(botoesLista[i]).value == 0){
@@ -170,11 +218,18 @@ function Boxd() {
 
   return (
     <>
+    <div class="vict">
+      <img src="/boxd/logotipo.png"></img>
+    </div>
+    <div class="vict">
+      <a>Versão Beta</a>
+    </div>
+  
     <div class= "vict" style={estiloVitoria}>
       <div class = "vitoria">
         <a style={{marginTop: "8px"}}>Parabéns!</a>
         <a>Você conseguiu em {chutes} tentativas</a>
-        <span style={{width: "30%", marginBottom: "8px"}}>{tabuleiroTexto}</span>
+        <span>{tabuleiroTexto}</span>
         <button id="compartilhar" onClick={() => copiar()}>🔗 Compartilhe</button>
       </div>
     </div>
@@ -215,7 +270,7 @@ function Boxd() {
         </tr>
       </table>
       <div class="pontuacao">
-        <table style={{width: "55%"}}>
+        <table>
           <td style={{textAlign: "left", width: "50%"}}>Acertos: {pontos}</td>
           <td style={{textAlign: "right", width: "50%"}}>Palpites: {chutes}</td>
         </table>
