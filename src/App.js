@@ -45,7 +45,7 @@ function Boxd() {
   const [linha2, setLinha2] = useState([])
   const [linha3, setLinha3] = useState([])
   
-  const [pontos, setPonto] = useState(9)
+  const [pontos, setPonto] = useState(0)
   const [chutes, setChute] = useState(0)
   const [btAtual, setBtAtual] = useState("")
   const [linhaAtual, setLinha] = useState([])
