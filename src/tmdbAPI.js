@@ -1,5 +1,5 @@
 let temDois = true
-
+let limite = 3
 const options = {
     method: 'GET',
     headers: {
@@ -9,7 +9,8 @@ const options = {
   };
 
 function alteraDois(response) {
-    if(response.length < 2){temDois = false}
+    if(response.length < 2){limite = 2; temDois = false}
+    if(response.length < limite){temDois = false}
 }
 
 function buscarFilme(filme){
@@ -93,15 +94,18 @@ async function validarCategoria(catg, filme, index = 0){
 
 export async function validarResposta(catg1, catg2, filme){
     let flag = false
+    let catg1Passou
+    let catg2Passou
+    let i = 0
     console.log("Filme: ", filme)
-    for (let i = 0; i < temDois; i++){
-        const catg1Passou = await validarCategoria(catg1, filme, i)
-        const catg2Passou = await validarCategoria(catg2, filme, i)
+    do{
+        catg1Passou = await validarCategoria(catg1, filme, i)
+        catg2Passou = await validarCategoria(catg2, filme, i)
         if (catg1Passou && catg2Passou ){
             flag = true
-            break
         }
-    }
+        i++
+    } while(temDois && i < limite)
     if (!flag){
         console.log(catg1[1] + ": " + catg1Passou)
         console.log(catg2[1] + ": " + catg2Passou)
@@ -110,7 +114,7 @@ export async function validarResposta(catg1, catg2, filme){
     return flag
 }
 
-// validarResposta(["ano", 1980], ["genero", "Horror"], "morte do demônio")
+// validarResposta(["ano", 2020], ["nacional", "Nacional"], "Meu cunhado é um vampiro")
 
 //########################################################//
 
