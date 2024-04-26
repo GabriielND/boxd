@@ -120,7 +120,7 @@ function Boxd() {
     let mes = String(hoje.getMonth() + 1).padStart(2,"0")
     let ano = hoje.getFullYear()
     dataCompleta = dia+"-"+mes+"-"+ano
-    let endereco = "/boxd/"+dataCompleta+".txt"
+    let endereco = "/"+dataCompleta+".txt"
     let resp = await fetch(endereco)
     let final = await resp.text()
     let lista = final.split("\n")
@@ -171,7 +171,7 @@ function Boxd() {
   
  function copiar(){
     const textoShare = "Joguei Boxd " + dataCompleta + " e consegui em " + chutes + " tentativas\n\n" +
-    tabuleiroTexto + "\n gabriielnd.github.io/boxd/"
+    tabuleiroTexto + "\n boxd.com.br"
     navigator.clipboard.writeText(textoShare)
     document.getElementById("compartilhar").textContent="🔗 Copiado!"
   }
@@ -234,7 +234,7 @@ function Boxd() {
   return (
     <>
     <div class="vict">
-      <img src="/boxd/logotipo.png"></img>
+      <img src="/logotipo.png"></img>
     </div>
     <div class="vict">
       <a>Versão Beta</a>
