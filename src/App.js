@@ -31,6 +31,7 @@ function replicarTabuleiro(){
       document.getElementById(botoesLista[i]).style.backgroundColor = "#1b961b";
     } else if (tabuleiroCache.charAt(i) == "2"){
       document.getElementById(botoesLista[i]).style.backgroundColor = "#e8b51e";
+      document.getElementById(botoesLista[i]).value = 1
     }
   }
 }
@@ -44,7 +45,7 @@ function Boxd() {
   const [linha2, setLinha2] = useState([])
   const [linha3, setLinha3] = useState([])
   
-  const [pontos, setPonto] = useState(0)
+  const [pontos, setPonto] = useState(9)
   const [chutes, setChute] = useState(0)
   const [btAtual, setBtAtual] = useState("")
   const [linhaAtual, setLinha] = useState([])
