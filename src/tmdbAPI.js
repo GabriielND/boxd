@@ -94,15 +94,12 @@ async function validarCategoria(catg, filme, index = 0){
 export async function validarResposta(catg1, catg2, filme){
     let flag = false
     console.log("Filme: ", filme)
-    const catg1Passou = await validarCategoria(catg1, filme)
-    const catg2Passou = await validarCategoria(catg2, filme)
-    if (catg1Passou && catg2Passou ){
-        flag = true
-    } else if (temDois){
-        const catg1Passou = await validarCategoria(catg1, filme, 1)
-        const catg2Passou = await validarCategoria(catg2, filme, 1)
+    for (let i = 0; i < temDois; i++){
+        const catg1Passou = await validarCategoria(catg1, filme, i)
+        const catg2Passou = await validarCategoria(catg2, filme, i)
         if (catg1Passou && catg2Passou ){
             flag = true
+            break
         }
     }
     if (!flag){
@@ -113,7 +110,7 @@ export async function validarResposta(catg1, catg2, filme){
     return flag
 }
 
-// validarResposta(["ano", 2020], ["nacional", "Nacional"], "Meu cunhado é um vampiro")
+// validarResposta(["ano", 1980], ["genero", "Horror"], "morte do demônio")
 
 //########################################################//
 
