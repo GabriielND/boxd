@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import './App.css';
 import {validarResposta} from './tmdbAPI.js';
 
-const versaoAtual = "1.0"
+const versaoAtual = "1.0.1"
 let tabuleiroTexto
 let dataCompleta
 let tabuleiroCache = "000000000"
@@ -120,7 +120,6 @@ function Boxd() {
     let mes = String(hoje.getMonth() + 1).padStart(2,"0")
     let ano = hoje.getFullYear()
     dataCompleta = dia+"-"+mes+"-"+ano
-    dataCompleta = "28-04-2024"
     let endereco = "/"+dataCompleta+".txt"
     let resp = await fetch(endereco)
     let final = await resp.text()
@@ -269,7 +268,7 @@ function Boxd() {
               onClick={() => {setLinha(linha1); setColuna(coluna3); palpite(true); setBtAtual("btNE") }}>.</button></td>
         </tr>
         <tr>
-          <th><div class="brdrLinha">{linha2[0]}</div></th>
+          <th><div class="brdrLinha dreamworks">{linha2[0]}</div></th>
           <td><button class="botao" id="btO" value="0" onClick={() => {setLinha(linha2); setColuna(coluna1); palpite(true); setBtAtual("btO") }}>.</button></td>
           <td><button class="botao" id="btC" value="0" onClick={() => {setLinha(linha2); setColuna(coluna2); palpite(true); setBtAtual("btC") }}>.</button></td>
           <td><button class="botao" id="btL" value="0" onClick={() => {setLinha(linha2); setColuna(coluna3); palpite(true); setBtAtual("btL") }}>.</button></td>

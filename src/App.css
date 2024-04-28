@@ -46,6 +46,7 @@ button:hover{
   background-color: #0e700e;
   padding: 8px;
   width: max-content;
+  max-width: calc(var(--celula-tamanho) - 20px);
   border-radius: 10px;
   margin: auto;
   overflow-wrap: break-word;
