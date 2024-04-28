@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import './App.css';
 import {validarResposta} from './tmdbAPI.js';
 
-const versaoAtual = "1.0.1"
+const versaoAtual = "1.0.0"
 let tabuleiroTexto
 let dataCompleta
 let tabuleiroCache = "000000000"
