@@ -10,6 +10,10 @@ html, body{
   overflow-x: hidden;
 }
 
+.dreamworks{
+  font-size: 14.5px;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -17,6 +21,7 @@ body {
   background-color: #001c2d;
   color: white;
   font-family: "Gabarito", sans-serif;
+  font-size: 17px;
 }
 
 button:hover{
@@ -98,6 +103,10 @@ button:hover{
   min-height: 150px;
   padding-bottom: 20px;
   font-family: "Gabarito", sans-serif;
+}
+
+.palpite h3{
+  font-size: 18px;
 }
 
 .vitoria{
@@ -196,6 +205,7 @@ button:hover{
     margin-top: 0px;
     margin-right: 40px;
     min-width: 410px;
+    max-width: 410px;
   }
 
   .grid{
@@ -204,7 +214,7 @@ button:hover{
 
   .brdrColuna{
     padding: 8px;
-    max-width: calc(var(--celula-tamanho) - 20px);
+    max-width: calc(var(--celula-tamanho) - 40px);
     margin: auto;
     overflow-wrap: break-word;
   }

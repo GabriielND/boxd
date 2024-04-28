@@ -120,6 +120,7 @@ function Boxd() {
     let mes = String(hoje.getMonth() + 1).padStart(2,"0")
     let ano = hoje.getFullYear()
     dataCompleta = dia+"-"+mes+"-"+ano
+    dataCompleta = "28-04-2024"
     let endereco = "/"+dataCompleta+".txt"
     let resp = await fetch(endereco)
     let final = await resp.text()
@@ -171,7 +172,7 @@ function Boxd() {
   
  function copiar(){
     const textoShare = "Joguei Boxd " + dataCompleta + " e consegui em " + chutes + " tentativas\n\n" +
-    tabuleiroTexto + "\n boxd.com.br"
+    tabuleiroTexto + "\nboxd.com.br"
     navigator.clipboard.writeText(textoShare)
     document.getElementById("compartilhar").textContent="🔗 Copiado!"
   }

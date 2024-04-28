@@ -78,6 +78,23 @@ async function validarNacional(filmeResp, index){
     }
 }
 
+async function validarProdutora(produtoraResp, filmeResp, index){
+    try {
+        const formatProdutora = produtoraResp.split(" ")
+        const filmeGeral = await buscarFilme(filmeResp)
+        alteraDois(filmeGeral["results"])
+        const filmeDetal = await buscarIdFilme(filmeGeral["results"][index]["id"])
+        const produtoras = filmeDetal["production_companies"]
+        for (let i = 0; i < produtoras.length; i++){
+            if (produtoras[i]["name"].includes(produtoraResp[0]) && produtoras[i]["name"].includes(produtoraResp[1])){
+                return true
+            }
+        }    
+    } catch (Exception){
+        return false
+    }
+}
+
 async function validarCategoria(catg, filme, index = 0){
     temDois = true;
     switch (catg[0]) {
@@ -87,6 +104,8 @@ async function validarCategoria(catg, filme, index = 0){
             return validarGenero(catg[1], filme, index)
         case "nacional":
             return validarNacional(filme, index)
+        case "produtora":
+            return validarProdutora(catg[1], filme, index)
         default:
             return false
     }
