@@ -69,7 +69,7 @@ function Boxd() {
   });
 
   function limparCache(){
-    if (typeof localStorage["versao"] == "undefined" || localStorage["versao" != versaoAtual] ||
+    if (typeof localStorage["versao"] == "undefined" || localStorage["versao"] != versaoAtual ||
         typeof localStorage["data"] == "undefined" || localStorage["data"] != dataCompleta){
       localStorage.clear()
       localStorage["versao"] = versaoAtual
