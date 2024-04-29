@@ -50,6 +50,7 @@ async function validarAno(anoResp, filmeResp, index){
             return false
         }
     } catch (Exception){
+        console.log(Exception)
         return false
     }
 }
@@ -68,6 +69,7 @@ async function validarGenero(generoResp, filmeResp, index){
         }
         return false
     } catch (Exception){
+        console.log(Exception)
         return false
     }
 }
@@ -85,6 +87,7 @@ async function validarNacional(filmeResp, index){
             return false
         }
     } catch (Exception){
+        console.log(Exception)
         return false
     }
 }
@@ -104,6 +107,7 @@ async function validarProdutora(produtoraResp, filmeResp, index){
         }
         return false
     } catch (Exception){
+        console.log(Exception)
         return false
     }
 }
@@ -116,13 +120,13 @@ async function validarKeywords(kwResp, filmeResp, index){
         const kwsFilme = filmeDetal["keywords"]
         for (let i = 0; i < kwsFilme.length; i++) {
             if (kwsFilme[i]["name"] == kwResp){
-                filmeAcerto = filmeGeral["results"][index]["title"]
-                localStorage["filmeAcerto"] = filmeAcerto
+                localStorage["filmeAcerto"] = filmeGeral["results"][index]["title"]
                 return true
             }
         }
         return false
     } catch (Exception){
+        console.log(Exception)
         return false
     }
 }
