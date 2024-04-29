@@ -22,7 +22,7 @@ function buscarFilme(filme){
 }
 
 function buscarIdFilme(id){
-    return fetch('https://api.themoviedb.org/3/movie/' + id + '?language=en-US', options)
+    return fetch('https://api.themoviedb.org/3/movie/' + id + '?language=pt-BR', options)
     .then(response => response.json())
     .then(json => {
         return json;
