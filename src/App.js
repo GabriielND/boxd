@@ -4,6 +4,7 @@ import {validarResposta} from './tmdbAPI.js';
 
 const versaoAtual = "1.1"
 let tabuleiroTexto
+let textoShare
 let dataCompleta
 let tabuleiroCache = "000000000"
 let botoesLista = ["btNO","btN","btNE","btO","btC","btL","btSO","btS","btSE"]
@@ -171,9 +172,9 @@ function Boxd() {
   }
   
  function copiar(){
-    const textoShare = "Joguei boxd.com.br " + dataCompleta + " e consegui em " + chutes + 
+    textoShare = "Joguei boxd.com.br " + dataCompleta + " e consegui em " + chutes + 
     " tentativas\n\n" + tabuleiroTexto
-    navigator.clipboard.writeText(textoShare)
+    // navigator.clipboard.writeText(textoShare)
     document.getElementById("compartilhar").textContent="🔗 Copiado!"
   }
 
@@ -248,7 +249,7 @@ function Boxd() {
         <a style={{marginTop: "8px"}}>Parabéns!</a>
         <a>Você conseguiu em {chutes} tentativas</a>
         <span>{tabuleiroTexto}</span>
-        <button id="compartilhar" onClick={() => copiar()}>🔗 Compartilhe</button>
+        <button id="compartilhar" onClick={() => {copiar(); navigator.clipboard.writeText(textoShare)}}>🔗 Compartilhe</button>
       </div>
     </div>
 
