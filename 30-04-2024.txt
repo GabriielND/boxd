@@ -1,0 +1,18 @@
+Romance
+genero
+Romance
+Ação
+genero
+Action
+Drama
+genero
+Drama
+1990
+ano
+1990
+Nacional
+nacional
+Nacional
+Baseado em um livro
+keyword
+based on novel or book
