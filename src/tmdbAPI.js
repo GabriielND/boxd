@@ -29,6 +29,14 @@ function buscarIdFilme(id){
     })
 }
 
+function buscarKWFilme(id){
+    return fetch("https://api.themoviedb.org/3/movie/" + id + "/keywords", options)
+    .then(response => response.json())
+    .then(json => {
+        return json;
+    })
+}
+
 async function validarAno(anoResp, filmeResp, index){
     try {
         anoResp = Number(anoResp)
@@ -36,6 +44,7 @@ async function validarAno(anoResp, filmeResp, index){
         alteraDois(filme["results"])
         const ano = filme["results"][index]["release_date"].substring(0,4)
         if (ano >= anoResp && ano <= anoResp+9){
+            localStorage["filmeAcerto"] = filme["results"][index]["title"]
             return true
         } else {
             return false
@@ -53,6 +62,7 @@ async function validarGenero(generoResp, filmeResp, index){
         const generosFilme = filmeDetal["genres"]
         for (let i = 0; i < generosFilme.length; i++) {
             if (generosFilme[i]["name"] == generoResp){
+                localStorage["filmeAcerto"] = filmeGeral["results"][index]["title"]
                 return true
             }
         }
@@ -69,6 +79,7 @@ async function validarNacional(filmeResp, index){
         const filmeDetal = await buscarIdFilme(filmeGeral["results"][index]["id"])
         const nacionalidade = filmeDetal["production_countries"][0]["name"]
         if (nacionalidade == "Brazil") {
+            localStorage["filmeAcerto"] = filmeGeral["results"][index]["title"]
             return true
         } else {
             return false
@@ -86,10 +97,31 @@ async function validarProdutora(produtoraResp, filmeResp, index){
         const filmeDetal = await buscarIdFilme(filmeGeral["results"][index]["id"])
         const produtoras = filmeDetal["production_companies"]
         for (let i = 0; i < produtoras.length; i++){
-            if (produtoras[i]["name"].includes(produtoraResp[0]) && produtoras[i]["name"].includes(produtoraResp[1])){
+            if (produtoras[i]["name"].includes(formatProdutora[0]) && produtoras[i]["name"].includes(formatProdutora[1])){
+                localStorage["filmeAcerto"] = filmeGeral["results"][index]["title"]
                 return true
             }
-        }    
+        }
+        return false
+    } catch (Exception){
+        return false
+    }
+}
+
+async function validarKeywords(kwResp, filmeResp, index){
+    try{
+        const filmeGeral = await buscarFilme(filmeResp)
+        alteraDois(filmeGeral["results"])
+        const filmeDetal = await buscarKWFilme(filmeGeral["results"][index]["id"])
+        const kwsFilme = filmeDetal["keywords"]
+        for (let i = 0; i < kwsFilme.length; i++) {
+            if (kwsFilme[i]["name"] == kwResp){
+                filmeAcerto = filmeGeral["results"][index]["title"]
+                localStorage["filmeAcerto"] = filmeAcerto
+                return true
+            }
+        }
+        return false
     } catch (Exception){
         return false
     }
@@ -106,6 +138,8 @@ async function validarCategoria(catg, filme, index = 0){
             return validarNacional(filme, index)
         case "produtora":
             return validarProdutora(catg[1], filme, index)
+        case "keyword":
+            return validarKeywords(catg[1], filme, index)
         default:
             return false
     }
@@ -122,6 +156,7 @@ export async function validarResposta(catg1, catg2, filme){
         catg2Passou = await validarCategoria(catg2, filme, i)
         if (catg1Passou && catg2Passou ){
             flag = true
+            break
         }
         i++
     } while(temDois && i < limite)
@@ -133,7 +168,7 @@ export async function validarResposta(catg1, catg2, filme){
     return flag
 }
 
-// validarResposta(["ano", 2020], ["nacional", "Nacional"], "Meu cunhado é um vampiro")
+// validarResposta(["ano", 2020], ["genero", "Mystery"], "Glass Onion")
 
 //########################################################//
 

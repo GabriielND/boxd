@@ -24,8 +24,9 @@ function replicarTabuleiro(){
   for (let i = 0; i < 9; i++){
     console.log(tabuleiroCache.charAt(i))
     if (tabuleiroCache.charAt(i) != "0") {
+        const filmeBt = "filme" + botoesLista[i]
         document.getElementById(botoesLista[i]).disabled = true
-        document.getElementById(botoesLista[i]).textContent = "✅"
+        document.getElementById(botoesLista[i]).textContent = localStorage[filmeBt]
     }
     if (tabuleiroCache.charAt(i) == "1"){
       document.getElementById(botoesLista[i]).style.backgroundColor = "#1b961b";
@@ -170,8 +171,8 @@ function Boxd() {
   }
   
  function copiar(){
-    const textoShare = "Joguei Boxd " + dataCompleta + " e consegui em " + chutes + " tentativas\n\n" +
-    tabuleiroTexto + "\nboxd.com.br"
+    const textoShare = "Joguei boxd.com.br " + dataCompleta + " e consegui em " + chutes + 
+    " tentativas\n\n" + tabuleiroTexto
     navigator.clipboard.writeText(textoShare)
     document.getElementById("compartilhar").textContent="🔗 Copiado!"
   }
@@ -197,7 +198,9 @@ function Boxd() {
         botaoAtual.style.backgroundColor = "#e8b51e";
         salvarTabuleiro(btAtual, 2)
       }
-      botaoAtual.textContent = "✅";
+      const filmeBt = "filme" + btAtual
+      localStorage[filmeBt] = localStorage["filmeAcerto"]
+      botaoAtual.textContent = localStorage[filmeBt]/*"✅"*/;
       botaoAtual.disabled = true;
     } 
     else {
@@ -268,7 +271,7 @@ function Boxd() {
               onClick={() => {setLinha(linha1); setColuna(coluna3); palpite(true); setBtAtual("btNE") }}>.</button></td>
         </tr>
         <tr>
-          <th><div class="brdrLinha dreamworks">{linha2[0]}</div></th>
+          <th><div class="brdrLinha">{linha2[0]}</div></th>
           <td><button class="botao" id="btO" value="0" onClick={() => {setLinha(linha2); setColuna(coluna1); palpite(true); setBtAtual("btO") }}>.</button></td>
           <td><button class="botao" id="btC" value="0" onClick={() => {setLinha(linha2); setColuna(coluna2); palpite(true); setBtAtual("btC") }}>.</button></td>
           <td><button class="botao" id="btL" value="0" onClick={() => {setLinha(linha2); setColuna(coluna3); palpite(true); setBtAtual("btL") }}>.</button></td>

@@ -78,9 +78,11 @@ button:hover{
 }
 
 .botao:disabled{
-  font-size: 30px;
-  color: rgb(0, 0, 0);
+  font-size: 16px;
+  color: rgb(255, 255, 255);
   cursor:default;
+  font-family: "Gabarito", "sans serif";
+  overflow-wrap: break-word;
 }
 
 .container{
