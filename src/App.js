@@ -178,36 +178,43 @@ function Boxd() {
     enviarBotao.textContent="⌚";/*⏳*/
     enviarBotao.disabled=true;
 
-    setChute(chutes + 1)
-    
     const sucesso = await validarResposta(linha, coluna, palpite)
-    if (sucesso){
-      setPonto(pontos + 1)
-      setMostraPalpite(!mostraPalpite)
-      setEstiloPalpite({
-        visibility : "hidden",
-        opacity : 0,
-      })
-      if (botaoAtual.value == 0){
-        botaoAtual.style.backgroundColor = "#1b961b";
-        salvarTabuleiro(btAtual, 1)
-      } else {
-        botaoAtual.style.backgroundColor = "#e8b51e";
-        salvarTabuleiro(btAtual, 2)
-      }
-      const filmeBt = "filme" + btAtual
-      localStorage[filmeBt] = localStorage["filmeAcerto"]
-      botaoAtual.textContent = localStorage[filmeBt]/*"✅"*/;
-      botaoAtual.disabled = true;
-    } 
-    else {
-      avisoTexto.textContent = "Tente novamente 😥";
-      botaoAtual.value = 1
-    }
 
-    document.getElementById("palpite-input").value = "";
-    enviarBotao.textContent="Enviar";
-    enviarBotao.disabled = false;
+    if(sessionStorage["usado"] == "1"){
+      avisoTexto.textContent = "Filme já usado 🔂";
+      document.getElementById("palpite-input").value = "";
+      enviarBotao.textContent="Enviar";
+      enviarBotao.disabled = false;
+    } else {
+      setChute(chutes + 1)
+      if (sucesso){
+        setPonto(pontos + 1)
+        setMostraPalpite(!mostraPalpite)
+        setEstiloPalpite({
+          visibility : "hidden",
+          opacity : 0,
+        })
+        if (botaoAtual.value == 0){
+          botaoAtual.style.backgroundColor = "#1b961b";
+          salvarTabuleiro(btAtual, 1)
+        } else {
+          botaoAtual.style.backgroundColor = "#e8b51e";
+          salvarTabuleiro(btAtual, 2)
+        }
+        const filmeBt = "filme" + btAtual
+        localStorage[filmeBt] = localStorage["filmeAcerto"]
+        botaoAtual.textContent = localStorage[filmeBt]/*"✅"*/;
+        botaoAtual.disabled = true;
+      } 
+      else {
+        avisoTexto.textContent = "Tente novamente 😥";
+        botaoAtual.value = 1
+      }
+
+      document.getElementById("palpite-input").value = "";
+      enviarBotao.textContent="Enviar";
+      enviarBotao.disabled = false;
+    }
   }
 
   const handler = (event) => {
