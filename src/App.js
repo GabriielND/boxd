@@ -18,12 +18,10 @@ function salvarTabuleiro(idBotao, valor){
   const posicao = botoesLista.indexOf(idBotao)
   tabuleiroCache = setCharAt(tabuleiroCache, posicao, valor)
   localStorage["tabuleiroCache"] = tabuleiroCache
-  console.log(tabuleiroCache)
 }
 
 function replicarTabuleiro(){
   for (let i = 0; i < 9; i++){
-    console.log(tabuleiroCache.charAt(i))
     if (tabuleiroCache.charAt(i) != "0") {
         const filmeBt = "filme" + botoesLista[i]
         document.getElementById(botoesLista[i]).disabled = true
@@ -81,11 +79,9 @@ function Boxd() {
   }
 
   function atualizaVariaveis(){
-    console.log((typeof localStorage["tabuleiroCache"] != undefined))
     if (typeof localStorage["tabuleiroCache"] != "undefined" &&
         typeof localStorage["pontos"] != "undefined" &&
         typeof localStorage["chutes" != "undefined"]){
-      console.log("Cachê")
       setPonto(Number(localStorage["pontos"]))
       setChute(Number(localStorage["chutes"]))
       tabuleiroCache = localStorage["tabuleiroCache"]
@@ -294,6 +290,11 @@ function Boxd() {
           <td style={{textAlign: "right", width: "50%"}}>Palpites: {chutes}</td>
         </table>
       </div>
+    </div>
+
+    <div class="tmdb">
+      <a class="dados">Dados fornecidos por:</a>
+      <a href="https://www.themoviedb.org" target="_blank"><img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"></img></a>
     </div>
 
     <div class = "container" style={estiloPalpite}>

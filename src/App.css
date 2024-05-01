@@ -191,6 +191,22 @@ button:hover{
   padding-inline: 10px
 }
 
+.tmdb{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dados{
+  font-size:12px;
+  margin-bottom: 5px;
+  margin-top: 20px
+}
+
+.tmdb img{
+  width: 60px;
+}
+
 @media screen and (max-width: 600px){
 
   body{
