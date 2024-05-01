@@ -3,7 +3,7 @@ genero
 Romance
 Ação
 genero
-Action
+Ação
 Drama
 genero
 Drama
