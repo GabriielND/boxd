@@ -1,0 +1,18 @@
+Aventura
+genero
+Aventura
+Fantasia
+genero
+Fantasia
+1980
+ano
+1980
+Studio Ghibli
+produtora
+Studio Ghibli
+Musical
+keyword
+musical
+Animação
+genero
+Animação
