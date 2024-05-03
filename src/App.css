@@ -43,6 +43,10 @@ button:hover{
   max-height: var(--celula-tamanho);
 }
 
+.grid th{
+  max-height: var(--celula-tamanho);
+}
+
 .brdrLinha{
   background-color: #0e700e;
   padding: 8px;
@@ -214,24 +218,26 @@ button:hover{
     font-size: 14.5px;
   }
 
-  .grid td{
-    padding: 0;
-    min-width: var(--celula-tamanhoMobile);
-    max-width: var(--celula-tamanhoMobile);
-    height: var(--celula-tamanhoMobile);
-  }
-
   .grid{
     border-spacing: 2px;
     margin-top: 0px;
     margin-right: 40px;
     margin-left: 15px;
-    min-width: 410px;
+    min-width: 0px;
     max-width: 410px;
   }
 
-  .grid{
-    min-width: 0px;
+  .grid td{
+    padding: 0;
+    min-width: var(--celula-tamanhoMobile);
+    max-width: var(--celula-tamanhoMobile);
+    height: var(--celula-tamanhoMobile);
+    max-height: var(--celula-tamanhoMobile);
+    overflow: hidden;
+  }
+
+  .grid th{
+    max-height: var(--celula-tamanhoMobile);
   }
 
   .brdrColuna{
@@ -261,8 +267,14 @@ button:hover{
     top: 40%;
   }
 
+  .botao{
+    max-height: var(--celula-tamanhoMobile);
+  }
+
   .botao:disabled{
     font-size: 14px;
+    overflow: hidden;
+    max-height: var(--celula-tamanhoMobile);
   }
 
   /* .palpite{

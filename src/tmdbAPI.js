@@ -1,5 +1,5 @@
 let temDois = true
-let limite = 3
+let limite = 4
 let filmeAcerto = ""
 let filmeAtual
 let filmesCertos = []

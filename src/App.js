@@ -74,7 +74,7 @@ function Boxd() {
       localStorage.clear()
       localStorage["versao"] = versaoAtual
       localStorage["data"] = dataCompleta
-      location.reload()
+      window.location.reload()
     }
   }
 
@@ -118,6 +118,7 @@ function Boxd() {
     let mes = String(hoje.getMonth() + 1).padStart(2,"0")
     let ano = hoje.getFullYear()
     dataCompleta = dia+"-"+mes+"-"+ano
+    dataCompleta = "03-05-2024"
     let endereco = "/"+dataCompleta+".txt"
     let resp = await fetch(endereco)
     let final = await resp.text()
@@ -239,7 +240,7 @@ function Boxd() {
   }
 
   return (
-    <>
+    <div>
     <div class="vict">
       <img src="/logotipo.png"></img>
     </div>
@@ -313,7 +314,7 @@ function Boxd() {
           <button id="enviar" onClick={() => jogar(linhaAtual[1], colunaAtual[1], document.getElementById('palpite-input').value)}>Enviar</button> 
       </div>  
     </div>
-    </>
+    </div>
   );
 }
 
