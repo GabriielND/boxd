@@ -118,7 +118,6 @@ function Boxd() {
     let mes = String(hoje.getMonth() + 1).padStart(2,"0")
     let ano = hoje.getFullYear()
     dataCompleta = dia+"-"+mes+"-"+ano
-    dataCompleta = "03-05-2024"
     let endereco = "/"+dataCompleta+".txt"
     let resp = await fetch(endereco)
     let final = await resp.text()
