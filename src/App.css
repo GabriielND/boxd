@@ -35,15 +35,15 @@ button:hover{
   min-width: 410px;
 }
 
+.grid th{
+  max-height: var(--celula-tamanho);
+}
+
 .grid td{
   padding: 0;
   width: var(--celula-tamanho);
   max-width: var(--celula-tamanho);
   height: var(--celula-tamanho);
-  max-height: var(--celula-tamanho);
-}
-
-.grid th{
   max-height: var(--celula-tamanho);
 }
 
@@ -89,6 +89,7 @@ button:hover{
   cursor:default;
   font-family: "Gabarito", "sans serif";
   overflow-wrap: break-word;
+  max-height: var(--celula-tamanho);
 }
 
 .container{
@@ -233,23 +234,22 @@ button:hover{
     max-width: var(--celula-tamanhoMobile);
     height: var(--celula-tamanhoMobile);
     max-height: var(--celula-tamanhoMobile);
-    overflow: hidden;
   }
 
-  .grid th{
-    max-height: var(--celula-tamanhoMobile);
+  tr{
+    height: var(--celula-tamanhoMobile);
   }
 
   .brdrColuna{
     padding: 8px;
-    max-width: calc(var(--celula-tamanho) - 40px);
+    max-width: calc(var(--celula-tamanhoMobile) - 30px);
     margin: auto;
     overflow: hidden;
   }
 
   .brdrLinha{
     padding: 8px;
-    max-width: calc(var(--celula-tamanho) - 40px);
+    max-width: calc(var(--celula-tamanhoMobile) - 30px);
     margin: auto;
     overflow: hidden;
   }
@@ -285,5 +285,34 @@ button:hover{
   } */
 
 }
+
+@-moz-document url-prefix() {
+  .botao:disabled{
+    font-size: 14px;
+    overflow: hidden;
+    max-height: var(--celula-tamanho);
+  } 
+}
+
+@-moz-document url-prefix(){
+  @media screen and (max-width: 600px){
+    .botao:disabled{
+      max-height: var(--celula-tamanhoMobile);
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2; /* number of lines to show */
+              line-clamp: 2; 
+      -webkit-box-orient: vertical;
+    }
+
+    .grid{
+      height: var(--celula-tamanhoMobile);
+    }
+    
+    
+  }
+}
+
+
 
 
