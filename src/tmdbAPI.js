@@ -1,5 +1,6 @@
+const limiteFixo = 3
 let temDois = true
-let limite = 4
+let limite = limiteFixo
 let filmeAcerto = ""
 let filmeAtual
 let filmesCertos = []
@@ -13,8 +14,12 @@ const options = {
   };
 
 function alteraDois(response) {
-    if(response.length < 2){limite = 2; temDois = false}
-    if(response.length < limite){temDois = false}
+    if (response.length < limite){
+        limite = response.length
+    }
+    if (limite < 2){
+        temDois = false
+    }
 }
 
 function buscarFilme(filme){
@@ -124,8 +129,28 @@ async function validarProdutora(produtoraResp, filmeResp, index){
     }
 }
 
+const variantes = [
+    ["sports", "sport", "olympic sport"],
+    ["based on novel or book", "based on book", "based-on-novel", "based on novel", "based on young adult novel", "based on graphic novel", "based on memoir or autobiography"],
+    ["stop motion", "stopmotion"]
+]
+
 async function validarKeywords(kwResp, filmeResp, index){
+    let keywords = []
     try{
+        switch (kwResp) {
+            case "sports":
+                keywords = keywords.concat(variantes[0])
+                break;
+            case "based on novel or book":
+                keywords = keywords.concat(variantes[1])
+                break;
+            case "stop motion":
+                keywords = keywords.concat(variantes[2])
+                break;
+            default:
+                keywords.push(kwResp);
+        }
         const filmeGeral = await buscarFilme(filmeResp)
         alteraDois(filmeGeral["results"])
         const filmeDetal = await buscarKWFilme(filmeGeral["results"][index]["id"])
@@ -133,7 +158,7 @@ async function validarKeywords(kwResp, filmeResp, index){
         filmeAcerto = filmeGeral["results"][index]["title"]
         filmeAtual = filmeGeral["results"][index]["id"]
         for (let i = 0; i < kwsFilme.length; i++) {
-            if (kwsFilme[i]["name"] == kwResp){
+            if (keywords.includes(kwsFilme[i]["name"])){
                 localStorage["filmeAcerto"] = filmeAcerto
                 return true
             }
@@ -146,6 +171,7 @@ async function validarKeywords(kwResp, filmeResp, index){
 }
 
 async function validarCategoria(catg, filme, index = 0){
+    limite = limiteFixo
     temDois = true;
     switch (catg[0]) {
         case "ano":
@@ -173,10 +199,8 @@ export async function validarResposta(catg1, catg2, filme){
         catg1Passou = await validarCategoria(catg1, filme, i)
         catg2Passou = await validarCategoria(catg2, filme, i)
         console.log(filmesCertos)
-        console.log(sessionStorage["usado"])
         if(filmesCertos.includes(filmeAtual)){
             sessionStorage["usado"] = 1
-            console.log(sessionStorage["usado"])
             i++
             continue;
         }
@@ -192,7 +216,6 @@ export async function validarResposta(catg1, catg2, filme){
         console.log(catg1[1] + ": " + catg1Passou)
         console.log(catg2[1] + ": " + catg2Passou)
     }
-    console.log(flag)
     return flag
 }
 
