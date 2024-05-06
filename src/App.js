@@ -281,7 +281,7 @@ function Boxd() {
           <td><button class="botao" id="btL" value="0" onClick={() => {setLinha(linha2); setColuna(coluna3); palpite(true); setBtAtual("btL") }}>.</button></td>
         </tr>
         <tr>
-          <th><div class="brdrLinha">{linha3[0]}</div></th>
+          <th><div class="brdrLinha dreamworks">{linha3[0]}</div></th>
           <td><button class="botao" id="btSO" value="0"
               style={{borderBottomLeftRadius : "30px"}}
               onClick={() => {setLinha(linha3); setColuna(coluna1); palpite(true); setBtAtual("btSO") }}>.</button></td>
