@@ -185,7 +185,7 @@ button:hover{
   font-family: "Gabarito", sans-serif;
 }
 
-#enviar, #compartilhar{
+#enviar, #compartilhar, #desistir, .confirmaDesiste button{
   font-family: "Gabarito", sans-serif;
   font-size: 17px;
   color: white;
