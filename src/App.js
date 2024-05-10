@@ -48,9 +48,11 @@ function Boxd() {
   const [pontos, setPonto] = useState(0)
   const [chutes, setChute] = useState(0)
   const [btAtual, setBtAtual] = useState("")
+  const [perdeu, setPerdeu] = useState(false)
   const [linhaAtual, setLinha] = useState([])
   const [colunaAtual, setColuna] = useState([])
   const [mostraPalpite, setMostraPalpite] = useState([])
+  const [mostraDesiste, setMostraDesiste] = useState(false)
   const [mostraVitoria, setMostraVitoria] = useState([])
 
   //diminuir bagunça na "jogar()"
@@ -68,12 +70,24 @@ function Boxd() {
     opacity : 0,
   });
 
+  const [estiloDesiste, setEstiloDesiste] = useState({
+    display : "flex",
+    opacity : 1,
+  });
+
+  const [estiloConfDesiste, setEstiloConfDesiste] = useState({
+    display : "none",
+    opacity : 0,
+  });
+
   function limparCache(){
     if (typeof localStorage["versao"] == "undefined" || localStorage["versao"] != versaoAtual ||
-        typeof localStorage["data"] == "undefined" || localStorage["data"] != dataCompleta){
+        typeof localStorage["data"] == "undefined"){
+          localStorage["versao"] = versaoAtual
+          localStorage["data"] = dataCompleta
+        }
+    if (localStorage["data"] != dataCompleta){      
       localStorage.clear()
-      localStorage["versao"] = versaoAtual
-      localStorage["data"] = dataCompleta
       window.location.reload()
     }
   }
@@ -87,13 +101,16 @@ function Boxd() {
       tabuleiroCache = localStorage["tabuleiroCache"]
       replicarTabuleiro()
     }
+    if (typeof localStorage["perdeu"] != "undefined"){
+      setPerdeu(Boolean(localStorage["perdeu"]))
+    }
   }
   
 
   useEffect(() => {
     fetchData()
-    limparCache()
     atualizaVariaveis()
+    limparCache()
   }, [])
 
   useEffect(() => {
@@ -103,6 +120,7 @@ function Boxd() {
     if(pontos == 9){
       completaTabuleiro()
       vitoria()
+      document.getElementById("desistir").disabled = true
     }
   }, [pontos])
 
@@ -111,6 +129,12 @@ function Boxd() {
       localStorage["chutes"] = chutes
     }
   }, [chutes])
+
+  useEffect(() => {
+    if (perdeu){
+      derrota();
+    }
+  }, [perdeu])
 
   let fetchData = async() => {
     let hoje = new Date()
@@ -166,10 +190,72 @@ function Boxd() {
       })
     }
   }
+
+  function derrota(){
+    document.getElementById("parabens").textContent = "Não foi dessa vez! 😓"
+    let textDerrota = "Você acertou " + pontos
+    if (pontos == 1){
+      textDerrota += " filme em "
+    } else {
+      textDerrota += " filmes em "
+    }
+    if (chutes == 1){
+      textDerrota += (chutes + " tentativa") 
+    } else {
+      textDerrota += (chutes + " tentativas")
+    }
+    document.getElementById("numerosVict").textContent =  textDerrota
+    completaTabuleiro(); 
+    vitoria();
+    if(mostraDesiste){
+      desistir();
+    }
+    document.getElementById("desistir").disabled = true
+    for (let i = 0; i < 9; i++){
+        document.getElementById(botoesLista[i]).disabled = true
+        if (document.getElementById(botoesLista[i]).textContent == "."){
+          document.getElementById(botoesLista[i]).style.backgroundColor = "#ce171c"
+          document.getElementById(botoesLista[i]).style.fontSize = "0px"
+        }
+      } 
+  }
+
+  function desistir(){
+    setMostraDesiste(!mostraDesiste)
+    if (mostraDesiste){
+      setEstiloDesiste({
+        display : "flex",
+        opacity : 1,
+      })
+      setEstiloConfDesiste({
+        display : "none",
+        opacity : 0,
+      })
+    } else {
+      setEstiloDesiste({
+        display : "none",
+        opacity : 0,
+      })
+      setEstiloConfDesiste({
+        display : "flex",
+        opacity : 1,
+      })
+    }
+  }
   
  function copiar(){
+  if(perdeu){
+    textoShare = "Joguei boxd.com.br " + dataCompleta + " e acertei " + pontos + " de 9 filmes em "
+    if (chutes == 1){
+      textoShare += (chutes + " tentativa\n") 
+    } else {
+      textoShare += (chutes + " tentativas\n")
+    }
+    textoShare += tabuleiroTexto
+  } else{
     textoShare = "Joguei boxd.com.br " + dataCompleta + " e consegui em " + chutes + 
     " tentativas\n\n" + tabuleiroTexto
+  }
     // navigator.clipboard.writeText(textoShare)
     document.getElementById("compartilhar").textContent="🔗 Copiado!"
   }
@@ -226,7 +312,10 @@ function Boxd() {
   function completaTabuleiro(){
     tabuleiroTexto = ""
     for (let i = 0; i < 9; i++){
-      if (document.getElementById(botoesLista[i]).value == 0){
+      if (document.getElementById(botoesLista[i]).value == 0 && 
+          document.getElementById(botoesLista[i]).textContent == "."){
+        tabuleiroTexto = tabuleiroTexto + "🟥";
+      } else if (document.getElementById(botoesLista[i]).value == 0){
         tabuleiroTexto = tabuleiroTexto + "🟩";
       } else {
         tabuleiroTexto = tabuleiroTexto + "🟨";
@@ -249,8 +338,8 @@ function Boxd() {
   
     <div class= "vict" style={estiloVitoria}>
       <div class = "vitoria">
-        <a style={{marginTop: "8px"}}>Parabéns!</a>
-        <a>Você conseguiu em {chutes} tentativas</a>
+        <a style={{marginTop: "8px"}} id="parabens">Parabéns!</a>
+        <a id="numerosVict">Você conseguiu em {chutes} tentativas</a>
         <span>{tabuleiroTexto}</span>
         <button id="compartilhar" onClick={() => {copiar(); navigator.clipboard.writeText(textoShare)}}>🔗 Compartilhe</button>
       </div>
@@ -281,7 +370,7 @@ function Boxd() {
           <td><button class="botao" id="btL" value="0" onClick={() => {setLinha(linha2); setColuna(coluna3); palpite(true); setBtAtual("btL") }}>.</button></td>
         </tr>
         <tr>
-          <th><div class="brdrLinha dreamworks">{linha3[0]}</div></th>
+          <th><div class="brdrLinha">{linha3[0]}</div></th>
           <td><button class="botao" id="btSO" value="0"
               style={{borderBottomLeftRadius : "30px"}}
               onClick={() => {setLinha(linha3); setColuna(coluna1); palpite(true); setBtAtual("btSO") }}>.</button></td>
@@ -299,13 +388,18 @@ function Boxd() {
       </div>
     </div>
 
-    {/* <div class="desistencia">
-      <button id="desistir">Desistir</button>
-      <div class="confirmaDesiste">
-        <button>Sim</button>
-        <button>Não</button>
+    <div class="desistencia">
+      <button id="desistir" style={estiloDesiste} onClick={() =>{desistir()}}>Desistir</button>
+      <div class="confirmaDesiste" style={estiloConfDesiste}>
+        <a>Quer mesmo desistir?</a>
+        <div class="botoesDesiste">
+          <table>
+            <td style={{textAlign: "left", width: "50%"}}><button onClick={() => {derrota(); localStorage["perdeu"] = perdeu}}>Sim</button></td>
+            <td style={{textAlign: "right", width: "50%"}}><button onClick={() =>{desistir()}}>Não</button></td>
+          </table>
+        </div>
       </div>
-    </div> */}
+    </div>
 
     <div class="tmdb">
       <a class="dados">Dados fornecidos por:</a>

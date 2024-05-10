@@ -146,7 +146,7 @@ button:hover{
   width: 180px;
 }
 
-.pontuacao{
+.pontuacao, .desistencia{
   display: flex;
   justify-content: center;
   margin-top: 5px;
@@ -189,7 +189,7 @@ button:hover{
   font-family: "Gabarito", sans-serif;
   font-size: 17px;
   color: white;
-  background-color: #e46821;
+  background-color: #ff6811;
   border: none;
   border-radius: 10px;
   padding: 5px;
@@ -212,6 +212,19 @@ button:hover{
   width: 60px;
 }
 
+.confirmaDesiste{
+  justify-content: space-between;
+}
+
+.botoesDesiste{
+  width: 80%;
+  margin-top: 5px;
+}
+
+.botoesDesiste table{
+  width: 100%;
+}
+
 @media screen and (max-width: 600px){
 
   body{
@@ -221,6 +234,10 @@ button:hover{
 
   .dreamworks{
     font-size: 13px;
+  }
+
+  .desistencia button, #desistir{
+    font-size: 14px;
   }
 
   .grid{
