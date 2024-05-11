@@ -1,0 +1,18 @@
+Aventura
+genero
+Aventura
+Crime
+genero
+Crime
+Terror
+genero
+Terror
+2010
+ano
+2010
+Baseado em um livro
+keyword
+based on novel or book
+1980
+ano
+1980
