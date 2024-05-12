@@ -81,14 +81,15 @@ function Boxd() {
   });
 
   function limparCache(){
-    if (typeof localStorage["versao"] == "undefined" || localStorage["versao"] != versaoAtual ||
+    if (typeof localStorage["versao"] == "undefined" ||
         typeof localStorage["data"] == "undefined"){
           localStorage["versao"] = versaoAtual
           localStorage["data"] = dataCompleta
         }
-    if (localStorage["data"] != dataCompleta){      
+    if (localStorage["data"] != dataCompleta || localStorage["versao"] != versaoAtual){      
       localStorage.clear()
       window.location.reload()
+      localStorage["versao"] = versaoAtual
     }
   }
 
