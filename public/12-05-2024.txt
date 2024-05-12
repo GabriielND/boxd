@@ -5,7 +5,7 @@ Ação
 genero
 Ação
 Super Heróis
-keywords
+keyword
 superhero
 2020
 ano
