@@ -86,10 +86,14 @@ function Boxd() {
           localStorage["versao"] = versaoAtual
           localStorage["data"] = dataCompleta
         }
-    if (localStorage["data"] != dataCompleta || localStorage["versao"] != versaoAtual){      
+    if (localStorage["data"] != dataCompleta || localStorage["versao"] != versaoAtual){ 
+      const holderRegras = localStorage["sumirRegras"]   
       localStorage.clear()
       window.location.reload()
       localStorage["versao"] = versaoAtual
+      if(holderRegras == "true"){
+        localStorage["sumirRegras"] = true
+      }
     }
   }
 
@@ -112,6 +116,10 @@ function Boxd() {
     fetchData()
     atualizaVariaveis()
     limparCache()
+    if(typeof localStorage["sumirRegras"] == "undefined"){
+      document.getElementById("containerRegras").style.display = "flex";
+      document.getElementById("containerRegras").style.opacity = 1;
+    }
   }, [])
 
   useEffect(() => {
@@ -328,6 +336,14 @@ function Boxd() {
     console.log(tabuleiroTexto)
   }
 
+  function controlaRegras(limpar = false){
+    if(limpar){
+      localStorage["sumirRegras"] = true
+    }
+    document.getElementById("containerRegras").style.display = "none";
+    document.getElementById("containerRegras").style.opacity = 0;
+  }
+
   return (
     <div>
     <div class="vict">
@@ -416,6 +432,29 @@ function Boxd() {
           <button id="enviar" onClick={() => jogar(linhaAtual[1], colunaAtual[1], document.getElementById('palpite-input').value)}>Enviar</button> 
       </div>  
     </div>
+
+    <div class="containerRegras" id="containerRegras">
+      <div class ="regras">
+        <a>Regras:</a>
+        <li>- Complete o tabuleiro com filmes que se encaixem nas categorias da coluna e da linha daquele espaço.<br></br>
+        Há mais de uma resposta possível por quadrado.</li>
+        <li>- Anos representam décadas (Ex: 2010 aceita filmes lançados entre 2010 e 2019)</li>
+        <li>- Um filme dado como certo não pode ser usado novamente em outros quadrados</li>
+        <li>- São aceitos títulos em portugês e em inglês</li>
+        <li>- Procure escrever o título corretamente, para garantir que seja usado o filme desejado.<br></br>Em alguns casos, pode ser melhor usar o título em inglês.</li>
+        <li>- Legenda:<br></br>
+        🟩 - Acertou na 1º tentativa<br></br>
+        🟨 - Acertou com mais de 1 tentativa<br></br>
+        🟥 - Não acertou
+        </li>
+        <div class="botoesRegras">
+          <table>
+            <td style={{textAlign: "left", width: "50%"}}><button onClick={() => {controlaRegras(true)}}>Não mostrar mais</button></td>
+            <td style={{textAlign: "right", width: "50%"}}><button onClick={() =>{controlaRegras()}}>Jogar</button></td>
+          </table>
+        </div>
+      </div>
+    </div> 
     </div>
   );
 }

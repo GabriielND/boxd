@@ -92,7 +92,7 @@ button:hover{
   max-height: var(--celula-tamanho);
 }
 
-.container{
+.container, .containerRegras{
   display: flex;
   position: absolute;
   width: 98.9%;
@@ -101,7 +101,13 @@ button:hover{
   transition: visibility 300ms linear 0s, opacity 300ms;
 }
 
-.palpite, .vitoria{
+.containerRegras{
+  display: none;
+  left: calc(50vw - 200px);
+  top: 13%;
+}
+
+.palpite, .vitoria, .regras{
   background-color: #032b4e;
   flex-direction: column;
   border-radius: 20px;
@@ -113,6 +119,23 @@ button:hover{
   min-height: 150px;
   padding-bottom: 20px;
   font-family: "Gabarito", sans-serif;
+}
+
+.regras{
+  max-width: 380px;
+  padding: 10px;
+  text-align: left;
+}
+
+.regras a{
+  font-size: 20px;
+  margin-bottom: 10px
+}
+
+.regras li{
+  width: 100%;
+  margin-bottom: 12px;
+  list-style: none;
 }
 
 .palpite h3{
@@ -185,7 +208,7 @@ button:hover{
   font-family: "Gabarito", sans-serif;
 }
 
-#enviar, #compartilhar, #desistir, .confirmaDesiste button{
+#enviar, #compartilhar, #desistir, .confirmaDesiste button, .regras button{
   font-family: "Gabarito", sans-serif;
   font-size: 17px;
   color: white;
@@ -196,7 +219,15 @@ button:hover{
   padding-inline: 10px
 }
 
-.tmdb{
+.regras button{
+  font-size: 16px;
+}
+
+#desistir:disabled{
+  cursor: default;
+}
+
+.tmdb, .confirmaDesiste{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -221,7 +252,12 @@ button:hover{
   margin-top: 5px;
 }
 
-.botoesDesiste table{
+.botoesRegras{
+  width: 100%;
+  margin-top: 5px;
+}
+
+.botoesDesiste table, .regras table{
   width: 100%;
 }
 
@@ -286,6 +322,26 @@ button:hover{
 
   .container{
     top: 40%;
+  }
+
+  .containerRegras{
+    top: 20%;
+    left: calc(50vw - 170px);
+  }
+
+  .regras{
+    max-width: 320px;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .regras a{
+    font-size: 18px;
+    margin-bottom: 10px
+  }
+
+  .regras button{
+    font-size: 14px;
   }
 
   .botao{
