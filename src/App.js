@@ -441,7 +441,7 @@ function Boxd() {
         <li>- Anos representam décadas (Ex: 2010 aceita filmes lançados entre 2010 e 2019)</li>
         <li>- Um filme dado como certo não pode ser usado novamente em outros quadrados</li>
         <li>- São aceitos títulos em portugês e em inglês</li>
-        <li>- Procure escrever o título corretamente, para garantir que seja usado o filme desejado.<br></br>Em alguns casos, pode ser melhor usar o título em inglês.</li>
+        <li>- Procure escrever o título corretamente, para garantir que o programa busque o filme desejado. Em alguns casos, pode ser melhor usar o título em inglês.</li>
         <li>- Legenda:<br></br>
         🟩 - Acertou na 1º tentativa<br></br>
         🟨 - Acertou com mais de 1 tentativa<br></br>
