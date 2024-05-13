@@ -7,12 +7,12 @@ Drama
 2020
 ano
 2020
-Pixar
-produtora
-Pixar 
+Animação
+genero
+Animação
 Musical
 keyword
-Musical
+musical
 Aventura
 genero
 Aventura
