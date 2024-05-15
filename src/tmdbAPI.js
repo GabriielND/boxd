@@ -137,6 +137,7 @@ const variantes = [
 
 async function validarKeywords(kwResp, filmeResp, index){
     let keywords = []
+    kwResp = kwResp.toLowerCase();
     try{
         switch (kwResp) {
             case "sports":
