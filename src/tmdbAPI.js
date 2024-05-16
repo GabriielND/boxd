@@ -46,6 +46,14 @@ function buscarKWFilme(id){
     })
 }
 
+function buscarListaFilme(id){
+    return fetch("https://api.themoviedb.org/3/movie/" + id + "/lists?language=pt-BR&page=1", options)
+    .then(response => response.json())
+    .then(json => {
+        return json;
+    })
+}
+
 async function validarAno(anoResp, filmeResp, index){
     try {
         anoResp = Number(anoResp)
@@ -109,7 +117,12 @@ async function validarNacional(filmeResp, index){
 
 async function validarProdutora(produtoraResp, filmeResp, index){
     try {
-        const formatProdutora = produtoraResp.split(" ")
+        let formatProdutora
+        if (produtoraResp.includes(" ")){
+            formatProdutora = produtoraResp.split(" ")
+        } else{
+            formatProdutora = [produtoraResp, produtoraResp]
+        }
         const filmeGeral = await buscarFilme(filmeResp)
         alteraDois(filmeGeral["results"])
         const filmeDetal = await buscarIdFilme(filmeGeral["results"][index]["id"])
@@ -117,6 +130,8 @@ async function validarProdutora(produtoraResp, filmeResp, index){
         filmeAcerto = filmeGeral["results"][index]["title"]
         filmeAtual = filmeGeral["results"][index]["id"]
         for (let i = 0; i < produtoras.length; i++){
+            console.log(produtoras)
+            console.log(formatProdutora)
             if (produtoras[i]["name"].includes(formatProdutora[0]) && produtoras[i]["name"].includes(formatProdutora[1])){
                 localStorage["filmeAcerto"] = filmeAcerto
                 return true
@@ -171,6 +186,26 @@ async function validarKeywords(kwResp, filmeResp, index){
     }
 }
 
+async function validarLista(listaResp, filmeResp, index){
+    try {
+        const filmeGeral = await buscarFilme(filmeResp)
+        alteraDois(filmeGeral["results"])
+        const filmeDetal = await buscarListaFilme(filmeGeral["results"][index]["id"])
+        const listasFilme = filmeDetal["results"]
+        filmeAcerto = filmeGeral["results"][index]["title"]
+        filmeAtual = filmeGeral["results"][index]["id"]
+        for (let i = 0; i < listasFilme.length; i++){
+            if (listasFilme[i]["name"] == listaResp){
+                localStorage["filmeAcerto"] = filmeAcerto
+                return true    
+            }
+        }
+    } catch (Exception){
+        console.log(Exception)
+        return false
+    }
+}
+
 async function validarCategoria(catg, filme, index = 0){
     limite = limiteFixo
     temDois = true;
@@ -185,6 +220,8 @@ async function validarCategoria(catg, filme, index = 0){
             return validarProdutora(catg[1], filme, index)
         case "keyword":
             return validarKeywords(catg[1], filme, index)
+        case "lista":
+            return validarLista(catg[1], filme, index)
         default:
             return false
     }
