@@ -140,6 +140,7 @@ button:hover{
 
 .palpite h3{
   font-size: 18px;
+  max-width: 300px;
 }
 
 .vitoria{
