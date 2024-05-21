@@ -3,7 +3,7 @@ import './App.css';
 import {validarResposta} from './tmdbAPI.js';
 
 const versaoAtual = "16052024"
-const dataControle = "21-05-2024"
+const dataControle = ""
 let tabuleiroTexto
 let textoShare
 let dataCompleta
