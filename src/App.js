@@ -3,6 +3,7 @@ import './App.css';
 import {validarResposta} from './tmdbAPI.js';
 
 const versaoAtual = "16052024"
+const dataControle = "21-05-2024"
 let tabuleiroTexto
 let textoShare
 let dataCompleta
@@ -146,11 +147,15 @@ function Boxd() {
   }, [perdeu])
 
   let fetchData = async() => {
-    let hoje = new Date()
-    let dia = String(hoje.getDate()).padStart(2, "0")
-    let mes = String(hoje.getMonth() + 1).padStart(2,"0")
-    let ano = hoje.getFullYear()
-    dataCompleta = dia+"-"+mes+"-"+ano
+    if (dataControle != ""){
+      dataCompleta = dataControle
+    } else {
+      let hoje = new Date()
+      let dia = String(hoje.getDate()).padStart(2, "0")
+      let mes = String(hoje.getMonth() + 1).padStart(2,"0")
+      let ano = hoje.getFullYear()
+      dataCompleta = dia+"-"+mes+"-"+ano
+    }
     let endereco = "/"+dataCompleta+".txt"
     let resp = await fetch(endereco)
     let final = await resp.text()
