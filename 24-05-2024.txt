@@ -6,7 +6,7 @@ genero
 Ficção científica
 Baseado em um livro
 keyword
-based on nover or book
+based on novel or book
 Animação
 genero
 Animação
