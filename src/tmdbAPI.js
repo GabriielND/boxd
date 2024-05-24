@@ -1,4 +1,4 @@
-const limiteFixo = 3
+const limiteFixo = 4
 let temDois = true
 let limite = limiteFixo
 let filmeAcerto = ""
