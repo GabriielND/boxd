@@ -54,6 +54,14 @@ function buscarListaFilme(id){
     })
 }
 
+function buscarElencoFilme(id){
+    return fetch("https://api.themoviedb.org/3/movie/" + id + "/credits?language=pt-BR", options)
+    .then(response => response.json())
+    .then(json => {
+        return json;
+    })
+}
+
 async function validarAno(anoResp, filmeResp, index){
     try {
         anoResp = Number(anoResp)
@@ -209,6 +217,26 @@ async function validarLista(listaResp, filmeResp, index){
     }
 }
 
+async function validarElenco(elencoResp, filmeResp, index){
+    try {
+        const filmeGeral = await buscarFilme(filmeResp)
+        alteraDois(filmeGeral["results"])
+        const filmeDetal = await buscarElencoFilme(filmeGeral["results"][index]["id"])
+        const elencoFilme = filmeDetal["cast"]
+        filmeAcerto = filmeGeral["results"][index]["title"]
+        filmeAtual = filmeGeral["results"][index]["id"]
+        for (let i = 0; i < elencoFilme.length; i++){
+            if (elencoFilme[i]["name"] == elencoResp){
+                localStorage["filmeAcerto"] = filmeAcerto
+                return true
+            }
+        }
+    } catch (Exception){
+        console.log(Exception)
+        return false
+    }
+}
+
 async function validarCategoria(catg, filme, index = 0){
     limite = limiteFixo
     temDois = true;
@@ -225,6 +253,8 @@ async function validarCategoria(catg, filme, index = 0){
             return validarKeywords(catg[1], filme, index)
         case "lista":
             return validarLista(catg[1], filme, index)
+        case "elenco":
+            return validarElenco(catg[1], filme, index)
         default:
             return false
     }
