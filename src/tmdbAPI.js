@@ -156,7 +156,7 @@ const variantes = [
     ["sports", "sport", "olympic sport"],
     ["based on novel or book", "based on book", "based-on-novel", "based on novel", "based on young adult novel", "based on graphic novel", "based on memoir or autobiography"],
     ["stop motion", "stopmotion"],
-    ["based on comic", "based on graphic novel"]
+    ["based on comic", "based on graphic novel", "based on manga"]
 ]
 
 async function validarKeywords(kwResp, filmeResp, index){
