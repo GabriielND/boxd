@@ -211,6 +211,7 @@ async function validarLista(listaResp, filmeResp, index){
                 return true    
             }
         }
+        return false
     } catch (Exception){
         console.log(Exception)
         return false
@@ -223,14 +224,20 @@ async function validarElenco(elencoResp, filmeResp, index){
         alteraDois(filmeGeral["results"])
         const filmeDetal = await buscarElencoFilme(filmeGeral["results"][index]["id"])
         const elencoFilme = filmeDetal["cast"]
+        const equipeFilme = filmeDetal["crew"]
         filmeAcerto = filmeGeral["results"][index]["title"]
         filmeAtual = filmeGeral["results"][index]["id"]
         for (let i = 0; i < elencoFilme.length; i++){
             if (elencoFilme[i]["name"] == elencoResp){
-                localStorage["filmeAcerto"] = filmeAcerto
                 return true
             }
         }
+        for (let i = 0; i < equipeFilme.length; i++){
+            if (equipeFilme[i]["name"] == elencoResp){
+                return true
+            }
+        }
+        return false
     } catch (Exception){
         console.log(Exception)
         return false
