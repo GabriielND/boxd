@@ -17,8 +17,9 @@ jobs:
         with:
           node-version: '20.x'
       - run: npm ci
-      - run: npm install
-      - run: npm run deploy -- -m "Deploy"
+      - run: npm run build
+      - run: react-scripts build
+      
 
       - name: Deploy to GitHub Pages
         uses: Cecilapp/GitHub-Pages-deploy@v3
