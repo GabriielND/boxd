@@ -18,7 +18,7 @@ jobs:
           node-version: '16'
       - run: npm ci
       - run: npm install
-      - run: npm run build
+      - run: npm run deploy -- -m "Deploy"
 
       - name: Deploy to GitHub Pages
         uses: Cecilapp/GitHub-Pages-deploy@v3
