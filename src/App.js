@@ -207,6 +207,7 @@ function Boxd() {
 
   function derrota(){
     document.getElementById("parabens").textContent = "Não foi dessa vez! 😓"
+    setPerdeu(true)
     let textDerrota = "Você acertou " + pontos
     if (pontos == 1){
       textDerrota += " filme em "
@@ -326,8 +327,7 @@ function Boxd() {
   function completaTabuleiro(){
     tabuleiroTexto = ""
     for (let i = 0; i < 9; i++){
-      if (document.getElementById(botoesLista[i]).value == 0 && 
-          document.getElementById(botoesLista[i]).textContent == "."){
+      if (document.getElementById(botoesLista[i]).textContent == "."){
         tabuleiroTexto = tabuleiroTexto + "🟥";
       } else if (document.getElementById(botoesLista[i]).value == 0){
         tabuleiroTexto = tabuleiroTexto + "🟩";
