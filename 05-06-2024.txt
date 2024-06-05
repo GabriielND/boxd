@@ -4,9 +4,9 @@ ano
 Aventura
 genero
 Aventura
-Indicado a Melhor Filme
-keyword
-Melhor Filme
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
 Pixar
 produtora
 Pixar
