@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import './App.css';
 import {validarResposta} from './tmdbAPI.js';
 
-const versaoAtual = "29052024"
+const versaoAtual = "05062024"
 const dataControle = ""
 let tabuleiroTexto
 let textoShare
