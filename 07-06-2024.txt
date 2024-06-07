@@ -1,0 +1,18 @@
+Ação
+genero
+Ação
+Super Heróis
+keyword
+superhero
+Comédia
+genero
+Comédia
+Fantasia
+genero
+Fantasia
+Angelina Jolie
+elenco
+Angelina Jolie
+2000
+ano
+2000
