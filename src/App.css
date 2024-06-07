@@ -220,6 +220,10 @@ button:hover{
   padding-inline: 10px
 }
 
+#desistir{
+  margin-top: 10px;
+}
+
 .regras button{
   font-size: 16px;
 }
