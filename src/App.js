@@ -271,7 +271,6 @@ function Boxd() {
     textoShare = "Joguei boxd.com.br " + dataCompleta + " e consegui em " + chutes + 
     " tentativas\n\n" + tabuleiroTexto
   }
-    // navigator.clipboard.writeText(textoShare)
     document.getElementById("compartilhar").textContent="🔗 Copiado!"
   }
 
@@ -281,12 +280,24 @@ function Boxd() {
     enviarBotao.disabled=true;
     if (!(palpite == "" || palpite.replaceAll(" ", "") == "")){
       const sucesso = await validarResposta(linha, coluna, palpite)
+
+      //Valida se o filme já foi usado
       if(sessionStorage["usado"] == "1"){
         avisoTexto.textContent = "Filme já usado 🔂";
         document.getElementById("palpite-input").value = "";
         enviarBotao.textContent="Enviar";
         enviarBotao.disabled = false;
-      } else {
+        sessionStorage["usado"] = 0
+
+      //Valida se encontrou algum filme
+      } else if (sessionStorage["nExiste"] == "1") {
+        avisoTexto.textContent = "Filme não encontrado 🔎";
+        document.getElementById("palpite-input").value = "";
+        enviarBotao.textContent="Enviar";
+        enviarBotao.disabled = false; 
+        sessionStorage["nExiste"] = 0
+      } 
+      else{
         setChute(chutes + 1)
         if (sucesso){
           setPonto(pontos + 1)
@@ -431,7 +442,7 @@ function Boxd() {
     <div class = "container" style={estiloPalpite}>
       <div class = "palpite">
           <button id="fecharP"  onClick={() => {palpite()}}>X</button>
-          <h3 style={{width: "100%"}}>{linhaAtual[0]} | {colunaAtual[0]}</h3>
+          <h3 style={{width: "100%"}}>{linhaAtual[0]} + <br></br> {colunaAtual[0]}</h3>
           <a id="erroAviso"></a>
           <input type="text" id="palpite-input" onKeyDown={(e) => {handler(e)}} autoComplete="off"></input>
           <button id="enviar" onClick={() => jogar(linhaAtual[1], colunaAtual[1], document.getElementById('palpite-input').value)}>Enviar</button> 
