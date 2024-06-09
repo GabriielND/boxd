@@ -65,13 +65,13 @@ function buscarElencoFilme(id){
 async function validarAno(anoResp, filmeResp, index){
     try {
         anoResp = Number(anoResp)
-        const filmeGeral = await buscarFilme(filmeResp)
-        alteraDois(filmeGeral["results"])
-        const ano = filmeGeral["results"][index]["release_date"].substring(0,4)
-        filmeAcerto = filmeGeral["results"][index]["title"]
-        filmeAtual = filmeGeral["results"][index]["id"]
+        // const filmeGeral = await buscarFilme(filmeResp)
+        alteraDois(filmeResp["results"])
+        const ano = filmeResp["results"][index]["release_date"].substring(0,4)
+        // filmeAcerto = filmeResp["results"][index]["title"]
+        // filmeAtual = filmeResp["results"][index]["id"]
         if (ano >= anoResp && ano <= anoResp+9){
-            localStorage["filmeAcerto"] = filmeAcerto
+            // localStorage["filmeAcerto"] = filmeAcerto
             return true
         } else {
             return false
@@ -84,15 +84,15 @@ async function validarAno(anoResp, filmeResp, index){
 
 async function validarGenero(generoResp, filmeResp, index){
     try {
-        const filmeGeral = await buscarFilme(filmeResp)
-        alteraDois(filmeGeral["results"])
-        const filmeDetal = await buscarIdFilme(filmeGeral["results"][index]["id"])
+        // const filmeGeral = await buscarFilme(filmeResp)
+        alteraDois(filmeResp["results"])
+        const filmeDetal = await buscarIdFilme(filmeResp["results"][index]["id"])
         const generosFilme = filmeDetal["genres"]
-        filmeAcerto = filmeGeral["results"][index]["title"]
-        filmeAtual = filmeGeral["results"][index]["id"]
+        // filmeAcerto = filmeResp["results"][index]["title"]
+        // filmeAtual = filmeResp["results"][index]["id"]
         for (let i = 0; i < generosFilme.length; i++) {
             if (generosFilme[i]["name"] == generoResp){
-                localStorage["filmeAcerto"] = filmeAcerto
+                // localStorage["filmeAcerto"] = filmeAcerto
                 return true
             }
         }
@@ -105,14 +105,14 @@ async function validarGenero(generoResp, filmeResp, index){
 
 async function validarNacional(filmeResp, index){
     try {
-        const filmeGeral = await buscarFilme(filmeResp)
-        alteraDois(filmeGeral["results"])
-        const filmeDetal = await buscarIdFilme(filmeGeral["results"][index]["id"])
+        // const filmeGeral = await buscarFilme(filmeResp)
+        alteraDois(filmeResp["results"])
+        const filmeDetal = await buscarIdFilme(filmeResp["results"][index]["id"])
         const nacionalidade = filmeDetal["production_countries"][0]["name"]
-        filmeAcerto = filmeGeral["results"][index]["title"]
-        filmeAtual = filmeGeral["results"][index]["id"]
+        // filmeAcerto = filmeResp["results"][index]["title"]
+        // filmeAtual = filmeResp["results"][index]["id"]
         if (nacionalidade == "Brazil") {
-            localStorage["filmeAcerto"] = filmeAcerto
+            // localStorage["filmeAcerto"] = filmeAcerto
             return true
         } else {
             return false
@@ -131,17 +131,17 @@ async function validarProdutora(produtoraResp, filmeResp, index){
         } else{
             formatProdutora = [produtoraResp, produtoraResp]
         }
-        const filmeGeral = await buscarFilme(filmeResp)
-        alteraDois(filmeGeral["results"])
-        const filmeDetal = await buscarIdFilme(filmeGeral["results"][index]["id"])
+        // const filmeGeral = await buscarFilme(filmeResp)
+        alteraDois(filmeResp["results"])
+        const filmeDetal = await buscarIdFilme(filmeResp["results"][index]["id"])
         const produtoras = filmeDetal["production_companies"]
-        filmeAcerto = filmeGeral["results"][index]["title"]
-        filmeAtual = filmeGeral["results"][index]["id"]
+        // filmeAcerto = filmeResp["results"][index]["title"]
+        // filmeAtual = filmeResp["results"][index]["id"]
         for (let i = 0; i < produtoras.length; i++){
             console.log(produtoras)
             console.log(formatProdutora)
             if (produtoras[i]["name"].includes(formatProdutora[0]) && produtoras[i]["name"].includes(formatProdutora[1])){
-                localStorage["filmeAcerto"] = filmeAcerto
+                // localStorage["filmeAcerto"] = filmeAcerto
                 return true
             }
         }
@@ -178,15 +178,15 @@ async function validarKeywords(kwResp, filmeResp, index){
             default:
                 keywords.push(kwResp);
         }
-        const filmeGeral = await buscarFilme(filmeResp)
-        alteraDois(filmeGeral["results"])
-        const filmeDetal = await buscarKWFilme(filmeGeral["results"][index]["id"])
+        // const filmeGeral = await buscarFilme(filmeResp)
+        alteraDois(filmeResp["results"])
+        const filmeDetal = await buscarKWFilme(filmeResp["results"][index]["id"])
         const kwsFilme = filmeDetal["keywords"]
-        filmeAcerto = filmeGeral["results"][index]["title"]
-        filmeAtual = filmeGeral["results"][index]["id"]
+        // filmeAcerto = filmeResp["results"][index]["title"]
+        // filmeAtual = filmeResp["results"][index]["id"]
         for (let i = 0; i < kwsFilme.length; i++) {
             if (keywords.includes(kwsFilme[i]["name"])){
-                localStorage["filmeAcerto"] = filmeAcerto
+                // localStorage["filmeAcerto"] = filmeAcerto
                 return true
             }
         }
@@ -199,15 +199,15 @@ async function validarKeywords(kwResp, filmeResp, index){
 
 async function validarLista(listaResp, filmeResp, index){
     try {
-        const filmeGeral = await buscarFilme(filmeResp)
-        alteraDois(filmeGeral["results"])
-        const filmeDetal = await buscarListaFilme(filmeGeral["results"][index]["id"])
+        // const filmeGeral = await buscarFilme(filmeResp)
+        alteraDois(filmeResp["results"])
+        const filmeDetal = await buscarListaFilme(filmeResp["results"][index]["id"])
         const listasFilme = filmeDetal["results"]
-        filmeAcerto = filmeGeral["results"][index]["title"]
-        filmeAtual = filmeGeral["results"][index]["id"]
+        // filmeAcerto = filmeResp["results"][index]["title"]
+        // filmeAtual = filmeResp["results"][index]["id"]
         for (let i = 0; i < listasFilme.length; i++){
             if (listasFilme[i]["name"] == listaResp){
-                localStorage["filmeAcerto"] = filmeAcerto
+                // localStorage["filmeAcerto"] = filmeAcerto
                 return true    
             }
         }
@@ -220,13 +220,13 @@ async function validarLista(listaResp, filmeResp, index){
 
 async function validarElenco(elencoResp, filmeResp, index){
     try {
-        const filmeGeral = await buscarFilme(filmeResp)
-        alteraDois(filmeGeral["results"])
-        const filmeDetal = await buscarElencoFilme(filmeGeral["results"][index]["id"])
+        // const filmeGeral = await buscarFilme(filmeResp)
+        alteraDois(filmeResp["results"])
+        const filmeDetal = await buscarElencoFilme(filmeResp["results"][index]["id"])
         const elencoFilme = filmeDetal["cast"]
         const equipeFilme = filmeDetal["crew"]
-        filmeAcerto = filmeGeral["results"][index]["title"]
-        filmeAtual = filmeGeral["results"][index]["id"]
+        // filmeAcerto = filmeResp["results"][index]["title"]
+        // filmeAtual = filmeResp["results"][index]["id"]
         for (let i = 0; i < elencoFilme.length; i++){
             if (elencoFilme[i]["name"] == elencoResp){
                 return true
@@ -272,17 +272,39 @@ export async function validarResposta(catg1, catg2, filme){
     let catg1Passou
     let catg2Passou
     let i = 0
+    let trocouPara = false
     console.log("Filme: ", filme)
+
     do{
-        catg1Passou = await validarCategoria(catg1, filme, i)
-        catg2Passou = await validarCategoria(catg2, filme, i)
+        let filmeResp = await buscarFilme(filme)
+        
+        //Valida se pelo menos 1 filme foi encontrado
+        if (filmeResp["results"].length == 0){
+            //Correção de pra -> para
+            if (filme.includes("pra") && !trocouPara){
+                trocouPara = true;
+                filme = filme.replace("pra", "para")
+                filmeResp = await buscarFilme(filme)
+                filmeAtual = filmeResp["results"][i]["id"]
+            } else {
+                sessionStorage["nExiste"] = 1
+                break
+            }
+        } else {
+            filmeAtual = filmeResp["results"][i]["id"]
+        }
+        console.log(filmeAtual)
+        catg1Passou = await validarCategoria(catg1, filmeResp, i)
+        catg2Passou = await validarCategoria(catg2, filmeResp, i)
         console.log(filmesCertos)
         if(filmesCertos.includes(filmeAtual)){
             sessionStorage["usado"] = 1
             i++
             continue;
-        }
+            }
         if (catg1Passou && catg2Passou){
+            filmeAcerto = filmeResp["results"][i]["title"]
+            localStorage["filmeAcerto"] = filmeAcerto
             sessionStorage["usado"] = 0
             filmesCertos.push(filmeAtual)
             flag = true
