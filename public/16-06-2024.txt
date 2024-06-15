@@ -1,0 +1,18 @@
+Super Heróis
+keyword
+superhero
+Terror
+genero
+Terror
+Ação
+genero
+Ação
+Comédia
+genero
+Comédia
+Ficção científica
+genero
+Ficção científica
+John Krasinski
+elenco
+John Krasinski
