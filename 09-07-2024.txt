@@ -1,0 +1,18 @@
+Mistério
+genero
+Mistério
+1990
+ano
+1990
+Romance
+genero
+Romance
+Crime
+genero
+Crime
+Baseado em um livro
+keyword
+based on novel or book
+Comédia
+genero
+Comédia
