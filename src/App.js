@@ -366,7 +366,6 @@ function Boxd() {
       <img src="/logotipo.png"></img>
     </div>
     <div class="vict">
-      <a>Versão Beta</a>
     </div>
   
     <div class= "vict" style={estiloVitoria}>
