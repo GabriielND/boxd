@@ -156,7 +156,8 @@ const variantes = [
     ["sports", "sport", "olympic sport"],
     ["based on novel or book", "based on book", "based-on-novel", "based on novel", "based on young adult novel", "based on graphic novel", "based on memoir or autobiography"],
     ["stop motion", "stopmotion"],
-    ["based on comic", "based on graphic novel", "based on manga"]
+    ["based on comic", "based on graphic novel", "based on manga"],
+    ["superhero", "teen superhero", "superhero team"]
 ]
 
 async function validarKeywords(kwResp, filmeResp, index){
@@ -175,6 +176,10 @@ async function validarKeywords(kwResp, filmeResp, index){
                 break;
             case "based on comic":
                 keywords = keywords.concat(variantes[3])
+                break;
+            case "superhero":
+                keywords = keywords.concat(variantes[4])
+                break;
             default:
                 keywords.push(kwResp);
         }
