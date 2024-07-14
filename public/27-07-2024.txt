@@ -1,0 +1,18 @@
+Mistério
+genero
+Mistério
+Ação
+genero
+Ação
+Super Heróis
+keyword
+superhero
+Terror
+genero
+Terror
+2000
+ano
+2000
+Fantasia
+genero
+Fantasia
