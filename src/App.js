@@ -23,7 +23,7 @@ function salvarTabuleiro(idBotao, valor){
 
 function replicarTabuleiro(){
   for (let i = 0; i < 9; i++){
-    if (tabuleiroCache.charAt(i) != "0") {
+    if (tabuleiroCache.charAt(i) != "0" && tabuleiroCache.charAt(i) != "3") {
         const filmeBt = "filme" + botoesLista[i]
         document.getElementById(botoesLista[i]).disabled = true
         document.getElementById(botoesLista[i]).textContent = localStorage[filmeBt]
@@ -32,6 +32,9 @@ function replicarTabuleiro(){
       document.getElementById(botoesLista[i]).style.backgroundColor = "#1b961b";
     } else if (tabuleiroCache.charAt(i) == "2"){
       document.getElementById(botoesLista[i]).style.backgroundColor = "#e8b51e";
+      document.getElementById(botoesLista[i]).value = 1
+    } else if (tabuleiroCache.charAt(i) == "3"){
+      console.log(document.getElementById(botoesLista[i]))
       document.getElementById(botoesLista[i]).value = 1
     }
   }
@@ -99,14 +102,13 @@ function Boxd() {
   }
 
   function atualizaVariaveis(){
-    if (typeof localStorage["tabuleiroCache"] != "undefined" &&
-        typeof localStorage["pontos"] != "undefined" &&
-        typeof localStorage["chutes" != "undefined"]){
-      setPonto(Number(localStorage["pontos"]))
-      setChute(Number(localStorage["chutes"]))
+    if (typeof localStorage["tabuleiroCache"] != "undefined") {
       tabuleiroCache = localStorage["tabuleiroCache"]
       replicarTabuleiro()
+      console.log("tabuleiro")
     }
+    if (typeof localStorage["pontos"] != "undefined") setPonto(Number(localStorage["pontos"]))
+    if (typeof localStorage["chutes" != "undefined"]) setChute(Number(localStorage["chutes"]))
     if (typeof localStorage["perdeu"] != "undefined"){
       setPerdeu(Boolean(localStorage["perdeu"]))
     }
@@ -320,6 +322,7 @@ function Boxd() {
         } 
         else {
           avisoTexto.textContent = "Tente novamente 😥";
+          salvarTabuleiro(btAtual, 3)
           botaoAtual.value = 1
         }
 
