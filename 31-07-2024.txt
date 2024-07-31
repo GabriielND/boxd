@@ -1,18 +1,18 @@
-Ação
-genero
-Ação
-Filmes com zumbis
+Baseado em um video game
 keyword
-zombie
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-Ficção científica
+based on video game
+Stop Motion
+keyword
+stop motion
+Super Heróis
+keyword
+superhero
+Aventura
 genero
-Ficção científica
-Animação
-genero
-Animação
-1980
+Aventura
+2000
 ano
-1980
+2000
+2020
+ano
+2020
