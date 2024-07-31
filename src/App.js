@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import './App.css';
 import {validarResposta} from './tmdbAPI.js';
 
-const versaoAtual = "31072024"
+const versaoAtual = "310720241"
 const dataControle = ""
 let tabuleiroTexto
 let textoShare
@@ -94,10 +94,14 @@ function Boxd() {
       const holderRegras = localStorage["sumirRegras"]   
       localStorage.clear()
       window.location.reload()
+      setPonto(0)
+      setChute(0)
       localStorage["versao"] = versaoAtual
       if(holderRegras == "true"){
         localStorage["sumirRegras"] = true
       }
+    } else{
+      atualizaVariaveis()
     }
   }
 
@@ -108,7 +112,7 @@ function Boxd() {
       console.log("tabuleiro")
     }
     if (typeof localStorage["pontos"] != "undefined") setPonto(Number(localStorage["pontos"]))
-    if (typeof localStorage["chutes" != "undefined"]) setChute(Number(localStorage["chutes"]))
+    if (typeof localStorage["chutes"] != "undefined" && localStorage["chutes"] != "NaN") setChute(Number(localStorage["chutes"]))
     if (typeof localStorage["perdeu"] != "undefined"){
       setPerdeu(Boolean(localStorage["perdeu"]))
     }
@@ -117,7 +121,7 @@ function Boxd() {
 
   useEffect(() => {
     fetchData()
-    atualizaVariaveis()
+    // atualizaVariaveis()
     limparCache()
     if(typeof localStorage["sumirRegras"] == "undefined"){
       document.getElementById("containerRegras").style.display = "flex";
@@ -126,21 +130,12 @@ function Boxd() {
   }, [])
 
   useEffect(() => {
-    if (pontos != 0){
-      localStorage["pontos"] = pontos
-    }
     if(pontos == 9){
       completaTabuleiro()
       vitoria()
       document.getElementById("desistir").disabled = true
     }
   }, [pontos])
-
-  useEffect(() =>{
-    if (chutes != 0){
-      localStorage["chutes"] = chutes
-    }
-  }, [chutes])
 
   useEffect(() => {
     if (perdeu){
@@ -301,8 +296,10 @@ function Boxd() {
       } 
       else{
         setChute(chutes + 1)
+        localStorage["chutes"] = chutes + 1
         if (sucesso){
           setPonto(pontos + 1)
+          localStorage["pontos"] = pontos + 1
           setMostraPalpite(!mostraPalpite)
           setEstiloPalpite({
             visibility : "hidden",
