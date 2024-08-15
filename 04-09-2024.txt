@@ -1,18 +1,18 @@
+Fantasia
+genero
+Fantasia
 Baseado em um video game
 keyword
 based on video game
-Distopia
+Baseado em um quadrinho
 keyword
-dystopia
-Terror
+based on comic
+Aventura
 genero
-Terror
-2000
-ano
-2000
+Aventura
 Ficção científica
 genero
 Ficção científica
-2020
+2000
 ano
-2020
+2000
