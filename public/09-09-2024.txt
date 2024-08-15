@@ -1,18 +1,18 @@
+Crime
+genero
+Crime
+Ação
+genero
+Ação
 Studio Ghibli
 produtora
 Studio Ghibli
-Esportes
-keyword
-sports
-Romance
-genero
-Romance
-2020
+2000
 ano
-2020
+2000
 Aventura
 genero
 Aventura
-Drama
+Comédia
 genero
-Drama
+Comédia

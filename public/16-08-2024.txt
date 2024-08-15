@@ -1,18 +1,18 @@
-Ação
+Ficção científica
 genero
-Ação
-Animação
-genero
-Animação
+Ficção científica
+Pixar
+produtora
+Pixar
 Indicado a Melhor Filme (Oscar)
 lista
 Indicados ao Oscar de Melhor Filme
+1990
+ano
+1990
 Baseado em um quadrinho
 keyword
 based on comic
-2010
-ano
-2010
-Drama
+Ação
 genero
-Drama
+Ação
