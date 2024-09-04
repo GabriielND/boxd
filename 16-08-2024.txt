@@ -1,18 +1,18 @@
+Ação
+genero
+Ação
+1980
+ano
+1980
+Super Heróis
+keyword
+superhero
+Aventura
+genero
+Aventura
 Terror
 genero
 Terror
-Fantasia
-genero
-Fantasia
 Indicado a Melhor Filme (Oscar)
 lista
 Indicados ao Oscar de Melhor Filme
-Marvel
-produtora
-Marvel
-Drama
-genero
-Drama
-1990
-ano
-1990
