@@ -5,7 +5,7 @@ Drama
 genero
 Drama
 Nacional
-genero
+nacional
 Nacional
 Aventura
 genero
