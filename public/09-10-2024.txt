@@ -2,7 +2,7 @@ Baseado em um livro
 keyword
 based on novel or book
 Nacional
-genero
+nacional
 Nacional
 2020
 ano
