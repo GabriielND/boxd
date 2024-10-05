@@ -22,14 +22,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Setup Node
       - uses: actions/setup-node@v2-beta
         with:
           node-version: 18
-      - name: Get yarn cache
-      - id: yarn-cache
       - run: echo "::set-output name=dir::$(yarn cache dir)"
-      - name: Cache dependencies
       - uses: actions/cache@v2
         with:
           path: ${{ steps.yarn-cache.outputs.dir }}
@@ -40,7 +36,6 @@ jobs:
       - run: yarn build
         env:
           REACT_APP_GIT_SHA: ${{ github.SHA }}
-      - name: Deploy
       - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
