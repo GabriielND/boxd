@@ -158,7 +158,10 @@ const variantes = [
     ["stop motion", "stopmotion"],
     ["based on comic", "based on graphic novel", "based on manga"],
     ["superhero", "teen superhero", "superhero team"],
-    ["based on video game", "video game"]
+    ["based on video game", "video game"],
+    ["zombie", "undead"],
+    ["ghost", "spirit"],
+    ["witch", "wizard", "sorcerer", "sorcerer's apprentice", "witch trial", "child witch"]
 ]
 
 async function validarKeywords(kwResp, filmeResp, index){
@@ -184,6 +187,14 @@ async function validarKeywords(kwResp, filmeResp, index){
             case "based on video game":
                 keywords = keywords.concat(variantes[5])
                 break;
+            case "zombie":
+                keywords = keywords.concat(variantes[6])
+                break;
+            case "ghost":
+                keywords = keywords.concat(variantes[7])
+                break;
+            case "witch":
+                keywords = keywords.concat(variantes[8])
             default:
                 keywords.push(kwResp);
         }

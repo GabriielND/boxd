@@ -1,18 +1,18 @@
-Baseado em um livro
+Pixar
+produtora
+Pixar
+Filmes com fantasmas
 keyword
-based on novel or book
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-Animação
-genero
-Animação
+ghost
 Drama
 genero
 Drama
-Distopia
-keyword
-dystopia
-Musical
-keyword
-musical
+Fantasia
+genero
+Fantasia
+2020
+ano
+2020
+Comédia
+genero
+Comédia

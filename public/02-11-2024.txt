@@ -1,0 +1,18 @@
+Mistério
+genero
+Mistério
+Super Heróis
+keyword
+superhero
+Romance
+genero
+Romance
+1980
+ano
+1980
+Crime
+genero
+Crime
+1990
+ano
+1990
