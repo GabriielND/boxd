@@ -1,18 +1,18 @@
-Ação
-genero
-Ação
+Esportes
+keyword
+sports
 Baseado em um quadrinho
 keyword
 based on comic
-Romance
-genero
-Romance
-Drama
-genero
-Drama
-2010
+Anime
+keyword
+anime
+1990
 ano
-2010
+1990
+Romance
+genero
+Romance
 Aventura
 genero
 Aventura

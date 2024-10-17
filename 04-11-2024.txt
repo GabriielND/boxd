@@ -1,18 +1,18 @@
-Romance
-genero
-Romance
-Drama
-genero
-Drama
-Filmes com zumbis
+Super Heróis
 keyword
-zombie
-1980
-ano
-1980
+superhero
+Pixar
+produtora
+Pixar
 Aventura
 genero
 Aventura
+Drama
+genero
+Drama
+1990
+ano
+1990
 Indicado a Melhor Filme (Oscar)
 lista
 Indicados ao Oscar de Melhor Filme

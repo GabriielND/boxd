@@ -1,18 +1,18 @@
-Baseado em um livro
+Distopia
 keyword
-based on novel or book
-Marvel
-produtora
-Marvel
+dystopia
+Ficção científica
+genero
+Ficção científica
 Indicado a Melhor Filme (Oscar)
 lista
 Indicados ao Oscar de Melhor Filme
+1990
+ano
+1990
+Baseado em um quadrinho
+keyword
+based on comic
 2000
 ano
 2000
-Comédia
-genero
-Comédia
-Ficção científica
-genero
-Ficção científica

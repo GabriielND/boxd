@@ -1,18 +1,18 @@
-Fantasia
+Ação
 genero
-Fantasia
-Coming of Age
+Ação
+Musical
 keyword
-coming of age
+musical
 Baseado em um video game
 keyword
 based on video game
-2000
-ano
-2000
 2010
 ano
 2010
+Aventura
+genero
+Aventura
 Comédia
 genero
 Comédia

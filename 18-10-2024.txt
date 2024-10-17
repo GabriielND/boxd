@@ -1,18 +1,18 @@
-Esportes
-keyword
-sports
+Pixar
+produtora
+Pixar
 Baseado em um video game
 keyword
 based on video game
-DreamWorks Animation
-produtora
-DreamWorks Animation
-Comédia
+Animação
 genero
-Comédia
+Animação
 Ação
 genero
 Ação
+2000
+ano
+2000
 Aventura
 genero
 Aventura

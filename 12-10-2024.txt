@@ -1,18 +1,18 @@
-Aventura
-genero
-Aventura
-Musical
+Nacional
+nacional
+Nacional
+Blue Sky
+produtora
+Blue Sky
+Slasher
 keyword
-musical
-Esportes
-keyword
-sports
-Animação
+slasher
+Fantasia
 genero
-Animação
-2010
-ano
-2010
-2020
-ano
-2020
+Fantasia
+Comédia
+genero
+Comédia
+Ação
+genero
+Ação

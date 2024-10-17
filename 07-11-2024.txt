@@ -1,0 +1,18 @@
+1980
+ano
+1980
+Baseado em um livro
+keyword
+based on novel or book
+Baseado em um quadrinho
+keyword
+based on comic
+Crime
+genero
+Crime
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Anime
+keyword
+anime

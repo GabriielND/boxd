@@ -1,18 +1,18 @@
-Aventura
-genero
-Aventura
-Romance
-genero
-Romance
+Distopia
+keyword
+dystopia
 Coming of Age
 keyword
 coming of age
-Musical
-keyword
-musical
 Baseado em um livro
 keyword
 based on novel or book
-2010
+2020
 ano
-2010
+2020
+Animação
+genero
+Animação
+1980
+ano
+1980
