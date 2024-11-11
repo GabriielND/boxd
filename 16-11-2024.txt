@@ -1,0 +1,18 @@
+Aventura
+genero
+Aventura
+Musical
+keyword
+musical
+2010
+ano
+2010
+Coming of Age
+keyword
+coming of age
+Romance
+genero
+Romance
+Baseado em um livro
+keyword
+based on novel or book
