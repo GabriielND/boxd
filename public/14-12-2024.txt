@@ -1,0 +1,18 @@
+Romance
+genero
+Romance
+Animação
+genero
+Animação
+Crime
+genero
+Crime
+Ação
+genero
+Ação
+Ficção científica
+genero
+Ficção científica
+Baseado em um livro
+keyword
+based on novel or book
