@@ -1,0 +1,18 @@
+Crime
+genero
+Crime
+2000
+ano
+2000
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Aventura
+genero
+Aventura
+Animação
+genero
+Animação
+Ação
+genero
+Ação

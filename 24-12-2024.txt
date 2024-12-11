@@ -1,0 +1,18 @@
+Mistério
+genero
+Mistério
+Nacional
+genero
+Nacional
+Comédia
+genero
+Comédia
+Ficção científica
+genero
+Ficção científica
+Romance
+genero
+Romance
+Crime
+genero
+Crime
