@@ -2,7 +2,7 @@ Ação
 genero
 Ação
 Nacional
-genero
+nacional
 Nacional
 Indicado a Melhor Filme (Oscar)
 lista
