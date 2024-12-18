@@ -2,7 +2,7 @@ Mistério
 genero
 Mistério
 Nacional
-genero
+nacional
 Nacional
 Comédia
 genero
