@@ -2,7 +2,7 @@ Comédia
 genero
 Comédia
 Nacional
-genero
+nacional
 Nacional
 Crime
 genero
