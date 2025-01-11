@@ -1,0 +1,18 @@
+Fantasia
+genero
+Fantasia
+Drama
+genero
+Drama
+Distopia
+keyword
+dystopia
+Terror
+genero
+Terror
+Ficção científica
+genero
+Ficção científica
+1980
+ano
+1980

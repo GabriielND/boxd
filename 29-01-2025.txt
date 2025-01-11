@@ -1,0 +1,18 @@
+Romance
+genero
+Romance
+Crime
+genero
+Crime
+Baseado em um quadrinho
+keyword
+based on comic
+Ação
+genero
+Ação
+Aventura
+genero
+Aventura
+Animação
+genero
+Animação

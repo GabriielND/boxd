@@ -1,0 +1,18 @@
+Ação
+genero
+Ação
+Nacional
+nacional
+Nacional
+Baseado em um livro
+keyword
+based on novel or book
+Crime
+genero
+Crime
+Aventura
+genero
+Aventura
+Romance
+genero
+Romance
