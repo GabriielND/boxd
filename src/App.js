@@ -7,6 +7,8 @@ const dataControle = ""
 let tabuleiroTexto
 let textoShare
 let dataCompleta
+let mes
+let ano
 let tabuleiroCache = "000000000"
 let botoesLista = ["btNO","btN","btNE","btO","btC","btL","btSO","btS","btSE"]
 
