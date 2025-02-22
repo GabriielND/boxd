@@ -1,3 +1,18 @@
+<<<<<<< HEAD:public/03-2025/19-03-2025.txt
+=======
+Mistério
+genero
+Mistério
+Nacional
+nacional
+Nacional
+Comédia
+genero
+Comédia
+Ficção científica
+genero
+Ficção científica
+>>>>>>> a0cabc6c0afb425097b0707f8f032c472a12715b:public/24-12-2024.txt
 Romance
 genero
 Romance
@@ -13,6 +28,9 @@ Drama
 Crime
 genero
 Crime
+<<<<<<< HEAD:public/03-2025/19-03-2025.txt
 Comédia
 genero
 Comédia
+=======
+>>>>>>> a0cabc6c0afb425097b0707f8f032c472a12715b:public/24-12-2024.txt

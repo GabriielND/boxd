@@ -1,9 +1,16 @@
 Drama
 genero
+<<<<<<< HEAD:public/04-2025/19-04-2025.txt
 Drama
 Mistério
 genero
 Mistério
+=======
+Ação
+Nacional
+nacional
+Nacional
+>>>>>>> a0cabc6c0afb425097b0707f8f032c472a12715b:public/08-01-2025.txt
 Indicado a Melhor Filme (Oscar)
 lista
 Indicados ao Oscar de Melhor Filme
@@ -15,4 +22,11 @@ genero
 Ação
 Crime
 genero
+<<<<<<< HEAD:public/04-2025/19-04-2025.txt
 Crime
+=======
+Crime
+Romance
+genero
+Romance
+>>>>>>> a0cabc6c0afb425097b0707f8f032c472a12715b:public/08-01-2025.txt
