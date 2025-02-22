@@ -1,0 +1,18 @@
+Crime
+genero
+Crime
+Baseado em um quadrinho
+keyword
+based on comic
+Baseado em um livro
+keyword
+based on novel or book
+Comédia
+genero
+Comédia
+Drama
+genero
+Drama
+Ficção científica
+genero
+Ficção científica

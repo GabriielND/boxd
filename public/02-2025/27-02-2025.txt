@@ -1,0 +1,18 @@
+Comédia
+genero
+Comédia
+Musical
+keyword
+musical
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Drama
+genero
+Drama
+Ficção científica
+genero
+Ficção científica
+Aventura
+genero
+Aventura

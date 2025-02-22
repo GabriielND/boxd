@@ -1,0 +1,18 @@
+Musical
+keyword
+musical
+Animação
+genero
+Animação
+Comédia
+genero
+Comédia
+1980
+ano
+1980
+Ficção científica
+genero
+Ficção científica
+2000
+ano
+2000

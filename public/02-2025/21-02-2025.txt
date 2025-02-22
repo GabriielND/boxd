@@ -1,0 +1,18 @@
+Animação
+genero
+Animação
+Ficção científica
+genero
+Ficção científica
+Terror
+genero
+Terror
+Crime
+genero
+Crime
+Drama
+genero
+Drama
+Ação
+genero
+Ação

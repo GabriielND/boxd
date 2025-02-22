@@ -1,0 +1,18 @@
+Aventura
+genero
+Aventura
+Baseado em um quadrinho
+keyword
+based on comic
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Animação
+genero
+Animação
+Ação
+genero
+Ação
+Romance
+genero
+Romance

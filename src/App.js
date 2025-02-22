@@ -153,7 +153,7 @@ function Boxd() {
       let ano = hoje.getFullYear()
       dataCompleta = dia+"-"+mes+"-"+ano
     }
-    let endereco = "/"+dataCompleta+".txt"
+    let endereco = "/"+ mes + "-" + ano + "/" + dataCompleta + ".txt"
     let resp = await fetch(endereco)
     let final = await resp.text()
     let lista = final.split("\n")
