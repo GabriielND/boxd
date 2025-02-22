@@ -7,6 +7,7 @@ const dataControle = ""
 let tabuleiroTexto
 let textoShare
 let dataCompleta
+let mesAno
 let mes
 let ano
 let tabuleiroCache = "000000000"
@@ -153,9 +154,11 @@ function Boxd() {
       let dia = String(hoje.getDate()).padStart(2, "0")
       let mes = String(hoje.getMonth() + 1).padStart(2,"0")
       let ano = hoje.getFullYear()
+      mesAno = mes + "-" + ano
       dataCompleta = dia+"-"+mes+"-"+ano
     }
-    let endereco = "/"+ mes + "-" + ano + "/" + dataCompleta + ".txt"
+    console.log(mesAno)
+    let endereco = "/"+ mesAno + "/" + dataCompleta + ".txt"
     let resp = await fetch(endereco)
     let final = await resp.text()
     let lista = final.split("\n")
