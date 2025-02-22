@@ -1,0 +1,34 @@
+<<<<<<< HEAD:public/03-2025/12-03-2025.txt
+Baseado em um livro
+keyword
+based on novel or book
+=======
+Ação
+genero
+Ação
+Robin Williams
+elenco
+Robin Williams
+>>>>>>> a0cabc6c0afb425097b0707f8f032c472a12715b:public/19-12-2024.txt
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Ação
+genero
+Ação
+1990
+ano
+1990
+Crime
+genero
+<<<<<<< HEAD:public/03-2025/12-03-2025.txt
+Crime
+1980
+ano
+1980
+=======
+Drama
+Fantasia
+genero
+Fantasia
+>>>>>>> a0cabc6c0afb425097b0707f8f032c472a12715b:public/19-12-2024.txt

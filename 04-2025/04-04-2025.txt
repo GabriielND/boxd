@@ -1,0 +1,18 @@
+Animação
+genero
+Animação
+Ação
+genero
+Ação
+Pixar
+produtora
+Pixar
+Ficção científica
+genero
+Ficção científica
+Comédia
+genero
+Comédia
+Drama
+genero
+Drama

@@ -1,0 +1,18 @@
+Aventura
+genero
+Aventura
+Distopia
+keyword
+dystopia
+Baseado em um livro
+keyword
+based on novel or book
+Crime
+genero
+Crime
+Ação
+genero
+Ação
+2000
+ano
+2000

@@ -1,0 +1,18 @@
+Crime
+genero
+Crime
+Drama
+genero
+Drama
+Super Heróis
+keyword
+superhero
+Ação
+genero
+Ação
+Animação
+genero
+Animação
+Fantasia
+genero
+Fantasia

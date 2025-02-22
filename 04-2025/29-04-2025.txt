@@ -1,0 +1,18 @@
+Distopia
+keyword
+dystopia
+Baseado em um livro
+keyword
+based on novel or book
+Romance
+genero
+Romance
+Aventura
+genero
+Aventura
+Crime
+genero
+Crime
+Ficção científica
+genero
+Ficção científica

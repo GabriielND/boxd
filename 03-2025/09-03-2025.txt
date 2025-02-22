@@ -1,0 +1,30 @@
+<<<<<<< HEAD:public/03-2025/09-03-2025.txt
+=======
+Nacional
+nacional
+Nacional
+Aventura
+genero
+Aventura
+>>>>>>> a0cabc6c0afb425097b0707f8f032c472a12715b:public/18-12-2024.txt
+Musical
+keyword
+musical
+Animação
+genero
+Animação
+<<<<<<< HEAD:public/03-2025/09-03-2025.txt
+Comédia
+genero
+Comédia
+1980
+ano
+1980
+Ficção científica
+genero
+Ficção científica
+2000
+ano
+2000
+=======
+>>>>>>> a0cabc6c0afb425097b0707f8f032c472a12715b:public/18-12-2024.txt

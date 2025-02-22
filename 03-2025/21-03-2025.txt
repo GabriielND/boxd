@@ -1,0 +1,18 @@
+Ficção científica
+genero
+Ficção científica
+Fantasia
+genero
+Fantasia
+Mistério
+genero
+Mistério
+Drama
+genero
+Drama
+Terror
+genero
+Terror
+Romance
+genero
+Romance

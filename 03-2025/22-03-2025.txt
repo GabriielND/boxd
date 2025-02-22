@@ -1,0 +1,18 @@
+Aventura
+genero
+Aventura
+Baseado em um quadrinho
+keyword
+based on comic
+Ação
+genero
+Ação
+Animação
+genero
+Animação
+2000
+ano
+2000
+1990
+ano
+1990
