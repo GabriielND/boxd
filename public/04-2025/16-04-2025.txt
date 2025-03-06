@@ -1,18 +1,18 @@
-Comédia
-genero
-Comédia
 Mistério
 genero
 Mistério
-DreamWorks Animation
+Nacional
+nacional
+Nacional
+Studio Ghibli
 produtora
-DreamWorks Animation
-1980
-ano
-1980
-1990
-ano
-1990
+Studio Ghibli
 Ação
 genero
 Ação
+1990
+ano
+1990
+Romance
+genero
+Romance

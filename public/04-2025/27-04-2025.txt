@@ -1,18 +1,18 @@
-Baseado em um livro
+Mistério
+genero
+Mistério
+Crime
+genero
+Crime
+2020
+ano
+2020
+Ação
+genero
+Ação
+Comédia
+genero
+Comédia
+Distopia
 keyword
-based on novel or book
-Ficção científica
-genero
-Ficção científica
-DreamWorks Animation
-produtora
-DreamWorks Animation
-Aventura
-genero
-Aventura
-2010
-ano
-2010
-1990
-ano
-1990
+dystopia

@@ -1,18 +1,18 @@
-Baseado em um livro
+DreamWorks Animation
+produtora
+DreamWorks Animation
+Super Heróis
 keyword
-based on novel or book
-Distopia
+superhero
+Baseado em um video game
 keyword
-dystopia
-Crime
-genero
-Crime
-Aventura
-genero
-Aventura
-Mistério
-genero
-Mistério
+based on video game
+2020
+ano
+2020
 Terror
 genero
 Terror
+Animação
+genero
+Animação

@@ -1,18 +1,18 @@
-Baseado em um livro
+Baseado em um quadrinho
 keyword
-based on novel or book
-2020
+based on comic
+Esportes
+keyword
+sports
+Romance
+genero
+Romance
+Aventura
+genero
+Aventura
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+2000
 ano
-2020
-Drama
-genero
-Drama
-Distopia
-keyword
-dystopia
-Terror
-genero
-Terror
-Mistério
-genero
-Mistério
+2000

@@ -1,18 +1,18 @@
-Romance
-genero
-Romance
-Crime
-genero
-Crime
-Baseado em um livro
+Distopia
 keyword
-based on novel or book
-Mistério
-genero
-Mistério
-Animação
-genero
-Animação
-Nacional
-nacional
-Nacional
+dystopia
+Anime
+keyword
+anime
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+1990
+ano
+1990
+Esportes
+keyword
+sports
+1980
+ano
+1980

@@ -1,18 +1,18 @@
-Baseado em um livro
+2000
+ano
+2000
+Super Heróis
 keyword
-based on novel or book
-Distopia
-keyword
-dystopia
-Ação
-genero
-Ação
-Terror
-genero
-Terror
-Animação
-genero
-Animação
+superhero
 Mistério
 genero
 Mistério
+Aventura
+genero
+Aventura
+Ação
+genero
+Ação
+Ficção científica
+genero
+Ficção científica

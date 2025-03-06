@@ -1,18 +1,18 @@
+Fantasia
+genero
+Fantasia
+Ação
+genero
+Ação
+2000
+ano
+2000
+Romance
+genero
+Romance
 Baseado em um livro
 keyword
 based on novel or book
-Nacional
-nacional
-Nacional
-Ação
-genero
-Ação
-Crime
-genero
-Crime
-Drama
-genero
-Drama
 Aventura
 genero
 Aventura

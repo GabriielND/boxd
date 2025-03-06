@@ -1,18 +1,18 @@
-Pixar
+DreamWorks Animation
 produtora
-Pixar
-Aventura
+DreamWorks Animation
+Marvel
+produtora
+Marvel
+Terror
 genero
-Aventura
-Animação
-genero
-Animação
+Terror
 2010
 ano
 2010
-2020
+1980
 ano
-2020
-2000
-ano
-2000
+1980
+Drama
+genero
+Drama

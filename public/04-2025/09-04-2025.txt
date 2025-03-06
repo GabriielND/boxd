@@ -1,18 +1,18 @@
-Ficção científica
+Ação
 genero
-Ficção científica
-Romance
-genero
-Romance
-DreamWorks Animation
+Ação
+Marvel
 produtora
-DreamWorks Animation
-2010
-ano
-2010
-1980
-ano
-1980
-Mistério
+Marvel
+Musical
+keyword
+musical
+Drama
 genero
-Mistério
+Drama
+2020
+ano
+2020
+1980
+ano
+1980

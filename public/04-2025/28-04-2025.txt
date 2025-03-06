@@ -1,18 +1,18 @@
-Mistério
-genero
-Mistério
-Fantasia
-genero
-Fantasia
-Ação
-genero
-Ação
-Drama
-genero
-Drama
-2020
+Pixar
+produtora
+Pixar
+Baseado em um quadrinho
+keyword
+based on comic
+Anime
+keyword
+anime
+1990
 ano
-2020
+1990
+Aventura
+genero
+Aventura
 2000
 ano
 2000

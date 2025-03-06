@@ -1,18 +1,18 @@
-Romance
-genero
-Romance
-Fantasia
-genero
-Fantasia
 Baseado em um quadrinho
 keyword
 based on comic
+Slasher
+keyword
+slasher
+Anime
+keyword
+anime
+1990
+ano
+1990
+2010
+ano
+2010
 Ficção científica
 genero
 Ficção científica
-Drama
-genero
-Drama
-Mistério
-genero
-Mistério

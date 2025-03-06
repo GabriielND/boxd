@@ -1,18 +1,18 @@
-Ação
-genero
-Ação
-Coming of Age
-keyword
-coming of age
-Crime
-genero
-Crime
 Nacional
 nacional
 Nacional
-Comédia
+Romance
 genero
-Comédia
+Romance
+2020
+ano
+2020
+Ação
+genero
+Ação
 Animação
 genero
 Animação
+Aventura
+genero
+Aventura

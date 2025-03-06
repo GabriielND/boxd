@@ -1,18 +1,18 @@
-Crime
-genero
-Crime
-Baseado em um quadrinho
-keyword
-based on comic
-Baseado em um livro
-keyword
-based on novel or book
-Comédia
-genero
-Comédia
-Drama
-genero
-Drama
 Ficção científica
 genero
 Ficção científica
+1990
+ano
+1990
+Ação
+genero
+Ação
+Nacional
+nacional
+Nacional
+Comédia
+genero
+Comédia
+Fantasia
+genero
+Fantasia

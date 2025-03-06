@@ -1,18 +1,18 @@
-Ação
-genero
-Ação
-Baseado em um quadrinho
+Stop Motion
 keyword
-based on comic
-Aventura
+stop motion
+Anime
+keyword
+anime
+Ficção científica
 genero
-Aventura
-Crime
+Ficção científica
+2010
+ano
+2010
+Comédia
 genero
-Crime
-Romance
+Comédia
+Fantasia
 genero
-Romance
-Nacional
-nacional
-Nacional
+Fantasia

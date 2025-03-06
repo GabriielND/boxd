@@ -1,18 +1,18 @@
-Terror
-genero
-Terror
-Aventura
-genero
-Aventura
+Stop Motion
+keyword
+stop motion
+Baseado em um video game
+keyword
+based on video game
+DreamWorks Animation
+produtora
+DreamWorks Animation
 Fantasia
 genero
 Fantasia
-Ficção científica
-genero
-Ficção científica
+2010
+ano
+2010
 2000
 ano
 2000
-Drama
-genero
-Drama

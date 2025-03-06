@@ -1,18 +1,18 @@
-Animação
-genero
-Animação
-Ficção científica
-genero
-Ficção científica
-2020
+Slasher
+keyword
+slasher
+2010
 ano
-2020
-Fantasia
+2010
+Ação
 genero
-Fantasia
-Nacional
-nacional
-Nacional
+Ação
 Comédia
 genero
 Comédia
+Ficção científica
+genero
+Ficção científica
+Crime
+genero
+Crime

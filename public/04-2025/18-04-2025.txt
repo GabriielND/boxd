@@ -1,18 +1,18 @@
+1990
+ano
+1990
+Blue Sky
+produtora
+Blue Sky
+Pixar
+produtora
+Pixar
+Ação
+genero
+Ação
 Ficção científica
 genero
 Ficção científica
 Fantasia
 genero
 Fantasia
-Musical
-keyword
-musical
-2000
-ano
-2000
-Comédia
-genero
-Comédia
-1990
-ano
-1990

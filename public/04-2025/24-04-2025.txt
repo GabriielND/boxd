@@ -1,18 +1,18 @@
-Ação
+Disney Animation
+produtora
+Disney Animation
+Studio Ghibli
+produtora
+Studio Ghibli
+Mistério
 genero
-Ação
-Aventura
-genero
-Aventura
-Terror
-genero
-Terror
-Comédia
-genero
-Comédia
-1980
+Mistério
+2010
 ano
-1980
-Mistério
+2010
+Fantasia
 genero
-Mistério
+Fantasia
+Aventura
+genero
+Aventura

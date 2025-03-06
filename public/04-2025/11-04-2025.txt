@@ -1,18 +1,18 @@
-Fantasia
-genero
-Fantasia
-Ficção científica
-genero
-Ficção científica
+Studio Ghibli
+produtora
+Studio Ghibli
 Indicado a Melhor Filme (Oscar)
 lista
 Indicados ao Oscar de Melhor Filme
 Distopia
 keyword
 dystopia
-Drama
+Ficção científica
 genero
-Drama
-2010
-ano
-2010
+Ficção científica
+Esportes
+keyword
+sports
+Aventura
+genero
+Aventura

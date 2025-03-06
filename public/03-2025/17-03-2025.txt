@@ -1,39 +1,18 @@
-<<<<<<< HEAD:public/03-2025/17-03-2025.txt
-Pixar
-produtora
-Pixar
-Ficção científica
-genero
-Ficção científica
-Crime
-genero
-Crime
-Drama
-genero
-Drama
+Anime
+keyword
+anime
+Slasher
+keyword
+slasher
+Baseado em um quadrinho
+keyword
+based on comic
 Comédia
 genero
 Comédia
-Aventura
-genero
-Aventura
-=======
-Comédia
-genero
-Comédia
-Nacional
-nacional
-Nacional
-Crime
-genero
-Crime
-1990
-ano
-1990
-Ficção científica
-genero
-Ficção científica
 2020
 ano
 2020
->>>>>>> a0cabc6c0afb425097b0707f8f032c472a12715b:public/22-12-2024.txt
+1990
+ano
+1990

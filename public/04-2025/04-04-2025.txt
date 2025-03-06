@@ -1,18 +1,18 @@
-Animação
+Fantasia
 genero
-Animação
-Ação
+Fantasia
+Crime
 genero
-Ação
-Pixar
-produtora
-Pixar
+Crime
+Nacional
+nacional
+Nacional
 Ficção científica
 genero
 Ficção científica
-Comédia
+Ação
 genero
-Comédia
-Drama
-genero
-Drama
+Ação
+Baseado em um quadrinho
+keyword
+based on comic

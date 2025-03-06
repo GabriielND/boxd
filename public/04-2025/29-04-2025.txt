@@ -1,18 +1,18 @@
-Distopia
-keyword
-dystopia
-Baseado em um livro
-keyword
-based on novel or book
 Romance
 genero
 Romance
-Aventura
+Comédia
 genero
-Aventura
-Crime
+Comédia
+Stop Motion
+keyword
+stop motion
+2010
+ano
+2010
+Animação
 genero
-Crime
-Ficção científica
+Animação
+Drama
 genero
-Ficção científica
+Drama
