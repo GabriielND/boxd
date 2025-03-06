@@ -1,18 +1,18 @@
-Pixar
-produtora
-Pixar
-Drama
-genero
-Drama
-Ação
-genero
-Ação
-Comédia
-genero
-Comédia
 Animação
 genero
 Animação
-Fantasia
+Crime
 genero
-Fantasia
+Crime
+Aventura
+genero
+Aventura
+2010
+ano
+2010
+Ficção científica
+genero
+Ficção científica
+Comédia
+genero
+Comédia

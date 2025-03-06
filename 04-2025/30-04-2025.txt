@@ -1,18 +1,18 @@
+Musical
+keyword
+musical
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
 Mistério
 genero
 Mistério
-Drama
-genero
-Drama
 Fantasia
 genero
 Fantasia
-Ação
+1980
+ano
+1980
+Aventura
 genero
-Ação
-2010
-ano
-2010
-2000
-ano
-2000
+Aventura

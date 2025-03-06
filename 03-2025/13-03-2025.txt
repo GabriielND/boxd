@@ -1,18 +1,18 @@
-Romance
-genero
-Romance
 Indicado a Melhor Filme (Oscar)
 lista
 Indicados ao Oscar de Melhor Filme
-Aventura
-genero
-Aventura
-2010
-ano
-2010
-Musical
+Coming of Age
 keyword
-musical
-Animação
+coming of age
+2020
+ano
+2020
+Drama
 genero
-Animação
+Drama
+Baseado em um quadrinho
+keyword
+based on comic
+Aventura
+genero
+Aventura

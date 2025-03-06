@@ -1,18 +1,18 @@
-Ficção científica
+Marvel
+produtora
+Marvel
+Baseado em um livro
+keyword
+based on novel or book
+2010
+ano
+2010
+Anime
+keyword
+anime
+Comédia
 genero
-Ficção científica
-Fantasia
+Comédia
+Aventura
 genero
-Fantasia
-Mistério
-genero
-Mistério
-Drama
-genero
-Drama
-Terror
-genero
-Terror
-Romance
-genero
-Romance
+Aventura

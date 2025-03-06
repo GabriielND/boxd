@@ -1,18 +1,18 @@
-Baseado em um livro
-keyword
-based on novel or book
-Coming of Age
-keyword
-coming of age
-DreamWorks Animation
+Pixar
 produtora
-DreamWorks Animation
-Fantasia
+Pixar
+Baseado em um video game
+keyword
+based on video game
+Terror
 genero
-Fantasia
-Animação
-genero
-Animação
-Drama
-genero
-Drama
+Terror
+Distopia
+keyword
+dystopia
+2020
+ano
+2020
+2000
+ano
+2000

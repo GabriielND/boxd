@@ -1,18 +1,18 @@
-Aventura
-genero
-Aventura
-Ficção científica
-genero
-Ficção científica
-Coming of Age
+Super Heróis
 keyword
-coming of age
-Romance
+superhero
+Blue Sky
+produtora
+Blue Sky
+DreamWorks Animation
+produtora
+DreamWorks Animation
+2020
+ano
+2020
+Fantasia
 genero
-Romance
-2020
-ano
-2020
-2000
-ano
-2000
+Fantasia
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme

@@ -1,18 +1,18 @@
+1990
+ano
+1990
+Drama
+genero
+Drama
+Mistério
+genero
+Mistério
+Ação
+genero
+Ação
 Fantasia
 genero
 Fantasia
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-Baseado em um quadrinho
-keyword
-based on comic
 Ficção científica
 genero
 Ficção científica
-Comédia
-genero
-Comédia
-Animação
-genero
-Animação

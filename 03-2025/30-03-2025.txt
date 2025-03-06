@@ -1,18 +1,18 @@
 Indicado a Melhor Filme (Oscar)
 lista
 Indicados ao Oscar de Melhor Filme
-Baseado em um livro
+Animação
+genero
+Animação
+Musical
 keyword
-based on novel or book
-Romance
+musical
+Fantasia
 genero
-Romance
+Fantasia
+Coming of Age
+keyword
+coming of age
 Drama
 genero
 Drama
-Aventura
-genero
-Aventura
-2000
-ano
-2000

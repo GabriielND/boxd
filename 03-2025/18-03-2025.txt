@@ -1,18 +1,18 @@
-Animação
+Aventura
 genero
-Animação
-Ação
+Aventura
+Crime
 genero
-Ação
-Baseado em um quadrinho
-keyword
-based on comic
-Fantasia
-genero
-Fantasia
-Nacional
-nacional
-Nacional
-2000
+Crime
+Blue Sky
+produtora
+Blue Sky
+2010
 ano
-2000
+2010
+Fantasia
+genero
+Fantasia
+Ação
+genero
+Ação

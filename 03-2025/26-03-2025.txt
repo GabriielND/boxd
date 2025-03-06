@@ -1,18 +1,18 @@
-Aventura
+Animação
 genero
-Aventura
-Romance
-genero
-Romance
-Esportes
+Animação
+Coming of Age
 keyword
-sports
-Nacional
-nacional
-Nacional
-Animação
+coming of age
+Anime
+keyword
+anime
+Drama
 genero
-Animação
-Ação
+Drama
+Aventura
 genero
-Ação
+Aventura
+1980
+ano
+1980

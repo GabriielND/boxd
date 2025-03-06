@@ -1,18 +1,18 @@
-Pixar
-produtora
-Pixar
-Crime
-genero
-Crime
-Drama
-genero
-Drama
-Comédia
-genero
-Comédia
+Musical
+keyword
+musical
+Anime
+keyword
+anime
 Ficção científica
 genero
 Ficção científica
-Fantasia
+Baseado em um livro
+keyword
+based on novel or book
+Comédia
 genero
-Fantasia
+Comédia
+Aventura
+genero
+Aventura

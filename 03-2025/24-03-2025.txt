@@ -1,18 +1,18 @@
-Aventura
-genero
-Aventura
-Baseado em um quadrinho
+Esportes
 keyword
-based on comic
+sports
+2000
+ano
+2000
+2010
+ano
+2010
+Romance
+genero
+Romance
+Drama
+genero
+Drama
 Indicado a Melhor Filme (Oscar)
 lista
 Indicados ao Oscar de Melhor Filme
-Animação
-genero
-Animação
-Ação
-genero
-Ação
-Romance
-genero
-Romance

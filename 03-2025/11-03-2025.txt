@@ -1,18 +1,18 @@
-Baseado em um quadrinho
+Distopia
 keyword
-based on comic
-Animação
-genero
-Animação
-Fantasia
-genero
-Fantasia
-Ficção científica
-genero
-Ficção científica
+dystopia
 Comédia
 genero
 Comédia
-2010
+2020
 ano
-2010
+2020
+Animação
+genero
+Animação
+Esportes
+keyword
+sports
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
