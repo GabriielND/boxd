@@ -1,18 +1,18 @@
-1990
+2010
 ano
-1990
-Drama
+2010
+Slasher
+keyword
+slasher
+Animação
 genero
-Drama
-Mistério
-genero
-Mistério
-Ação
-genero
-Ação
+Animação
 Fantasia
 genero
 Fantasia
-Ficção científica
+Ação
 genero
-Ficção científica
+Ação
+Comédia
+genero
+Comédia

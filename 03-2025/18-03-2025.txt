@@ -1,18 +1,18 @@
-Aventura
+Romance
 genero
-Aventura
-Crime
+Romance
+Ficção científica
 genero
-Crime
-Blue Sky
-produtora
-Blue Sky
-2010
+Ficção científica
+Slasher
+keyword
+slasher
+Comédia
+genero
+Comédia
+Ação
+genero
+Ação
+1980
 ano
-2010
-Fantasia
-genero
-Fantasia
-Ação
-genero
-Ação
+1980

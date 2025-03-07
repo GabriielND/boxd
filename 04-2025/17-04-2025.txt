@@ -1,18 +1,18 @@
-Aventura
-genero
-Aventura
-Slasher
+Baseado em um quadrinho
 keyword
-slasher
-DreamWorks Animation
-produtora
-DreamWorks Animation
-Comédia
+based on comic
+Crime
 genero
-Comédia
-2010
+Crime
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+1990
 ano
-2010
-2020
-ano
-2020
+1990
+Distopia
+keyword
+dystopia
+Animação
+genero
+Animação

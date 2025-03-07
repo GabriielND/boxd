@@ -1,18 +1,18 @@
-Fantasia
-genero
-Fantasia
-Musical
+Esportes
 keyword
-musical
-2020
+sports
+Nacional
+nacional
+Nacional
+Baseado em um video game
+keyword
+based on video game
+2000
 ano
-2020
-Baseado em um livro
-keyword
-based on novel or book
-Drama
+2000
+Aventura
 genero
-Drama
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
+Aventura
+2010
+ano
+2010

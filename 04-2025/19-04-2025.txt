@@ -1,18 +1,18 @@
-Nacional
-nacional
-Nacional
-2020
-ano
-2020
+Distopia
+keyword
+dystopia
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Musical
+keyword
+musical
+Baseado em um livro
+keyword
+based on novel or book
 2000
 ano
 2000
-Coming of Age
-keyword
-coming of age
-Esportes
-keyword
-sports
 Aventura
 genero
 Aventura

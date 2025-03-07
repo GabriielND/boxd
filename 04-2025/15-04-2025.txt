@@ -1,18 +1,18 @@
-Stop Motion
-keyword
-stop motion
-Baseado em um video game
-keyword
-based on video game
-DreamWorks Animation
-produtora
-DreamWorks Animation
-Fantasia
+Romance
 genero
-Fantasia
-2010
+Romance
+Aventura
+genero
+Aventura
+Distopia
+keyword
+dystopia
+1980
 ano
-2010
-2000
-ano
-2000
+1980
+Baseado em um quadrinho
+keyword
+based on comic
+Animação
+genero
+Animação

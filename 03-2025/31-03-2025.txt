@@ -1,18 +1,18 @@
-Blue Sky
-produtora
-Blue Sky
-DreamWorks Animation
-produtora
-DreamWorks Animation
-Esportes
+Super Heróis
 keyword
-sports
-2010
-ano
-2010
-Comédia
+superhero
+Stop Motion
+keyword
+stop motion
+Fantasia
 genero
-Comédia
+Fantasia
+Aventura
+genero
+Aventura
+2020
+ano
+2020
 2000
 ano
 2000

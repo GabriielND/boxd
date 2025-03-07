@@ -1,6 +1,9 @@
-Terror
+Animação
 genero
-Terror
+Animação
+Disney Animation
+produtora
+Disney Animation
 Pixar
 produtora
 Pixar
@@ -10,9 +13,6 @@ ano
 Ficção científica
 genero
 Ficção científica
-Distopia
-keyword
-dystopia
-Comédia
+Aventura
 genero
-Comédia
+Aventura

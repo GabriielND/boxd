@@ -1,18 +1,18 @@
-Disney Animation
-produtora
-Disney Animation
-Studio Ghibli
-produtora
-Studio Ghibli
-Mistério
+Romance
 genero
-Mistério
+Romance
+Super Heróis
+keyword
+superhero
+Terror
+genero
+Terror
 2010
 ano
 2010
-Fantasia
+1980
+ano
+1980
+Ação
 genero
-Fantasia
-Aventura
-genero
-Aventura
+Ação

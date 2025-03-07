@@ -1,18 +1,18 @@
-Stop Motion
+Slasher
 keyword
-stop motion
-Anime
-keyword
-anime
-Ficção científica
-genero
-Ficção científica
+slasher
 2010
 ano
 2010
-Comédia
+Animação
 genero
-Comédia
-Fantasia
+Animação
+Ficção científica
 genero
-Fantasia
+Ficção científica
+Crime
+genero
+Crime
+Ação
+genero
+Ação

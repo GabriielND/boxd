@@ -1,18 +1,18 @@
-Slasher
-keyword
-slasher
-2010
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Crime
+genero
+Crime
+2000
 ano
-2010
+2000
 Ação
 genero
 Ação
-Comédia
+Fantasia
 genero
-Comédia
+Fantasia
 Ficção científica
 genero
 Ficção científica
-Crime
-genero
-Crime

@@ -1,18 +1,18 @@
-Animação
-genero
-Animação
-Coming of Age
-keyword
-coming of age
-Anime
-keyword
-anime
 Drama
 genero
 Drama
-Aventura
+Comédia
 genero
-Aventura
-1980
+Comédia
+Stop Motion
+keyword
+stop motion
+Animação
+genero
+Animação
+2010
 ano
-1980
+2010
+Fantasia
+genero
+Fantasia

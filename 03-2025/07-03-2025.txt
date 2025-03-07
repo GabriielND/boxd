@@ -1,18 +1,18 @@
-Distopia
+Comédia
+genero
+Comédia
+Super Heróis
 keyword
-dystopia
-Anime
+superhero
+Stop Motion
 keyword
-anime
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-1990
+stop motion
+2000
 ano
-1990
-Esportes
-keyword
-sports
-1980
+2000
+Animação
+genero
+Animação
+2010
 ano
-1980
+2010

@@ -1,18 +1,18 @@
-Baseado em um quadrinho
-keyword
-based on comic
-Slasher
-keyword
-slasher
-Anime
-keyword
-anime
-1990
+1980
 ano
-1990
-2010
-ano
-2010
-Ficção científica
+1980
+Disney Animation
+produtora
+Disney Animation
+Stop Motion
+keyword
+stop motion
+Aventura
 genero
-Ficção científica
+Aventura
+Drama
+genero
+Drama
+Fantasia
+genero
+Fantasia

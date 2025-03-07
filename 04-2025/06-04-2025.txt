@@ -1,18 +1,18 @@
-Animação
+Drama
 genero
-Animação
-Ação
-genero
-Ação
-Esportes
+Drama
+Disney Animation
+produtora
+Disney Animation
+Anime
 keyword
-sports
-1990
-ano
-1990
-2010
-ano
-2010
+anime
 Comédia
 genero
 Comédia
+Ficção científica
+genero
+Ficção científica
+2020
+ano
+2020

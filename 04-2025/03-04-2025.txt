@@ -1,18 +1,18 @@
-DreamWorks Animation
-produtora
-DreamWorks Animation
+Anime
+keyword
+anime
 Super Heróis
 keyword
 superhero
-Baseado em um video game
-keyword
-based on video game
+Aventura
+genero
+Aventura
 2020
 ano
 2020
-Terror
-genero
-Terror
-Animação
-genero
-Animação
+1980
+ano
+1980
+2010
+ano
+2010

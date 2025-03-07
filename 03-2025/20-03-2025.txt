@@ -1,18 +1,18 @@
-Crime
+Aventura
 genero
-Crime
-Fantasia
-genero
-Fantasia
-Studio Ghibli
+Aventura
+Pixar
 produtora
-Studio Ghibli
-Super Heróis
-keyword
-superhero
-1990
-ano
-1990
-Ação
+Pixar
+Mistério
 genero
-Ação
+Mistério
+1980
+ano
+1980
+2000
+ano
+2000
+Distopia
+keyword
+dystopia

@@ -1,18 +1,18 @@
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
+Romance
+genero
+Romance
+Nacional
+nacional
+Nacional
+Disney Animation
+produtora
+Disney Animation
 Coming of Age
 keyword
 coming of age
-2020
-ano
-2020
-Drama
-genero
-Drama
-Baseado em um quadrinho
-keyword
-based on comic
 Aventura
 genero
 Aventura
+Fantasia
+genero
+Fantasia

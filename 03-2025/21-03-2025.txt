@@ -1,18 +1,18 @@
 Marvel
 produtora
 Marvel
-Baseado em um livro
-keyword
-based on novel or book
-2010
+2020
 ano
-2010
-Anime
-keyword
-anime
+2020
+Romance
+genero
+Romance
 Comédia
 genero
 Comédia
-Aventura
+Animação
 genero
-Aventura
+Animação
+Fantasia
+genero
+Fantasia
