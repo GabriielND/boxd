@@ -1,18 +1,18 @@
-2000
-ano
-2000
-Super Heróis
+Romance
+genero
+Romance
+Baseado em um livro
 keyword
-superhero
+based on novel or book
+Marvel
+produtora
+Marvel
+Anime
+keyword
+anime
 Mistério
 genero
 Mistério
-Aventura
+Comédia
 genero
-Aventura
-Ação
-genero
-Ação
-Ficção científica
-genero
-Ficção científica
+Comédia

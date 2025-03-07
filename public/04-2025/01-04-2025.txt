@@ -1,18 +1,18 @@
-Anime
+Slasher
 keyword
-anime
-Pixar
+slasher
+DreamWorks Animation
 produtora
-Pixar
+DreamWorks Animation
 Nacional
 nacional
 Nacional
-Aventura
+2010
+ano
+2010
+Comédia
 genero
-Aventura
-Fantasia
-genero
-Fantasia
-Drama
-genero
-Drama
+Comédia
+1990
+ano
+1990

@@ -1,18 +1,18 @@
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-Animação
+Crime
 genero
-Animação
-Musical
+Crime
+Slasher
 keyword
-musical
-Fantasia
+slasher
+2010
+ano
+2010
+Ação
 genero
-Fantasia
-Coming of Age
-keyword
-coming of age
-Drama
+Ação
+Mistério
 genero
-Drama
+Mistério
+Ficção científica
+genero
+Ficção científica

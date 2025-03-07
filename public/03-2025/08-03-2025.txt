@@ -1,18 +1,18 @@
-Romance
-genero
-Romance
-Musical
+Distopia
 keyword
-musical
-Animação
+dystopia
+DreamWorks Animation
+produtora
+DreamWorks Animation
+Mistério
 genero
-Animação
-Coming of Age
+Mistério
+Baseado em um livro
 keyword
-coming of age
-Fantasia
-genero
-Fantasia
-2000
+based on novel or book
+1980
 ano
-2000
+1980
+Fantasia
+genero
+Fantasia

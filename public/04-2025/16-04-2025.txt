@@ -1,18 +1,18 @@
-Mistério
-genero
-Mistério
-Nacional
-nacional
-Nacional
+2000
+ano
+2000
+Stop Motion
+keyword
+stop motion
 Studio Ghibli
 produtora
 Studio Ghibli
-Ação
+Drama
 genero
-Ação
-1990
-ano
-1990
-Romance
+Drama
+Comédia
 genero
-Romance
+Comédia
+Fantasia
+genero
+Fantasia

@@ -1,18 +1,18 @@
-Animação
+Romance
 genero
-Animação
-Crime
-genero
-Crime
-Aventura
-genero
-Aventura
-2010
+Romance
+2020
 ano
-2010
-Ficção científica
+2020
+Nacional
+nacional
+Nacional
+Drama
 genero
-Ficção científica
+Drama
 Comédia
 genero
 Comédia
+Ficção científica
+genero
+Ficção científica

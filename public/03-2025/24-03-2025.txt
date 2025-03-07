@@ -1,18 +1,18 @@
-Esportes
+DreamWorks Animation
+produtora
+DreamWorks Animation
+Terror
+genero
+Terror
+2000
+ano
+2000
+Fantasia
+genero
+Fantasia
+Ação
+genero
+Ação
+Baseado em um livro
 keyword
-sports
-2000
-ano
-2000
-2010
-ano
-2010
-Romance
-genero
-Romance
-Drama
-genero
-Drama
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
+based on novel or book

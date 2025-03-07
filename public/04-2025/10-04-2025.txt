@@ -1,18 +1,18 @@
-DreamWorks Animation
+Romance
+genero
+Romance
+Animação
+genero
+Animação
+Disney Animation
 produtora
-DreamWorks Animation
-Baseado em um livro
+Disney Animation
+Drama
+genero
+Drama
+Comédia
+genero
+Comédia
+Musical
 keyword
-based on novel or book
-2000
-ano
-2000
-Comédia
-genero
-Comédia
-Fantasia
-genero
-Fantasia
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
+musical

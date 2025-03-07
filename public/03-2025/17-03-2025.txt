@@ -1,18 +1,18 @@
-Anime
+Stop Motion
 keyword
-anime
-Slasher
+stop motion
+Blue Sky
+produtora
+Blue Sky
+Distopia
 keyword
-slasher
-Baseado em um quadrinho
-keyword
-based on comic
-Comédia
+dystopia
+Aventura
 genero
-Comédia
-2020
+Aventura
+2000
 ano
-2020
-1990
+2000
+2010
 ano
-1990
+2010

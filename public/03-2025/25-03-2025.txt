@@ -1,18 +1,18 @@
-Marvel
+Pixar
 produtora
-Marvel
-Crime
+Pixar
+Ficção científica
 genero
-Crime
-Baseado em um livro
-keyword
-based on novel or book
-Mistério
+Ficção científica
+Aventura
 genero
-Mistério
-Terror
-genero
-Terror
-Fantasia
-genero
-Fantasia
+Aventura
+2020
+ano
+2020
+1990
+ano
+1990
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme

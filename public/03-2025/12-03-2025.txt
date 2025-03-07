@@ -1,18 +1,18 @@
-2010
-ano
-2010
-Terror
+Ação
 genero
-Terror
-Musical
-keyword
-musical
-Fantasia
-genero
-Fantasia
+Ação
 Baseado em um livro
 keyword
 based on novel or book
-Ficção científica
+Drama
 genero
-Ficção científica
+Drama
+Mistério
+genero
+Mistério
+2020
+ano
+2020
+DreamWorks Animation
+produtora
+DreamWorks Animation

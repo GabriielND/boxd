@@ -1,18 +1,18 @@
-Nacional
-nacional
-Nacional
-Studio Ghibli
-produtora
-Studio Ghibli
-Marvel
-produtora
-Marvel
-1990
-ano
-1990
 Comédia
 genero
 Comédia
-2010
+Slasher
+keyword
+slasher
+Drama
+genero
+Drama
+Ação
+genero
+Ação
+1980
 ano
-2010
+1980
+2020
+ano
+2020

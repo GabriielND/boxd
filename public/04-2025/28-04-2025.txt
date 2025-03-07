@@ -1,18 +1,18 @@
-Pixar
-produtora
-Pixar
-Baseado em um quadrinho
-keyword
-based on comic
 Anime
 keyword
 anime
-1990
-ano
-1990
-Aventura
+Drama
 genero
-Aventura
-2000
-ano
-2000
+Drama
+Musical
+keyword
+musical
+Romance
+genero
+Romance
+Baseado em um livro
+keyword
+based on novel or book
+Fantasia
+genero
+Fantasia

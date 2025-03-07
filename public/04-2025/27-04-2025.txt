@@ -1,18 +1,18 @@
-Mistério
+Baseado em um video game
+keyword
+based on video game
+Baseado em um quadrinho
+keyword
+based on comic
+Ficção científica
 genero
-Mistério
-Crime
-genero
-Crime
+Ficção científica
+2000
+ano
+2000
 2020
 ano
 2020
-Ação
+Animação
 genero
-Ação
-Comédia
-genero
-Comédia
-Distopia
-keyword
-dystopia
+Animação

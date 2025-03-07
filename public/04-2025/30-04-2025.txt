@@ -1,18 +1,18 @@
-Musical
+Ficção científica
+genero
+Ficção científica
+Coming of Age
 keyword
-musical
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-Mistério
+coming of age
+Comédia
 genero
-Mistério
-Fantasia
-genero
-Fantasia
-1980
+Comédia
+Baseado em um quadrinho
+keyword
+based on comic
+Baseado em um livro
+keyword
+based on novel or book
+1990
 ano
-1980
-Aventura
-genero
-Aventura
+1990

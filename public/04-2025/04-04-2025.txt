@@ -1,18 +1,18 @@
-Fantasia
-genero
-Fantasia
-Crime
-genero
-Crime
-Nacional
-nacional
-Nacional
-Ficção científica
-genero
-Ficção científica
-Ação
-genero
-Ação
-Baseado em um quadrinho
+Baseado em um livro
 keyword
-based on comic
+based on novel or book
+Ficção científica
+genero
+Ficção científica
+Distopia
+keyword
+dystopia
+Crime
+genero
+Crime
+2000
+ano
+2000
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme

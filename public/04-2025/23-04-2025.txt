@@ -1,18 +1,18 @@
-Pixar
-produtora
-Pixar
+Fantasia
+genero
+Fantasia
 Baseado em um video game
 keyword
 based on video game
-Terror
+Blue Sky
+produtora
+Blue Sky
+2020
+ano
+2020
+2000
+ano
+2000
+Aventura
 genero
-Terror
-Distopia
-keyword
-dystopia
-2020
-ano
-2020
-2000
-ano
-2000
+Aventura

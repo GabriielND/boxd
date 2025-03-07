@@ -1,18 +1,18 @@
-Romance
+Marvel
+produtora
+Marvel
+Aventura
 genero
-Romance
-Comédia
-genero
-Comédia
-Stop Motion
+Aventura
+Slasher
 keyword
-stop motion
-2010
+slasher
+Mistério
+genero
+Mistério
+1980
 ano
-2010
-Animação
-genero
-Animação
-Drama
-genero
-Drama
+1980
+2020
+ano
+2020

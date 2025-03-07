@@ -1,18 +1,18 @@
-Slasher
-keyword
-slasher
-Distopia
-keyword
-dystopia
-Marvel
+Blue Sky
 produtora
-Marvel
+Blue Sky
+Studio Ghibli
+produtora
+Studio Ghibli
 Mistério
 genero
 Mistério
-2020
-ano
-2020
-2000
-ano
-2000
+Ação
+genero
+Ação
+Fantasia
+genero
+Fantasia
+Aventura
+genero
+Aventura

@@ -1,18 +1,18 @@
-Fantasia
+Crime
 genero
-Fantasia
-Ação
-genero
-Ação
-2000
+Crime
+Marvel
+produtora
+Marvel
+Pixar
+produtora
+Pixar
+2020
 ano
-2000
-Romance
+2020
+1980
+ano
+1980
+Terror
 genero
-Romance
-Baseado em um livro
-keyword
-based on novel or book
-Aventura
-genero
-Aventura
+Terror

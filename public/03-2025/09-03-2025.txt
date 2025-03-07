@@ -1,18 +1,18 @@
-Anime
+Stop Motion
 keyword
-anime
-Ficção científica
+stop motion
+Comédia
 genero
-Ficção científica
-2020
+Comédia
+Animação
+genero
+Animação
+2000
 ano
-2020
-Distopia
-keyword
-dystopia
+2000
+2010
+ano
+2010
 Drama
 genero
 Drama
-Comédia
-genero
-Comédia
