@@ -1,18 +1,18 @@
-Aventura
-genero
-Aventura
-Pixar
-produtora
-Pixar
-Mistério
-genero
-Mistério
-1980
-ano
-1980
-2000
-ano
-2000
-Distopia
+Esportes
 keyword
-dystopia
+sports
+Mistério
+genero
+Mistério
+Baseado em um quadrinho
+keyword
+based on comic
+1990
+ano
+1990
+2020
+ano
+2020
+Aventura
+genero
+Aventura
