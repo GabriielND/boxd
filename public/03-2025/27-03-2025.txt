@@ -1,18 +1,18 @@
-Coming of Age
+Musical
 keyword
-coming of age
-Pixar
-produtora
-Pixar
-Marvel
-produtora
-Marvel
-Aventura
+musical
+Terror
 genero
-Aventura
+Terror
+Mistério
+genero
+Mistério
+Ficção científica
+genero
+Ficção científica
 1980
 ano
 1980
-1990
+2020
 ano
-1990
+2020

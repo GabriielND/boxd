@@ -1,18 +1,18 @@
-Distopia
-keyword
-dystopia
-DreamWorks Animation
-produtora
-DreamWorks Animation
 Mistério
 genero
 Mistério
-Baseado em um livro
-keyword
-based on novel or book
-1980
+Romance
+genero
+Romance
+2020
 ano
-1980
-Fantasia
+2020
+Aventura
 genero
-Fantasia
+Aventura
+Drama
+genero
+Drama
+Baseado em um quadrinho
+keyword
+based on comic
