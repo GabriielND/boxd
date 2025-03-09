@@ -4,9 +4,9 @@ musical
 Terror
 genero
 Terror
-Mistério
+Suspense
 genero
-Mistério
+Suspense
 Ficção científica
 genero
 Ficção científica

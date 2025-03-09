@@ -10,9 +10,9 @@ ano
 Ação
 genero
 Ação
-Mistério
+Suspense
 genero
-Mistério
+Suspense
 Ficção científica
 genero
 Ficção científica
