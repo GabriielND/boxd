@@ -84,15 +84,13 @@ async function validarAno(anoResp, filmeResp, index){
 
 async function validarGenero(generoResp, filmeResp, index){
     try {
-        // const filmeGeral = await buscarFilme(filmeResp)
         alteraDois(filmeResp["results"])
         const filmeDetal = await buscarIdFilme(filmeResp["results"][index]["id"])
         const generosFilme = filmeDetal["genres"]
-        // filmeAcerto = filmeResp["results"][index]["title"]
-        // filmeAtual = filmeResp["results"][index]["id"]
         for (let i = 0; i < generosFilme.length; i++) {
             if (generosFilme[i]["name"] == generoResp){
-                // localStorage["filmeAcerto"] = filmeAcerto
+                return true
+            } else if ((generosFilme[i]["name"] == "Mistério" || generosFilme[i]["name"] == "Thriller") && generoResp == "Suspense"){
                 return true
             }
         }

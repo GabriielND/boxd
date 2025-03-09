@@ -8,8 +8,6 @@ let tabuleiroTexto
 let textoShare
 let dataCompleta
 let mesAno
-let mes
-let ano
 let tabuleiroCache = "000000000"
 let botoesLista = ["btNO","btN","btNE","btO","btC","btL","btSO","btS","btSE"]
 
@@ -149,6 +147,7 @@ function Boxd() {
   let fetchData = async() => {
     if (dataControle != ""){
       dataCompleta = dataControle
+      mesAno = dataCompleta.slice(3)
     } else {
       let hoje = new Date()
       let dia = String(hoje.getDate()).padStart(2, "0")
