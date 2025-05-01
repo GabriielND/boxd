@@ -1,0 +1,18 @@
+Ficção científica
+genero
+Ficção científica
+Ação
+genero
+Ação
+Slasher
+keyword
+slasher
+Crime
+genero
+Crime
+Suspense
+genero
+Suspense
+1980
+ano
+1980
