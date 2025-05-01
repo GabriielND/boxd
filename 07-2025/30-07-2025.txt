@@ -1,0 +1,18 @@
+Fantasia
+genero
+Fantasia
+1980
+ano
+1980
+Ficção científica
+genero
+Ficção científica
+Comédia
+genero
+Comédia
+Baseado em um livro
+keyword
+based on novel or book
+Aventura
+genero
+Aventura

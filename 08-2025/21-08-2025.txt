@@ -1,0 +1,18 @@
+Aventura
+genero
+Aventura
+Crime
+genero
+Crime
+Super Heróis
+keyword
+superhero
+Ficção científica
+genero
+Ficção científica
+1990
+ano
+1990
+Comédia
+genero
+Comédia

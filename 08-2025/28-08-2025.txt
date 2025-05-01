@@ -1,0 +1,18 @@
+Super Heróis
+keyword
+superhero
+Baseado em um video game
+keyword
+based on video game
+Ficção científica
+genero
+Ficção científica
+Aventura
+genero
+Aventura
+Comédia
+genero
+Comédia
+2020
+ano
+2020

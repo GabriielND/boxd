@@ -1,0 +1,18 @@
+Ficção científica
+genero
+Ficção científica
+Crime
+genero
+Crime
+Ação
+genero
+Ação
+1980
+ano
+1980
+Animação
+genero
+Animação
+Baseado em um livro
+keyword
+based on novel or book
