@@ -1,18 +1,18 @@
-Baseado em um quadrinho
-keyword
-based on comic
-Aventura
-genero
-Aventura
-Slasher
-keyword
-slasher
 Comédia
 genero
 Comédia
-2010
-ano
-2010
-Suspense
+Ficção científica
 genero
-Suspense
+Ficção científica
+Drama
+genero
+Drama
+Vera Farmiga
+elenco
+Vera Farmiga
+Ação
+genero
+Ação
+Nacional
+nacional
+Nacional

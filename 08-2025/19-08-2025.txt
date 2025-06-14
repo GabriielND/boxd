@@ -1,18 +1,18 @@
-Studio Ghibli
+Marvel
 produtora
-Studio Ghibli
-1990
-ano
-1990
-Musical
+Marvel
+Animação
+genero
+Animação
+Coming of Age
 keyword
-musical
-Ficção científica
-genero
-Ficção científica
-Aventura
-genero
-Aventura
-Comédia
-genero
-Comédia
+coming of age
+2010
+ano
+2010
+2000
+ano
+2000
+1980
+ano
+1980

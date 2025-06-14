@@ -1,18 +1,18 @@
-Fantasia
+Drama
 genero
-Fantasia
-1980
-ano
-1980
-Ficção científica
+Drama
+Suspense
 genero
-Ficção científica
+Suspense
+Ação
+genero
+Ação
+Willem Dafoe
+elenco
+Willem Dafoe
 Comédia
 genero
 Comédia
-Baseado em um livro
-keyword
-based on novel or book
-Aventura
+Ficção científica
 genero
-Aventura
+Ficção científica

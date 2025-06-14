@@ -1,18 +1,18 @@
-Disney Animation
-produtora
-Disney Animation
-Romance
+Ação
 genero
-Romance
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
+Ação
 2000
 ano
 2000
-Musical
-keyword
-musical
-Coming of Age
-keyword
-coming of age
+Ficção científica
+genero
+Ficção científica
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Fantasia
+genero
+Fantasia
+Aventura
+genero
+Aventura

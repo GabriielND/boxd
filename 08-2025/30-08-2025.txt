@@ -1,18 +1,18 @@
-Esportes
-keyword
-sports
-Disney Animation
-produtora
-Disney Animation
-Distopia
-keyword
-dystopia
+Fantasia
+genero
+Fantasia
+1990
+ano
+1990
+Ficção científica
+genero
+Ficção científica
+Nacional
+nacional
+Nacional
 Aventura
 genero
 Aventura
-2020
-ano
-2020
-2000
-ano
-2000
+Ação
+genero
+Ação

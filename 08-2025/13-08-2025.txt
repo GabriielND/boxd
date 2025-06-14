@@ -1,18 +1,18 @@
-Distopia
-keyword
-dystopia
-Baseado em um quadrinho
-keyword
-based on comic
-Nacional
-nacional
-Nacional
-Crime
+Suspense
 genero
-Crime
-2010
+Suspense
+Comédia
+genero
+Comédia
+1980
 ano
-2010
-2020
-ano
-2020
+1980
+Sandra Bullock
+elenco
+Sandra Bullock
+Drama
+genero
+Drama
+Aventura
+genero
+Aventura

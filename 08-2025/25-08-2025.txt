@@ -1,18 +1,18 @@
-Blue Sky
-produtora
-Blue Sky
-Studio Ghibli
-produtora
-Studio Ghibli
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
+Aventura
+genero
+Aventura
+Terror
+genero
+Terror
 Fantasia
 genero
 Fantasia
-2000
-ano
-2000
-2020
-ano
-2020
+Ryan Gosling
+elenco
+Ryan Gosling
+Comédia
+genero
+Comédia
+Ficção científica
+genero
+Ficção científica

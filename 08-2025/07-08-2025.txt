@@ -1,18 +1,18 @@
-Musical
+2020
+ano
+2020
+Super Heróis
 keyword
-musical
-Romance
+superhero
+Comédia
 genero
-Romance
-Studio Ghibli
+Comédia
+Pixar
 produtora
-Studio Ghibli
-2000
-ano
-2000
-Fantasia
-genero
-Fantasia
-2010
-ano
-2010
+Pixar
+DreamWorks Animation
+produtora
+DreamWorks Animation
+Anime
+keyword
+anime

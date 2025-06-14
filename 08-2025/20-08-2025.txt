@@ -1,18 +1,18 @@
-Slasher
-keyword
-slasher
+Ficção científica
+genero
+Ficção científica
+Aventura
+genero
+Aventura
+Comédia
+genero
+Comédia
+Reese Witherspoon
+elenco
+Reese Witherspoon
 Suspense
 genero
 Suspense
-Anime
-keyword
-anime
-2000
-ano
-2000
-2020
-ano
-2020
-Ação
+Romance
 genero
-Ação
+Romance

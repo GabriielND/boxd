@@ -1,18 +1,18 @@
-Super Heróis
-keyword
-superhero
-Studio Ghibli
-produtora
-Studio Ghibli
-Esportes
-keyword
-sports
-Pixar
-produtora
-Pixar
-Drama
+Fantasia
 genero
-Drama
+Fantasia
+Nacional
+nacional
+Nacional
+Slasher
+keyword
+slasher
+Comédia
+genero
+Comédia
+Ficção científica
+genero
+Ficção científica
 1990
 ano
 1990

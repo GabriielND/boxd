@@ -1,18 +1,18 @@
-Baseado em um quadrinho
-keyword
-based on comic
-Terror
-genero
-Terror
-Pixar
-produtora
-Pixar
-Distopia
-keyword
-dystopia
-Ficção científica
-genero
-Ficção científica
 Ação
 genero
 Ação
+Suspense
+genero
+Suspense
+Comédia
+genero
+Comédia
+Jake Gyllenhaal
+elenco
+Jake Gyllenhaal
+Terror
+genero
+Terror
+Ficção científica
+genero
+Ficção científica

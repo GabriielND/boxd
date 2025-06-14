@@ -1,18 +1,18 @@
-Baseado em um livro
-keyword
-based on novel or book
+Nacional
+nacional
+Nacional
+Drama
+genero
+Drama
 Ficção científica
 genero
 Ficção científica
-Pixar
-produtora
-Pixar
-2020
-ano
-2020
+Wagner Moura
+elenco
+Wagner Moura
 Ação
 genero
 Ação
-Distopia
-keyword
-dystopia
+Animação
+genero
+Animação

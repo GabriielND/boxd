@@ -1,18 +1,18 @@
-Baseado em um quadrinho
+Ação
+genero
+Ação
+Stop Motion
 keyword
-based on comic
-Suspense
-genero
-Suspense
-Ficção científica
-genero
-Ficção científica
-1990
+stop motion
+Baseado em um video game
+keyword
+based on video game
+2010
 ano
-1990
-Fantasia
+2010
+2020
+ano
+2020
+Aventura
 genero
-Fantasia
-Distopia
-keyword
-dystopia
+Aventura

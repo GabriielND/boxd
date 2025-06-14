@@ -1,18 +1,18 @@
-Slasher
-keyword
-slasher
-Pixar
-produtora
-Pixar
-Fantasia
+Crime
 genero
-Fantasia
-Ação
+Crime
+Drama
 genero
-Ação
-1990
-ano
-1990
-Ficção científica
+Drama
+Suspense
 genero
-Ficção científica
+Suspense
+Daniel Radcliffe
+elenco
+Daniel Radcliffe
+Terror
+genero
+Terror
+Comédia
+genero
+Comédia

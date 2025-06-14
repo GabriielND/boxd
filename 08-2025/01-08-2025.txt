@@ -1,18 +1,18 @@
-Aventura
+Nacional
+nacional
+Nacional
+Fantasia
 genero
-Aventura
+Fantasia
 Distopia
 keyword
 dystopia
-Slasher
+Ação
+genero
+Ação
+Crime
+genero
+Crime
+Baseado em um livro
 keyword
-slasher
-Ficção científica
-genero
-Ficção científica
-2010
-ano
-2010
-Ação
-genero
-Ação
+based on novel or book

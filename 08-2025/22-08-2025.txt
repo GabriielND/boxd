@@ -1,18 +1,18 @@
-Blue Sky
-produtora
-Blue Sky
-Romance
-genero
-Romance
-Baseado em um livro
+Super Heróis
 keyword
-based on novel or book
-Animação
-genero
-Animação
-Fantasia
-genero
-Fantasia
-2000
+superhero
+Anime
+keyword
+anime
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+1980
 ano
-2000
+1980
+2020
+ano
+2020
+Drama
+genero
+Drama

@@ -1,18 +1,18 @@
-Musical
+Baseado em um video game
 keyword
-musical
-Coming of Age
-keyword
-coming of age
-Terror
+based on video game
+Ficção científica
 genero
-Terror
-1980
-ano
-1980
-2020
-ano
-2020
-Drama
+Ficção científica
+Marvel
+produtora
+Marvel
+Animação
 genero
-Drama
+Animação
+2010
+ano
+2010
+Fantasia
+genero
+Fantasia

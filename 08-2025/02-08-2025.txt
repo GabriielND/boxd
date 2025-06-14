@@ -1,18 +1,18 @@
-Crime
-genero
-Crime
+2000
+ano
+2000
 Baseado em um video game
 keyword
 based on video game
-Baseado em um livro
-keyword
-based on novel or book
-2020
-ano
-2020
-Animação
+Studio Ghibli
+produtora
+Studio Ghibli
+Comédia
 genero
-Animação
-Terror
+Comédia
+Aventura
 genero
-Terror
+Aventura
+Ficção científica
+genero
+Ficção científica

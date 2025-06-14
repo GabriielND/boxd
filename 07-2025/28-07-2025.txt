@@ -1,18 +1,18 @@
-Aventura
-genero
-Aventura
-1990
-ano
-1990
-Baseado em um livro
-keyword
-based on novel or book
-Fantasia
-genero
-Fantasia
 Comédia
 genero
 Comédia
 Nacional
 nacional
 Nacional
+Suspense
+genero
+Suspense
+Selton Mello
+elenco
+Selton Mello
+Crime
+genero
+Crime
+Ficção científica
+genero
+Ficção científica

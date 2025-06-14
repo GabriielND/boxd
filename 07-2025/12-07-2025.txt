@@ -1,18 +1,18 @@
-Marvel
+Animação
+genero
+Animação
+Esportes
+keyword
+sports
+Studio Ghibli
 produtora
-Marvel
-Animação
-genero
-Animação
-1980
+Studio Ghibli
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+2010
 ano
-1980
-Drama
+2010
+Ação
 genero
-Drama
-Comédia
-genero
-Comédia
-Aventura
-genero
-Aventura
+Ação

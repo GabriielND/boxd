@@ -1,18 +1,18 @@
-Animação
-genero
-Animação
-Super Heróis
+Baseado em um video game
 keyword
-superhero
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-Drama
+based on video game
+Disney Animation
+produtora
+Disney Animation
+Anime
+keyword
+anime
+Comédia
 genero
-Drama
-1990
+Comédia
+2020
 ano
-1990
-Ação
-genero
-Ação
+2020
+2000
+ano
+2000

@@ -1,18 +1,18 @@
-Suspense
+2010
+ano
+2010
+Nacional
+nacional
+Nacional
+Pixar
+produtora
+Pixar
+Drama
 genero
-Suspense
-Baseado em um video game
-keyword
-based on video game
-Crime
+Drama
+Animação
 genero
-Crime
-Distopia
-keyword
-dystopia
-Terror
+Animação
+Comédia
 genero
-Terror
-Ficção científica
-genero
-Ficção científica
+Comédia

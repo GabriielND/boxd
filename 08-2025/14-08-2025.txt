@@ -1,18 +1,18 @@
-Ação
-genero
-Ação
-Slasher
-keyword
-slasher
-Comédia
-genero
-Comédia
-1980
+2010
 ano
-1980
+2010
+Distopia
+keyword
+dystopia
 Ficção científica
 genero
 Ficção científica
-Fantasia
+Anime
+keyword
+anime
+Animação
 genero
-Fantasia
+Animação
+Ação
+genero
+Ação
