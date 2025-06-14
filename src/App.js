@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import './App.css';
-import {validarResposta} from './tmdbAPI.js';
+import {setUrlPessoa, validarResposta} from './tmdbAPI.js';
+import { getActorDetails, getActorImageUrl } from "./tmdbAPI.js";
 
 const versaoAtual = "08032025"
 const dataControle = ""
@@ -8,6 +9,8 @@ let tabuleiroTexto
 let textoShare
 let dataCompleta
 let mesAno
+let diaSemana
+let urlPessoa = "https://media.themoviedb.org/t/p/w300_and_h450_bestv2"
 let tabuleiroCache = "000000000"
 let botoesLista = ["btNO","btN","btNE","btO","btC","btL","btSO","btS","btSE"]
 
@@ -41,6 +44,13 @@ function replicarTabuleiro(){
   }
 }
 
+function converteData(data){
+    let lista = data.toString().split("-")
+    let dataFormat = new Date(lista[1]+"-"+lista[0]+"-"+lista[2])
+
+    return(dataFormat)
+}
+
 //INICIO DO APP -------------------------------------------------
 function Boxd() {
   const [coluna1, setColuna1] = useState([])
@@ -59,7 +69,9 @@ function Boxd() {
   const [mostraPalpite, setMostraPalpite] = useState([])
   const [mostraDesiste, setMostraDesiste] = useState(false)
   const [mostraVitoria, setMostraVitoria] = useState([])
+  const [fotoAtor, setFotoAtor] = useState("")
 
+  
   //diminuir bagunça na "jogar()"
   const enviarBotao = document.getElementById("enviar")
   const botaoAtual = document.getElementById(btAtual)
@@ -84,6 +96,11 @@ function Boxd() {
     display : "none",
     opacity : 0,
   });
+
+  const [estiloFoto, setEstiloFoto] = useState({
+    display : "none",
+    opacity : 0,
+  })
 
   function limparCache(){
     if (typeof localStorage["versao"] == "undefined" ||
@@ -148,8 +165,10 @@ function Boxd() {
     if (dataControle != ""){
       dataCompleta = dataControle
       mesAno = dataCompleta.slice(3)
+      diaSemana = converteData(dataCompleta).getDay()
     } else {
       let hoje = new Date()
+      diaSemana = hoje.getDay()
       let dia = String(hoje.getDate()).padStart(2, "0")
       let mes = String(hoje.getMonth() + 1).padStart(2,"0")
       let ano = hoje.getFullYear()
@@ -171,6 +190,16 @@ function Boxd() {
     setLinha1([lista[9], [lista[10], lista[11]]])
     setLinha2([lista[12], [lista[13], lista[14]]])
     setLinha3([lista[15], [lista[16], lista[17]]])
+
+    if(diaSemana == 1 || diaSemana == 3){
+      urlPessoa = "https://media.themoviedb.org/t/p/w300_and_h450_bestv2"
+      let urlImagem = await setUrlPessoa(lista[9])
+      setFotoAtor(urlPessoa + urlImagem)
+      setEstiloFoto({
+        display : "block",
+        opacity : 1,
+      })
+    }
   }
 
   function palpite(fromButton = false){
@@ -384,7 +413,7 @@ function Boxd() {
     <div>
       <table class = "grid">
         <tr>
-          <td id="vazio"></td>
+          <td id="vazio"><img src={fotoAtor} style={estiloFoto}></img></td>
           <th><div class="brdrColuna"><a style={{lineBreak: "strict"}}>{coluna1[0]}</a></div></th>
           <th><div class="brdrColuna">{coluna2[0]}</div></th>
           <th><div class="brdrColuna">{coluna3[0]}</div></th>

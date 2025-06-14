@@ -62,6 +62,29 @@ function buscarElencoFilme(id){
     })
 }
 
+export function getActorDetails(ator) {
+    return fetch('https://api.themoviedb.org/3/search/person?query=' + encodeURI(ator) + '&include_adult=false&language=pt-BR&page=1', options)
+        .then(response => response.json())
+        .then(json => {
+            return json;
+        })
+}
+
+function getActorMoviesGenres(atorID) {
+    return fetch('https://api.themoviedb.org/3/person/' + atorID + '/movie_credits?language=pt-BR', options)
+        .then(response => response.json())
+        .then(json => {
+            return json;
+        })
+}
+
+export function getActorImageUrl(atorID){
+    return fetch('https://api.themoviedb.org/3/person/' + atorID + '/images', options)
+    .then(response => response.json())
+    .then(json => {return json;})
+}
+
+
 async function validarAno(anoResp, filmeResp, index){
     try {
         anoResp = Number(anoResp)
@@ -336,3 +359,24 @@ export async function validarResposta(catg1, catg2, filme){
     }
     return flag
 }
+
+async function getPersonId(ator){
+    let detalhesPessoa = await getActorDetails(ator)
+    const id = detalhesPessoa.results[0].id
+    return id
+}
+
+async function getUrlPessoa(id){
+    let endUrl = await getActorImageUrl(id)
+    return endUrl
+}
+
+export async function setUrlPessoa(ator){
+    let id = await getPersonId(ator)
+    let url = await getUrlPessoa(id)
+    console.log(url.profiles[0].file_path)
+    return url.profiles[0].file_path
+
+}
+
+// setUrlPessoa("Pedro Pascal")
