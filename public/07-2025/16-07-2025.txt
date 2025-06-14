@@ -1,18 +1,18 @@
-Pixar
-produtora
-Pixar
-2000
-ano
-2000
-Nacional
-nacional
-Nacional
+Terror
+genero
+Terror
 Ação
 genero
 Ação
-Comédia
+Ficção científica
 genero
-Comédia
-Aventura
+Ficção científica
+Patrick Wilson
+elenco
+Patrick Wilson
+Fantasia
 genero
-Aventura
+Fantasia
+Suspense
+genero
+Suspense

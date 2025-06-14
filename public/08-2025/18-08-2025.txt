@@ -1,18 +1,18 @@
-2010
-ano
-2010
-Baseado em um quadrinho
-keyword
-based on comic
-Baseado em um video game
-keyword
-based on video game
-Distopia
-keyword
-dystopia
-Animação
+Terror
 genero
-Animação
-Fantasia
+Terror
+Romance
 genero
-Fantasia
+Romance
+Comédia
+genero
+Comédia
+Vera Farmiga
+elenco
+Vera Farmiga
+Ação
+genero
+Ação
+Drama
+genero
+Drama

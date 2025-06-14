@@ -1,18 +1,18 @@
-Studio Ghibli
-produtora
-Studio Ghibli
+Anime
+keyword
+anime
+Terror
+genero
+Terror
+Super Heróis
+keyword
+superhero
 Ação
 genero
 Ação
 2000
 ano
 2000
-Ficção científica
-genero
-Ficção científica
-Esportes
-keyword
-sports
-Drama
-genero
-Drama
+1980
+ano
+1980

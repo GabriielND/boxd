@@ -1,18 +1,18 @@
-Distopia
-keyword
-dystopia
-2020
+Drama
+genero
+Drama
+2000
 ano
-2020
-Disney Animation
-produtora
-Disney Animation
-Ficção científica
+2000
+Nacional
+nacional
+Nacional
+Fernanda Torres
+elenco
+Fernanda Torres
+Comédia
 genero
-Ficção científica
-Baseado em um livro
-keyword
-based on novel or book
-Crime
+Comédia
+Romance
 genero
-Crime
+Romance

@@ -1,18 +1,18 @@
-Aventura
-genero
-Aventura
-Crime
-genero
-Crime
-Super Heróis
+Baseado em um livro
 keyword
-superhero
-Ficção científica
+based on novel or book
+Musical
+keyword
+musical
+Ação
 genero
-Ficção científica
+Ação
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+2010
+ano
+2010
 1990
 ano
 1990
-Comédia
-genero
-Comédia

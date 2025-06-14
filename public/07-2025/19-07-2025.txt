@@ -1,18 +1,18 @@
-Comédia
+Drama
 genero
-Comédia
-DreamWorks Animation
-produtora
-DreamWorks Animation
-1980
+Drama
+Baseado em um livro
+keyword
+based on novel or book
+Musical
+keyword
+musical
+1990
 ano
-1980
-Drama
-genero
-Drama
-Fantasia
-genero
-Fantasia
-Studio Ghibli
+1990
+DreamWorks Animation
 produtora
-Studio Ghibli
+DreamWorks Animation
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme

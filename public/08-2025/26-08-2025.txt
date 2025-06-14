@@ -1,18 +1,18 @@
-Stop Motion
+2010
+ano
+2010
+1980
+ano
+1980
+Musical
 keyword
-stop motion
-Animação
-genero
-Animação
-Coming of Age
+musical
+Baseado em um livro
 keyword
-coming of age
-Aventura
-genero
-Aventura
-Comédia
-genero
-Comédia
+based on novel or book
 Drama
 genero
 Drama
+Romance
+genero
+Romance

@@ -1,18 +1,18 @@
-Comédia
+Crime
 genero
-Comédia
-Suspense
+Crime
+Ação
 genero
-Suspense
-Baseado em um video game
-keyword
-based on video game
-2000
+Ação
+1990
 ano
-2000
-2010
-ano
-2010
+1990
+Chris Evans
+elenco
+Chris Evans
 Fantasia
 genero
 Fantasia
+Comédia
+genero
+Comédia

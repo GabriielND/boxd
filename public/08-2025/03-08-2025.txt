@@ -1,18 +1,18 @@
-Musical
-keyword
-musical
 Drama
 genero
 Drama
-Stop Motion
-keyword
-stop motion
-Aventura
-genero
-Aventura
-2000
+Nacional
+nacional
+Nacional
+Blue Sky
+produtora
+Blue Sky
+2010
 ano
-2000
-Fantasia
+2010
+2020
+ano
+2020
+Animação
 genero
-Fantasia
+Animação

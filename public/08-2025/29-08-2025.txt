@@ -1,18 +1,18 @@
-Ação
-genero
-Ação
-Pixar
+Disney Animation
 produtora
-Pixar
-DreamWorks Animation
-produtora
-DreamWorks Animation
-Drama
-genero
-Drama
+Disney Animation
+Coming of Age
+keyword
+coming of age
+Slasher
+keyword
+slasher
 2010
 ano
 2010
-1990
+Comédia
+genero
+Comédia
+2020
 ano
-1990
+2020

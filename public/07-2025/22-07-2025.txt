@@ -1,18 +1,18 @@
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-Terror
+Marvel
+produtora
+Marvel
+Stop Motion
+keyword
+stop motion
+Esportes
+keyword
+sports
+Comédia
 genero
-Terror
+Comédia
 2010
 ano
 2010
-Baseado em um livro
-keyword
-based on novel or book
-Super Heróis
-keyword
-superhero
-Ação
+Drama
 genero
-Ação
+Drama

@@ -1,18 +1,18 @@
+Marvel
+produtora
+Marvel
+Romance
+genero
+Romance
 Indicado a Melhor Filme (Oscar)
 lista
 Indicados ao Oscar de Melhor Filme
-Musical
-keyword
-musical
-Fantasia
+1980
+ano
+1980
+1990
+ano
+1990
+Aventura
 genero
-Fantasia
-Baseado em um livro
-keyword
-based on novel or book
-Disney Animation
-produtora
-Disney Animation
-Drama
-genero
-Drama
+Aventura

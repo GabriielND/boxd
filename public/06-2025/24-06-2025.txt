@@ -1,18 +1,18 @@
-Romance
+2000
+ano
+2000
+Coming of Age
+keyword
+coming of age
+Aventura
 genero
-Romance
+Aventura
 Musical
 keyword
 musical
-DreamWorks Animation
-produtora
-DreamWorks Animation
-Animação
+Drama
 genero
-Animação
-2020
-ano
-2020
-Aventura
+Drama
+Romance
 genero
-Aventura
+Romance
