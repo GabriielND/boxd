@@ -3,7 +3,7 @@ import './App.css';
 import {setUrlPessoa, validarResposta} from './tmdbAPI.js';
 import { getActorDetails, getActorImageUrl } from "./tmdbAPI.js";
 
-const versaoAtual = "17062025"
+const versaoAtual = "18062025"
 const dataControle = ""
 let tabuleiroTexto
 let textoShare
