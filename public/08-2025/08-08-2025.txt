@@ -1,18 +1,18 @@
-Studio Ghibli
-produtora
-Studio Ghibli
-Drama
+Fantasia
 genero
-Drama
-Crime
+Fantasia
+Anime
+keyword
+anime
+Animação
 genero
-Crime
+Animação
+2010
+ano
+2010
+Romance
+genero
+Romance
 2000
 ano
 2000
-Baseado em um quadrinho
-keyword
-based on comic
-Fantasia
-genero
-Fantasia

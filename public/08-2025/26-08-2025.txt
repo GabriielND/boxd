@@ -1,18 +1,18 @@
-2010
-ano
-2010
-1980
-ano
-1980
-Musical
+Disney Animation
+produtora
+Disney Animation
+DreamWorks Animation
+produtora
+DreamWorks Animation
+Pixar
+produtora
+Pixar
+Coming of Age
 keyword
-musical
-Baseado em um livro
-keyword
-based on novel or book
-Drama
+coming of age
+Aventura
 genero
-Drama
-Romance
-genero
-Romance
+Aventura
+2000
+ano
+2000

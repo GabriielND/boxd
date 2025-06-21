@@ -1,18 +1,18 @@
 Ação
 genero
 Ação
-Suspense
-genero
-Suspense
+2020
+ano
+2020
 Comédia
 genero
 Comédia
-Jake Gyllenhaal
+Michael B Jordan
 elenco
-Jake Gyllenhaal
+Michael B Jordan
 Terror
 genero
 Terror
-Ficção científica
+Animação
 genero
-Ficção científica
+Animação

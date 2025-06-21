@@ -1,18 +1,18 @@
-Suspense
+Nacional
+nacional
+Nacional
+Animação
 genero
-Suspense
-Comédia
-genero
-Comédia
-1980
+Animação
+2000
 ano
-1980
-Sandra Bullock
+2000
+Wagner Moura
 elenco
-Sandra Bullock
-Drama
+Wagner Moura
+Romance
 genero
-Drama
-Aventura
+Romance
+Ação
 genero
-Aventura
+Ação

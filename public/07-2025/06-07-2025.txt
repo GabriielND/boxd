@@ -1,18 +1,18 @@
-DreamWorks Animation
-produtora
-DreamWorks Animation
-Aventura
+Crime
 genero
-Aventura
-Terror
-genero
-Terror
-Marvel
+Crime
+Distopia
+keyword
+dystopia
+Blue Sky
 produtora
-Marvel
-1980
+Blue Sky
+Ficção científica
+genero
+Ficção científica
+Ação
+genero
+Ação
+2000
 ano
-1980
-1990
-ano
-1990
+2000

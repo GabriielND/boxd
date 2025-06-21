@@ -1,18 +1,18 @@
-Pixar
-produtora
-Pixar
-Nacional
-nacional
-Nacional
+Ficção científica
+genero
+Ficção científica
+Anime
+keyword
+anime
 Esportes
 keyword
 sports
-Comédia
+Baseado em um quadrinho
+keyword
+based on comic
+1980
+ano
+1980
+Drama
 genero
-Comédia
-2010
-ano
-2010
-2020
-ano
-2020
+Drama

@@ -1,18 +1,18 @@
-Aventura
+1990
+ano
+1990
+Comédia
 genero
-Aventura
-Terror
+Comédia
+Ficção científica
 genero
-Terror
-Fantasia
-genero
-Fantasia
-Ryan Gosling
+Ficção científica
+Angelina Jolie
 elenco
-Ryan Gosling
-Comédia
+Angelina Jolie
+Ação
 genero
-Comédia
-Ficção científica
-genero
-Ficção científica
+Ação
+Nacional
+nacional
+Nacional

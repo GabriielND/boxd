@@ -1,18 +1,18 @@
-Esportes
+1990
+ano
+1990
+Baseado em um video game
 keyword
-sports
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-Aventura
-genero
-Aventura
-Animação
-genero
-Animação
+based on video game
+Distopia
+keyword
+dystopia
 Ação
 genero
 Ação
-Pixar
-produtora
-Pixar
+Ficção científica
+genero
+Ficção científica
+Terror
+genero
+Terror

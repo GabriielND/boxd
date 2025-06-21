@@ -1,18 +1,18 @@
+Drama
+genero
+Drama
+2010
+ano
+2010
+Suspense
+genero
+Suspense
 Baseado em um livro
 keyword
 based on novel or book
-Marvel
-produtora
-Marvel
-Stop Motion
+Distopia
 keyword
-stop motion
-2020
-ano
-2020
-2000
-ano
-2000
-Fantasia
+dystopia
+Ficção científica
 genero
-Fantasia
+Ficção científica

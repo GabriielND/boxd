@@ -1,18 +1,18 @@
-Fantasia
+Ficção científica
 genero
-Fantasia
-Esportes
+Ficção científica
+Suspense
+genero
+Suspense
+Baseado em um video game
 keyword
-sports
-Suspense
-genero
-Suspense
-Drama
-genero
-Drama
-1980
+based on video game
+2010
 ano
-1980
+2010
 Comédia
 genero
 Comédia
+2020
+ano
+2020

@@ -1,18 +1,18 @@
-Nacional
-nacional
-Nacional
-Coming of Age
-keyword
-coming of age
-Ficção científica
+Suspense
 genero
-Ficção científica
-2020
+Suspense
+1980
 ano
-2020
-Romance
-genero
-Romance
-Baseado em um quadrinho
+1980
+Anime
 keyword
-based on comic
+anime
+Fantasia
+genero
+Fantasia
+Baseado em um livro
+keyword
+based on novel or book
+Distopia
+keyword
+dystopia

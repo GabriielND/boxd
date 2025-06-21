@@ -1,18 +1,18 @@
-Musical
+Baseado em um video game
 keyword
-musical
-Pixar
-produtora
-Pixar
-Aventura
-genero
-Aventura
-1980
-ano
-1980
-Animação
-genero
-Animação
+based on video game
 2010
 ano
 2010
+Slasher
+keyword
+slasher
+Fantasia
+genero
+Fantasia
+Comédia
+genero
+Comédia
+Ficção científica
+genero
+Ficção científica

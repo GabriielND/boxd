@@ -1,18 +1,18 @@
-Super Heróis
+Musical
 keyword
-superhero
-Anime
-keyword
-anime
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-1980
-ano
-1980
-2020
-ano
-2020
+musical
+Studio Ghibli
+produtora
+Studio Ghibli
+Suspense
+genero
+Suspense
+Romance
+genero
+Romance
+Comédia
+genero
+Comédia
 Drama
 genero
 Drama

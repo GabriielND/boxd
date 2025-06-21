@@ -1,18 +1,18 @@
-Disney Animation
-produtora
-Disney Animation
-Coming of Age
-keyword
-coming of age
-Slasher
-keyword
-slasher
-2010
-ano
-2010
-Comédia
+Crime
 genero
-Comédia
-2020
+Crime
+Animação
+genero
+Animação
+Fantasia
+genero
+Fantasia
+Nacional
+nacional
+Nacional
+Ação
+genero
+Ação
+2000
 ano
-2020
+2000

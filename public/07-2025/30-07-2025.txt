@@ -1,18 +1,18 @@
-Drama
+Aventura
 genero
-Drama
-Suspense
+Aventura
+Animação
 genero
-Suspense
+Animação
 Ação
 genero
 Ação
-Willem Dafoe
+Lindsay Lohan
 elenco
-Willem Dafoe
-Comédia
-genero
-Comédia
-Ficção científica
-genero
-Ficção científica
+Lindsay Lohan
+2020
+ano
+2020
+1980
+ano
+1980

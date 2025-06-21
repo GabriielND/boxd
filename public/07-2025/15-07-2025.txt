@@ -1,18 +1,18 @@
-Marvel
+Super Heróis
+keyword
+superhero
+Ficção científica
+genero
+Ficção científica
+Pixar
 produtora
-Marvel
-Romance
+Pixar
+Drama
 genero
-Romance
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-1980
-ano
-1980
-1990
-ano
-1990
+Drama
 Aventura
 genero
 Aventura
+2010
+ano
+2010

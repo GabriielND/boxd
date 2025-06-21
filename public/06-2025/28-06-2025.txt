@@ -1,18 +1,18 @@
-Baseado em um livro
-keyword
-based on novel or book
-Blue Sky
+Studio Ghibli
 produtora
-Blue Sky
-2020
+Studio Ghibli
+2000
 ano
-2020
+2000
+Baseado em um quadrinho
+keyword
+based on comic
 Aventura
 genero
 Aventura
-Ação
+Fantasia
 genero
-Ação
-Animação
+Fantasia
+Romance
 genero
-Animação
+Romance

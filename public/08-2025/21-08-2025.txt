@@ -1,18 +1,18 @@
-Baseado em um livro
+Stop Motion
 keyword
-based on novel or book
-Musical
-keyword
-musical
-Ação
+stop motion
+2010
+ano
+2010
+2000
+ano
+2000
+Aventura
 genero
-Ação
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-2010
-ano
-2010
-1990
-ano
-1990
+Aventura
+Animação
+genero
+Animação
+Fantasia
+genero
+Fantasia

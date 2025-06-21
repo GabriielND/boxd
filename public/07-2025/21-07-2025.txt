@@ -1,18 +1,18 @@
-1990
-ano
-1990
-Terror
+Suspense
 genero
-Terror
-Crime
+Suspense
+Comédia
 genero
-Crime
-Elizabeth Olsen
+Comédia
+Animação
+genero
+Animação
+Octavia Spencer
 elenco
-Elizabeth Olsen
+Octavia Spencer
 Ação
 genero
 Ação
-Ficção científica
+Drama
 genero
-Ficção científica
+Drama

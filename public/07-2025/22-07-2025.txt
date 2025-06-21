@@ -1,18 +1,18 @@
-Marvel
-produtora
-Marvel
-Stop Motion
+Super Heróis
 keyword
-stop motion
-Esportes
-keyword
-sports
-Comédia
-genero
-Comédia
-2010
+superhero
+1990
 ano
-2010
-Drama
+1990
+Slasher
+keyword
+slasher
+Fantasia
 genero
-Drama
+Fantasia
+Crime
+genero
+Crime
+Ficção científica
+genero
+Ficção científica

@@ -1,18 +1,18 @@
-Ficção científica
+Nacional
+nacional
+Nacional
+Drama
 genero
-Ficção científica
-Aventura
-genero
-Aventura
-Comédia
-genero
-Comédia
-Reese Witherspoon
+Drama
+1990
+ano
+1990
+Selton Mello
 elenco
-Reese Witherspoon
-Suspense
+Selton Mello
+Comédia
 genero
-Suspense
-Romance
+Comédia
+Ficção científica
 genero
-Romance
+Ficção científica

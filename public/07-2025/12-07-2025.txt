@@ -1,18 +1,18 @@
-Animação
+Ficção científica
 genero
-Animação
-Esportes
+Ficção científica
+Baseado em um quadrinho
 keyword
-sports
-Studio Ghibli
-produtora
-Studio Ghibli
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-2010
-ano
-2010
-Ação
+based on comic
+Fantasia
 genero
-Ação
+Fantasia
+Animação
+genero
+Animação
+Romance
+genero
+Romance
+Comédia
+genero
+Comédia

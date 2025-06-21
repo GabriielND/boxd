@@ -1,18 +1,18 @@
-Crime
-genero
-Crime
-Ação
-genero
-Ação
-1990
+2020
 ano
-1990
-Chris Evans
+2020
+Nacional
+nacional
+Nacional
+Romance
+genero
+Romance
+Wagner Moura
 elenco
-Chris Evans
-Fantasia
+Wagner Moura
+Ação
 genero
-Fantasia
-Comédia
+Ação
+Aventura
 genero
-Comédia
+Aventura

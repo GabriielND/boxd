@@ -1,18 +1,18 @@
-Drama
-genero
-Drama
-Baseado em um livro
-keyword
-based on novel or book
-Musical
-keyword
-musical
-1990
-ano
-1990
-DreamWorks Animation
+Pixar
 produtora
-DreamWorks Animation
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
+Pixar
+Marvel
+produtora
+Marvel
+Terror
+genero
+Terror
+Fantasia
+genero
+Fantasia
+2010
+ano
+2010
+Ação
+genero
+Ação

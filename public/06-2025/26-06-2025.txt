@@ -1,18 +1,18 @@
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-Disney Animation
+Studio Ghibli
 produtora
-Disney Animation
-Stop Motion
+Studio Ghibli
+DreamWorks Animation
+produtora
+DreamWorks Animation
+Distopia
 keyword
-stop motion
-2000
-ano
-2000
-2010
-ano
-2010
+dystopia
+Fantasia
+genero
+Fantasia
 Aventura
 genero
 Aventura
+Baseado em um livro
+keyword
+based on novel or book
