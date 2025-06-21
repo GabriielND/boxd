@@ -1,18 +1,18 @@
+Disney Animation
+produtora
+Disney Animation
+DreamWorks Animation
+produtora
+DreamWorks Animation
+Aventura
+genero
+Aventura
 Fantasia
 genero
 Fantasia
-Nacional
-nacional
-Nacional
-Slasher
+Musical
 keyword
-slasher
-Comédia
-genero
-Comédia
-Ficção científica
-genero
-Ficção científica
-1990
+musical
+2000
 ano
-1990
+2000

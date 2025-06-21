@@ -1,18 +1,18 @@
-Anime
+Baseado em um video game
 keyword
-anime
-Terror
-genero
-Terror
-Super Heróis
+based on video game
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Baseado em um livro
 keyword
-superhero
-Ação
+based on novel or book
+Animação
 genero
-Ação
-2000
+Animação
+2010
 ano
-2000
-1980
-ano
-1980
+2010
+Aventura
+genero
+Aventura

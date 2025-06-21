@@ -1,18 +1,18 @@
-Slasher
+Coming of Age
 keyword
-slasher
-Baseado em um quadrinho
+coming of age
+Pixar
+produtora
+Pixar
+Baseado em um livro
 keyword
-based on comic
-Crime
-genero
-Crime
-2020
-ano
-2020
-Fantasia
-genero
-Fantasia
+based on novel or book
 2000
 ano
 2000
+2010
+ano
+2010
+Aventura
+genero
+Aventura

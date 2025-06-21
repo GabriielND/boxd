@@ -1,18 +1,18 @@
+Aventura
+genero
+Aventura
+Ficção científica
+genero
+Ficção científica
+Suspense
+genero
+Suspense
 2010
 ano
 2010
-Distopia
+Baseado em um livro
 keyword
-dystopia
-Ficção científica
-genero
-Ficção científica
-Anime
-keyword
-anime
-Animação
-genero
-Animação
-Ação
-genero
-Ação
+based on novel or book
+1980
+ano
+1980

@@ -1,18 +1,18 @@
 2010
 ano
 2010
-Nacional
-nacional
-Nacional
-Pixar
+Drama
+genero
+Drama
+Ação
+genero
+Ação
+Esportes
+keyword
+sports
+Disney Animation
 produtora
-Pixar
-Drama
-genero
-Drama
-Animação
-genero
-Animação
-Comédia
-genero
-Comédia
+Disney Animation
+Super Heróis
+keyword
+superhero

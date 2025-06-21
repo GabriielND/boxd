@@ -1,18 +1,18 @@
-Terror
-genero
-Terror
-2010
+2020
 ano
-2010
-Anime
-keyword
-anime
-Comédia
-genero
-Comédia
+2020
 Distopia
 keyword
 dystopia
-Super Heróis
+DreamWorks Animation
+produtora
+DreamWorks Animation
+Baseado em um livro
 keyword
-superhero
+based on novel or book
+Crime
+genero
+Crime
+Ação
+genero
+Ação

@@ -1,18 +1,18 @@
+Aventura
+genero
+Aventura
+Suspense
+genero
+Suspense
+Animação
+genero
+Animação
+Angelina Jolie
+elenco
+Angelina Jolie
 1980
 ano
 1980
-Ficção científica
+Comédia
 genero
-Ficção científica
-Suspense
-genero
-Suspense
-Keanu Reeves
-elenco
-Keanu Reeves
-Fantasia
-genero
-Fantasia
-Romance
-genero
-Romance
+Comédia

@@ -1,18 +1,18 @@
-Comédia
+1990
+ano
+1990
+Fantasia
 genero
-Comédia
+Fantasia
 Nacional
 nacional
 Nacional
-Suspense
-genero
-Suspense
-Selton Mello
+Fernanda Torres
 elenco
-Selton Mello
-Crime
+Fernanda Torres
+Ação
 genero
-Crime
-Ficção científica
+Ação
+Romance
 genero
-Ficção científica
+Romance

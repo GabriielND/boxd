@@ -1,18 +1,18 @@
-Marvel
-produtora
-Marvel
-Animação
+Romance
 genero
-Animação
+Romance
+Anime
+keyword
+anime
 Coming of Age
 keyword
 coming of age
-2010
-ano
-2010
-2000
-ano
-2000
 1980
 ano
 1980
+Baseado em um livro
+keyword
+based on novel or book
+Fantasia
+genero
+Fantasia

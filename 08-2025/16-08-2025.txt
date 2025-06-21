@@ -1,18 +1,18 @@
 Ação
 genero
 Ação
-Stop Motion
-keyword
-stop motion
 Baseado em um video game
 keyword
 based on video game
+Nacional
+nacional
+Nacional
 2010
 ano
 2010
-2020
-ano
-2020
-Aventura
+Comédia
 genero
-Aventura
+Comédia
+2000
+ano
+2000

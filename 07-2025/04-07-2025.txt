@@ -1,18 +1,18 @@
-Disney Animation
-produtora
-Disney Animation
-Romance
-genero
-Romance
-Distopia
-keyword
-dystopia
 Baseado em um livro
 keyword
 based on novel or book
-Ação
+Crime
 genero
-Ação
-2000
+Crime
+Comédia
+genero
+Comédia
+1990
 ano
-2000
+1990
+1980
+ano
+1980
+Suspense
+genero
+Suspense

@@ -1,18 +1,18 @@
-1980
-ano
-1980
-2010
-ano
-2010
-2000
-ano
-2000
-Baseado em um livro
+Fantasia
+genero
+Fantasia
+Terror
+genero
+Terror
+Super Heróis
 keyword
-based on novel or book
-Romance
+superhero
+Crime
 genero
-Romance
-Aventura
+Crime
+1990
+ano
+1990
+Drama
 genero
-Aventura
+Drama

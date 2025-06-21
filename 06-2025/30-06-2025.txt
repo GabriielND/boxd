@@ -1,18 +1,18 @@
+Animação
+genero
+Animação
 Romance
 genero
 Romance
-Aventura
+Drama
 genero
-Aventura
-Suspense
-genero
-Suspense
-Viola Davis
+Drama
+John Krasinski
 elenco
-Viola Davis
-Ação
-genero
-Ação
-Fantasia
-genero
-Fantasia
+John Krasinski
+Nacional
+nacional
+Nacional
+1980
+ano
+1980

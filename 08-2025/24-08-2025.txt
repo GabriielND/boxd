@@ -1,18 +1,18 @@
-Slasher
-keyword
-slasher
-Baseado em um quadrinho
-keyword
-based on comic
-Distopia
-keyword
-dystopia
-1990
-ano
-1990
-2020
-ano
-2020
 Crime
 genero
 Crime
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Coming of Age
+keyword
+coming of age
+Animação
+genero
+Animação
+Fantasia
+genero
+Fantasia
+Baseado em um quadrinho
+keyword
+based on comic

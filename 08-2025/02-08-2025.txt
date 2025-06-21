@@ -1,18 +1,18 @@
-2000
-ano
-2000
-Baseado em um video game
+Musical
 keyword
-based on video game
-Studio Ghibli
+musical
+Baseado em um quadrinho
+keyword
+based on comic
+Pixar
 produtora
-Studio Ghibli
-Comédia
+Pixar
+Drama
 genero
-Comédia
-Aventura
+Drama
+Romance
 genero
-Aventura
-Ficção científica
-genero
-Ficção científica
+Romance
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme

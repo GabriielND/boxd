@@ -1,18 +1,18 @@
-1980
+2000
 ano
-1980
+2000
+Animação
+genero
+Animação
+Terror
+genero
+Terror
+Distopia
+keyword
+dystopia
 Baseado em um video game
 keyword
 based on video game
-Anime
+Super Heróis
 keyword
-anime
-Aventura
-genero
-Aventura
-Fantasia
-genero
-Fantasia
-Comédia
-genero
-Comédia
+superhero

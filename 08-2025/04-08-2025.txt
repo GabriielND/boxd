@@ -1,18 +1,18 @@
+Suspense
+genero
+Suspense
 Ficção científica
 genero
 Ficção científica
-1990
-ano
-1990
-Terror
+Ação
 genero
-Terror
-Jeff Goldblum
+Ação
+Wagner Moura
 elenco
-Jeff Goldblum
-Fantasia
-genero
-Fantasia
+Wagner Moura
 Comédia
 genero
 Comédia
+2000
+ano
+2000

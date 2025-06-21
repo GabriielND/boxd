@@ -1,18 +1,18 @@
-Fantasia
-genero
-Fantasia
-1990
+Blue Sky
+produtora
+Blue Sky
+Anime
+keyword
+anime
+Stop Motion
+keyword
+stop motion
+2010
 ano
-1990
-Ficção científica
+2010
+Comédia
 genero
-Ficção científica
-Nacional
-nacional
-Nacional
+Comédia
 Aventura
 genero
 Aventura
-Ação
-genero
-Ação

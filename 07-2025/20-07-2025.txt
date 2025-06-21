@@ -1,18 +1,18 @@
+Disney Animation
+produtora
+Disney Animation
+Studio Ghibli
+produtora
+Studio Ghibli
+Musical
+keyword
+musical
+1990
+ano
+1990
 Aventura
 genero
 Aventura
 1980
 ano
 1980
-Anime
-keyword
-anime
-Fantasia
-genero
-Fantasia
-Comédia
-genero
-Comédia
-Romance
-genero
-Romance

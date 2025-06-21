@@ -1,18 +1,18 @@
-Nacional
-nacional
-Nacional
-Drama
+Romance
 genero
-Drama
-Ficção científica
+Romance
+Ação
 genero
-Ficção científica
-Wagner Moura
+Ação
+Aventura
+genero
+Aventura
+Octavia Spencer
 elenco
-Wagner Moura
-Ação
+Octavia Spencer
+Suspense
 genero
-Ação
-Animação
-genero
-Animação
+Suspense
+2010
+ano
+2010

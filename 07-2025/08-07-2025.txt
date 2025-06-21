@@ -1,18 +1,18 @@
-Baseado em um video game
-keyword
-based on video game
-Ficção científica
-genero
-Ficção científica
-Marvel
+Disney Animation
 produtora
-Marvel
-Animação
+Disney Animation
+Distopia
+keyword
+dystopia
+Musical
+keyword
+musical
+Aventura
 genero
-Animação
-2010
-ano
-2010
-Fantasia
+Aventura
+Drama
 genero
-Fantasia
+Drama
+Baseado em um livro
+keyword
+based on novel or book

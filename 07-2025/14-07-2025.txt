@@ -1,18 +1,18 @@
-Comédia
-genero
-Comédia
-Ficção científica
-genero
-Ficção científica
-Drama
-genero
-Drama
-Vera Farmiga
-elenco
-Vera Farmiga
-Ação
-genero
-Ação
 Nacional
 nacional
 Nacional
+2020
+ano
+2020
+Crime
+genero
+Crime
+Selton Mello
+elenco
+Selton Mello
+Comédia
+genero
+Comédia
+Ação
+genero
+Ação

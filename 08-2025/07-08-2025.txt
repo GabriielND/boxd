@@ -1,18 +1,18 @@
-2020
-ano
-2020
-Super Heróis
-keyword
-superhero
-Comédia
+Crime
 genero
-Comédia
-Pixar
-produtora
-Pixar
-DreamWorks Animation
-produtora
-DreamWorks Animation
-Anime
+Crime
+Drama
+genero
+Drama
+Baseado em um livro
 keyword
-anime
+based on novel or book
+Ficção científica
+genero
+Ficção científica
+1980
+ano
+1980
+Distopia
+keyword
+dystopia

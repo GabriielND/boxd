@@ -1,18 +1,18 @@
+Blue Sky
+produtora
+Blue Sky
+Crime
+genero
+Crime
+Anime
+keyword
+anime
 2000
 ano
 2000
-Coming of Age
-keyword
-coming of age
-Aventura
+Ficção científica
 genero
-Aventura
-Musical
-keyword
-musical
-Drama
+Ficção científica
+Fantasia
 genero
-Drama
-Romance
-genero
-Romance
+Fantasia

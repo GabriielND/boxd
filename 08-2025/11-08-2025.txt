@@ -1,18 +1,18 @@
-1980
-ano
-1980
+Romance
+genero
+Romance
+Terror
+genero
+Terror
 Animação
 genero
 Animação
-2010
-ano
-2010
-Jeff Goldblum
+Jake Gyllenhaal
 elenco
-Jeff Goldblum
-Drama
+Jake Gyllenhaal
+Ação
 genero
-Drama
-Aventura
-genero
-Aventura
+Ação
+1990
+ano
+1990
