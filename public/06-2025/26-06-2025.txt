@@ -1,18 +1,18 @@
-Studio Ghibli
-produtora
-Studio Ghibli
-DreamWorks Animation
-produtora
-DreamWorks Animation
-Distopia
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Sequência
 keyword
-dystopia
-Fantasia
-genero
-Fantasia
-Aventura
-genero
-Aventura
+zombie
 Baseado em um livro
 keyword
 based on novel or book
+Disney Animation
+produtora
+Disney Animation
+Musical
+keyword
+musical
+Drama
+genero
+Drama
