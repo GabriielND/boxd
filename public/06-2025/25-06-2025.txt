@@ -7,9 +7,9 @@ ano
 Comédia
 genero
 Comédia
-Michael B Jordan
+Michael B. Jordan
 elenco
-Michael B Jordan
+Michael B. Jordan
 Terror
 genero
 Terror
