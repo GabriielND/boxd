@@ -3,7 +3,7 @@ lista
 Indicados ao Oscar de Melhor Filme
 Sequência
 keyword
-zombie
+sequel
 Baseado em um livro
 keyword
 based on novel or book
