@@ -46,8 +46,8 @@ function buscarKWFilme(id){
     })
 }
 
-function buscarListaFilme(id){
-    return fetch("https://api.themoviedb.org/3/movie/" + id + "/lists?language=pt-BR&page=1", options)
+function buscarFilmeEmLista(idFilme, idLista){
+    return fetch("https://api.themoviedb.org/3/list/"+ idLista + "/item_status?language=pt-BR&movie_id=" + idFilme, options)
     .then(response => response.json())
     .then(json => {
         return json;
@@ -238,20 +238,33 @@ async function validarKeywords(kwResp, filmeResp, index){
     }
 }
 
+const idsListas = [
+    {
+    lista: "Indicados ao Oscar de Melhor Filme",
+    id: 8300446
+    }
+]
+
 async function validarLista(listaResp, filmeResp, index){
     try {
         // const filmeGeral = await buscarFilme(filmeResp)
         alteraDois(filmeResp["results"])
-        const filmeDetal = await buscarListaFilme(filmeResp["results"][index]["id"])
-        const listasFilme = filmeDetal["results"]
+        let idLista = 0
+        for(let o = 0; o < idsListas.length; o++){
+            if(idsListas[o]["lista"] == listaResp){
+                idLista = idsListas[o]["id"]
+            }
+        }
+
+        const filmeDetal = await buscarFilmeEmLista(filmeResp["results"][index]["id"], idLista)
+        const respostaLista = filmeDetal["item_present"]
+        console.log(respostaLista)
         // filmeAcerto = filmeResp["results"][index]["title"]
         // filmeAtual = filmeResp["results"][index]["id"]
-        for (let i = 0; i < listasFilme.length; i++){
-            if (listasFilme[i]["name"] == listaResp){
+        if (respostaLista){
                 // localStorage["filmeAcerto"] = filmeAcerto
                 return true    
             }
-        }
         return false
     } catch (Exception){
         console.log(Exception)
