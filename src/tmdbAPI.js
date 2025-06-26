@@ -164,6 +164,8 @@ async function validarProdutora(produtoraResp, filmeResp, index){
             if (produtoras[i]["name"].includes(formatProdutora[0]) && produtoras[i]["name"].includes(formatProdutora[1])){
                 // localStorage["filmeAcerto"] = filmeAcerto
                 return true
+            } else if (produtoras[i]["name"].includes(formatProdutora[0]) && produtoras[i]["name"].includes("Productions")){
+                return true
             }
         }
         return false
@@ -175,7 +177,7 @@ async function validarProdutora(produtoraResp, filmeResp, index){
 
 const variantes = [
     ["sports", "sport", "olympic sport"],
-    ["based on novel or book", "based on book", "based-on-novel", "based on novel", "based on young adult novel", "based on graphic novel", "based on memoir or autobiography"],
+    ["based on novel or book", "based on book", "based-on-novel", "based on novel", "based on young adult novel", "based on graphic novel", "based on memoir or autobiography", "based on children's book", "based on fairy tale"],
     ["stop motion", "stopmotion"],
     ["based on comic", "based on graphic novel", "based on manga"],
     ["superhero", "teen superhero", "superhero team"],
@@ -350,6 +352,8 @@ export async function validarResposta(catg1, catg2, filme){
         console.log(filmeAtual)
         catg1Passou = await validarCategoria(catg1, filmeResp, i)
         catg2Passou = await validarCategoria(catg2, filmeResp, i)
+        console.log(catg1[1] + ": " + catg1Passou)
+        console.log(catg2[1] + ": " + catg2Passou)
         console.log(filmesCertos)
         if(filmesCertos.includes(filmeAtual)){
             sessionStorage["usado"] = 1
@@ -366,10 +370,6 @@ export async function validarResposta(catg1, catg2, filme){
         }
         i++
     } while(temDois && i < limite)
-    if (!flag){
-        console.log(catg1[1] + ": " + catg1Passou)
-        console.log(catg2[1] + ": " + catg2Passou)
-    }
     return flag
 }
 
