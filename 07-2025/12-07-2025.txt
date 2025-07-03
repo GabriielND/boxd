@@ -1,18 +1,18 @@
 Ficção científica
 genero
 Ficção científica
-Baseado em um quadrinho
+DreamWorks Animation
+produtora
+DreamWorks Animation
+Pixar
+produtora
+Pixar
+Super Heróis
 keyword
-based on comic
-Fantasia
+superhero
+1990
+ano
+1990
+Ação
 genero
-Fantasia
-Animação
-genero
-Animação
-Romance
-genero
-Romance
-Comédia
-genero
-Comédia
+Ação

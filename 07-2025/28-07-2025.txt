@@ -1,18 +1,18 @@
-1990
+Fantasia
+genero
+Fantasia
+2020
 ano
-1990
-Fantasia
-genero
-Fantasia
-Nacional
-nacional
-Nacional
-Fernanda Torres
+2020
+1980
+ano
+1980
+Robert Downey Jr
 elenco
-Fernanda Torres
-Ação
+Robert Downey Jr
+Animação
 genero
-Ação
-Romance
+Animação
+Drama
 genero
-Romance
+Drama

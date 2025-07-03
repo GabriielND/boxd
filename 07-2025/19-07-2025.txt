@@ -1,18 +1,18 @@
 Pixar
 produtora
 Pixar
-Marvel
-produtora
-Marvel
-Terror
+Baseado em um quadrinho
+keyword
+based on comic
+Romance
 genero
-Terror
+Romance
 Fantasia
 genero
 Fantasia
-2010
-ano
-2010
-Ação
+Drama
 genero
-Ação
+Drama
+Ficção científica
+genero
+Ficção científica

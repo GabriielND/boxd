@@ -1,18 +1,18 @@
-Baseado em um livro
-keyword
-based on novel or book
-Crime
-genero
-Crime
-Comédia
-genero
-Comédia
-1990
-ano
-1990
 1980
 ano
 1980
-Suspense
+Marvel
+produtora
+Marvel
+Pixar
+produtora
+Pixar
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Comédia
 genero
-Suspense
+Comédia
+Ação
+genero
+Ação

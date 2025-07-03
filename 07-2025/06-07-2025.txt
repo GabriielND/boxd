@@ -1,18 +1,18 @@
-Crime
-genero
-Crime
-Distopia
+Coming of Age
 keyword
-dystopia
-Blue Sky
-produtora
-Blue Sky
-Ficção científica
-genero
-Ficção científica
-Ação
-genero
-Ação
+coming of age
+1980
+ano
+1980
 2000
 ano
 2000
+Animação
+genero
+Animação
+Musical
+keyword
+musical
+Disney Animation
+produtora
+Disney Animation

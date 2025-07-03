@@ -1,18 +1,18 @@
-Suspense
+Animação
 genero
-Suspense
-Ficção científica
+Animação
+Aventura
 genero
-Ficção científica
+Aventura
 2000
 ano
 2000
-Viola Davis
+Margot Robbie
 elenco
-Viola Davis
-Crime
-genero
-Crime
+Margot Robbie
 Comédia
 genero
 Comédia
+Drama
+genero
+Drama

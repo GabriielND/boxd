@@ -1,18 +1,18 @@
-Pixar
-produtora
-Pixar
-Blue Sky
-produtora
-Blue Sky
+Terror
+genero
+Terror
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Fantasia
+genero
+Fantasia
+Baseado em um livro
+keyword
+based on novel or book
 2020
 ano
 2020
-Ação
-genero
-Ação
-Aventura
-genero
-Aventura
-Comédia
-genero
-Comédia
+1990
+ano
+1990
