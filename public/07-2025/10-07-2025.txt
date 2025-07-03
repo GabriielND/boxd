@@ -1,18 +1,18 @@
-1980
-ano
-1980
-Nacional
-nacional
-Nacional
+Romance
+genero
+Romance
+Esportes
+keyword
+sports
+Baseado em um quadrinho
+keyword
+based on comic
+Ficção científica
+genero
+Ficção científica
 Indicado a Melhor Filme (Oscar)
 lista
 Indicados ao Oscar de Melhor Filme
-Coming of Age
-keyword
-coming of age
-Baseado em um livro
-keyword
-based on novel or book
-Fantasia
-genero
-Fantasia
+1990
+ano
+1990

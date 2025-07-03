@@ -1,18 +1,18 @@
-Suspense
-genero
-Suspense
 Comédia
 genero
 Comédia
-Animação
+1990
+ano
+1990
+Drama
 genero
-Animação
-Octavia Spencer
+Drama
+Jennifer Lopez
 elenco
-Octavia Spencer
-Ação
+Jennifer Lopez
+Fantasia
 genero
-Ação
-Drama
+Fantasia
+Suspense
 genero
-Drama
+Suspense

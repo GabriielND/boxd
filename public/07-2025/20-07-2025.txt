@@ -1,18 +1,18 @@
-Disney Animation
+Blue Sky
 produtora
-Disney Animation
-Studio Ghibli
-produtora
-Studio Ghibli
-Musical
-keyword
-musical
-1990
-ano
-1990
-Aventura
+Blue Sky
+Animação
 genero
-Aventura
-1980
+Animação
+Ação
+genero
+Ação
+Sequência
+keyword
+sequel
+Nacional
+nacional
+Nacional
+2000
 ano
-1980
+2000

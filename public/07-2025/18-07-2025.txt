@@ -1,18 +1,18 @@
-Romance
-genero
-Romance
-Blue Sky
-produtora
-Blue Sky
-Animação
-genero
-Animação
+1980
+ano
+1980
 Comédia
 genero
 Comédia
-Ficção científica
+Baseado em um video game
+keyword
+based on video game
+Ação
 genero
-Ficção científica
+Ação
 Aventura
 genero
 Aventura
+Terror
+genero
+Terror

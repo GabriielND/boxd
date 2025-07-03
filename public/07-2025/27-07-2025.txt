@@ -1,18 +1,18 @@
-Baseado em um video game
-keyword
-based on video game
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-Baseado em um livro
-keyword
-based on novel or book
-Animação
-genero
-Animação
+Blue Sky
+produtora
+Blue Sky
 2010
 ano
 2010
+Esportes
+keyword
+sports
+Nacional
+nacional
+Nacional
+Ficção científica
+genero
+Ficção científica
 Aventura
 genero
 Aventura

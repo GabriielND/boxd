@@ -1,18 +1,18 @@
-Aventura
+Fantasia
 genero
-Aventura
+Fantasia
 Suspense
 genero
 Suspense
-Animação
+Drama
 genero
-Animação
-Angelina Jolie
+Drama
+Mark Ruffalo
 elenco
-Angelina Jolie
-1980
-ano
-1980
-Comédia
+Mark Ruffalo
+Ficção científica
 genero
-Comédia
+Ficção científica
+Terror
+genero
+Terror

@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from "react";
 import './App.css';
 import {setUrlPessoa, validarResposta} from './tmdbAPI.js';
-import { getActorDetails, getActorImageUrl } from "./tmdbAPI.js";
 
-const versaoAtual = "02072025"
+const versaoAtual = "03072025"
 const dataControle = ""
 let tabuleiroTexto
 let textoShare
 let dataCompleta
 let mesAno
+let dataCompleta_ontem
+let mesAno_ontem
+let dataCompleta_ante
+let mesAno_ante
 let diaSemana
 let urlPessoa = "https://media.themoviedb.org/t/p/w300_and_h450_bestv2"
 let tabuleiroCache = "000000000"
@@ -22,24 +25,31 @@ function setCharAt(str,index,chr) {
 function salvarTabuleiro(idBotao, valor){
   const posicao = botoesLista.indexOf(idBotao)
   tabuleiroCache = setCharAt(tabuleiroCache, posicao, valor)
-  localStorage["tabuleiroCache"] = tabuleiroCache
+  localStorage["tabuleiroCache" + "-" + localStorage["diaAtual"]] = tabuleiroCache
 }
 
 function replicarTabuleiro(){
+  tabuleiroCache = localStorage["tabuleiroCache" + "-" + localStorage["diaAtual"]]
+  console.log("Tabuleiro " + tabuleiroCache)
   for (let i = 0; i < 9; i++){
-    if (tabuleiroCache.charAt(i) != "0" && tabuleiroCache.charAt(i) != "3") {
-        const filmeBt = "filme" + botoesLista[i]
+    if (tabuleiroCache.charAt(i) !== "0" && tabuleiroCache.charAt(i) !== "3") {
+        const filmeBt = "filme" + botoesLista[i] + localStorage["diaAtual"]
         document.getElementById(botoesLista[i]).disabled = true
         document.getElementById(botoesLista[i]).textContent = localStorage[filmeBt]
     }
-    if (tabuleiroCache.charAt(i) == "1"){
+    if (tabuleiroCache.charAt(i) === "1"){
       document.getElementById(botoesLista[i]).style.backgroundColor = "#1b961b";
-    } else if (tabuleiroCache.charAt(i) == "2"){
+    } else if (tabuleiroCache.charAt(i) === "2"){
       document.getElementById(botoesLista[i]).style.backgroundColor = "#e8b51e";
       document.getElementById(botoesLista[i]).value = 1
-    } else if (tabuleiroCache.charAt(i) == "3"){
+    } else if (tabuleiroCache.charAt(i) === "3"){
       console.log(document.getElementById(botoesLista[i]))
       document.getElementById(botoesLista[i]).value = 1
+    } else if (tabuleiroCache.charAt(i) === "0"){
+      document.getElementById(botoesLista[i]).value = 0
+      document.getElementById(botoesLista[i]).style.backgroundColor = "#163c5e";
+      document.getElementById(botoesLista[i]).textContent = ".";
+      document.getElementById(botoesLista[i]).disabled = false;
     }
   }
 }
@@ -59,9 +69,21 @@ function Boxd() {
   const [linha1, setLinha1] = useState([])
   const [linha2, setLinha2] = useState([])
   const [linha3, setLinha3] = useState([])
+
+  const [categoriasHoje, setCatHoje] = useState([])
+  const [categoriasOntem, setCatOntem] = useState([])
+  const [categoriasAnte, setCatAnte] = useState([])
+  const [diaPuzzle, setDiaPuzzle] = useState("")
   
   const [pontos, setPonto] = useState(0)
   const [chutes, setChute] = useState(0)
+  const [pontosOntem, setPontoOntem] = useState(0)
+  const [chutesOntem, setChuteOntem] = useState(0)
+  const [pontosAnte, setPontoAnte] = useState(0)
+  const [chutesAnte, setChuteAnte] = useState(0)
+  const [pontosPlacar, setPontoPlacar] = useState(0)
+  const [chutesPlacar, setChutePlacar] = useState(0)
+
   const [btAtual, setBtAtual] = useState("")
   const [perdeu, setPerdeu] = useState(false)
   const [linhaAtual, setLinha] = useState([])
@@ -70,6 +92,7 @@ function Boxd() {
   const [mostraDesiste, setMostraDesiste] = useState(false)
   const [mostraVitoria, setMostraVitoria] = useState([])
   const [fotoAtor, setFotoAtor] = useState("")
+  const [temAtor, setTemAtor] = useState([])
 
   
   //diminuir bagunça na "jogar()"
@@ -102,20 +125,104 @@ function Boxd() {
     opacity : 0,
   })
 
+  const [estiloHoje, setEstiloHoje] = useState({
+    backgroundColor: "transparent"
+  })
+
+  const [estiloOntem, setEstiloOntem] = useState({
+    backgroundColor: "transparent"
+  })
+
+  const [estiloAnte, setEstiloAnte] = useState({
+    backgroundColor: "transparent"
+  })
+
+  function aumentarChutes(){
+  switch (localStorage["diaAtual"]) {
+    case "hoje":
+      setChute(chutes + 1)
+      setChutePlacar(chutes + 1)
+      localStorage["chuteshoje"] = chutes + 1
+      break;
+    case "ontem":
+      setChuteOntem(chutesOntem + 1)
+      setChutePlacar(chutesOntem + 1)
+      localStorage["chutesontem"] = chutesOntem + 1
+      break;
+    case "ante":
+      setChuteAnte(chutesAnte + 1)
+      setChutePlacar(chutesAnte + 1)
+      localStorage["chutesante"] = chutesAnte + 1
+      break;
+    default:
+      break;
+  }
+}
+
+  function aumentarPontos(){
+  switch (localStorage["diaAtual"]) {
+    case "hoje":
+      setPonto(pontos + 1)
+      setPontoPlacar(pontos + 1)
+      localStorage["pontoshoje"] = pontos + 1
+      break;
+    case "ontem":
+      setPontoOntem(pontosOntem + 1)
+      setPontoPlacar(pontosOntem + 1)
+      localStorage["pontosontem"] = pontosOntem + 1
+      break;
+    case "ante":
+      setPontoAnte(pontosAnte + 1)
+      setPontoPlacar(pontosAnte + 1)
+      localStorage["pontosante"] = pontosAnte + 1
+      break;
+    default:
+      break;
+    }
+}
+
+
   function limparCache(){
-    if (typeof localStorage["versao"] == "undefined" ||
-        typeof localStorage["data"] == "undefined"){
+    if (typeof localStorage["versao"] === "undefined" ||
+        typeof localStorage["data"] === "undefined"){
           localStorage["versao"] = versaoAtual
           localStorage["data"] = dataCompleta
         }
-    if (localStorage["data"] != dataCompleta || localStorage["versao"] != versaoAtual){ 
+    if (typeof localStorage["diaAtual"] === "undefined"){
+      localStorage["diaAtual"] = "hoje"
+    }
+    if (typeof localStorage["pontoshoje"] === "undefined" ||
+        typeof localStorage["pontosontem"] === "undefined" ||
+        typeof localStorage["pontosante"] === "undefined") {
+          localStorage["pontoshoje"] = "0"
+          localStorage["pontosontem"] = "0"
+          localStorage["pontosante"] = "0"
+        }
+    if (typeof localStorage["chuteshoje"] === "undefined" ||
+        typeof localStorage["chutesontem"] === "undefined" ||
+        typeof localStorage["chutesante"] === "undefined") {
+          localStorage["chuteshoje"] = "0"
+          localStorage["chutesontem"] = "0"
+          localStorage["chutesante"] = "0"
+        }
+    if (typeof localStorage["tabuleiroCache-hoje"] === "undefined" ||
+        typeof localStorage["tabuleiroCache-ontem"] === "undefined" ||
+        typeof localStorage["tabuleiroCache-ante"] === "undefined"
+    ) {
+      localStorage["tabuleiroCache-hoje"] = "000000000"
+      localStorage["tabuleiroCache-ontem"] = "000000000"
+      localStorage["tabuleiroCache-ante"] = "000000000"
+    }
+    if (localStorage["data"] !== dataCompleta || localStorage["versao"] !== versaoAtual){ 
       const holderRegras = localStorage["sumirRegras"]   
       localStorage.clear()
+      sessionStorage.clear()
       window.location.reload()
       setPonto(0)
       setChute(0)
       localStorage["versao"] = versaoAtual
-      if(holderRegras == "true"){
+      localStorage["diaAtual"] = "hoje"
+      if(holderRegras === "true"){
         localStorage["sumirRegras"] = true
       }
     } else{
@@ -124,36 +231,148 @@ function Boxd() {
   }
 
   function atualizaVariaveis(){
-    if (typeof localStorage["tabuleiroCache"] != "undefined") {
-      tabuleiroCache = localStorage["tabuleiroCache"]
+    if (typeof localStorage["tabuleiroCache-hoje"] !== "undefined" ||
+        typeof localStorage["tabuleiroCache-ontem"] !== "undefined" ||
+        typeof localStorage["tabuleiroCache-ante"] !== "undefined"
+    ) {
+      tabuleiroCache = localStorage["tabuleiroCache-hoje"]
+      tabuleiroCache = localStorage["tabuleiroCache-ontem"]
+      tabuleiroCache = localStorage["tabuleiroCache-ante"]
       replicarTabuleiro()
       console.log("tabuleiro")
     }
-    if (typeof localStorage["pontos"] != "undefined") setPonto(Number(localStorage["pontos"]))
-    if (typeof localStorage["chutes"] != "undefined" && localStorage["chutes"] != "NaN") setChute(Number(localStorage["chutes"]))
-    if (typeof localStorage["perdeu"] != "undefined"){
+    if (typeof localStorage["pontoshoje"] !== "undefined") setPonto(Number(localStorage["pontoshoje"]))
+    if (typeof localStorage["chuteshoje"] !== "undefined" && localStorage["chuteshoje"] !== "NaN") setChute(Number(localStorage["chuteshoje"]))
+    if (typeof localStorage["pontosontem"] !== "undefined") setPontoOntem(Number(localStorage["pontosontem"]))
+    if (typeof localStorage["chutesontem"] !== "undefined" && localStorage["chutesontem"] !== "NaN") setChuteOntem(Number(localStorage["chutesontem"]))
+    if (typeof localStorage["pontosante"] !== "undefined") setPontoAnte(Number(localStorage["pontosante"]))
+    if (typeof localStorage["chutesante"] !== "undefined" && localStorage["chutesante"] !== "NaN") setChuteAnte(Number(localStorage["chutesante"]))
+    if (typeof localStorage["perdeu"] !== "undefined"){
       setPerdeu(Boolean(localStorage["perdeu"]))
     }
+    if (typeof localStorage["diaAtual"] !== "undefined" && localStorage["diaAtual"] !== "NaN") setDiaPuzzle(localStorage["diaAtual"])
   }
-  
+
+  async function mudarCategorias(lista, dia, ator = ""){
+    console.log("Categorias: " + lista[0])
+    setColuna1([lista[0], [lista[1], lista[2]]])
+    setColuna2([lista[3], [lista[4], lista[5]]])
+    setColuna3([lista[6], [lista[7], lista[8]]])
+    setLinha1([lista[9], [lista[10], lista[11]]])
+    setLinha2([lista[12], [lista[13], lista[14]]])
+    setLinha3([lista[15], [lista[16], lista[17]]])
+
+    localStorage["diaAtual"] = dia
+
+    if(ator !== ""){
+      let urlImagem = await setUrlPessoa(lista[9])
+      setFotoAtor(urlPessoa + urlImagem)
+      setEstiloFoto({
+      display : "block",
+      opacity : 1,
+    })
+    } else{
+      setEstiloFoto({
+      display : "none",
+      opacity : 0,
+    })
+    }
+
+    alternarEstilosDatas(dia)
+    mudarPlacar("pontos")
+    mudarPlacar("palpites")
+  } 
+
+  function atualizarVitoria(){
+    switch (localStorage["diaAtual"]) {
+      case "hoje":
+        pontos === 9 ? vitoria(true) : vitoria(false)
+        break;
+      case "ontem":
+        pontosOntem === 9 ? vitoria(true) : vitoria(false)
+        break;
+      case "ante":
+        pontosAnte === 9 ? vitoria(true) : vitoria(false)
+        break;
+    }
+  }
+
+  function alternarEstilosDatas(data){
+    switch (data) {
+      case "hoje":
+        setEstiloHoje({backgroundColor: "#2596be"})
+        setEstiloOntem({backgroundColor: "transparent"})
+        setEstiloAnte({backgroundColor: "transparent"})
+        break;
+      case "ontem":
+        setEstiloHoje({backgroundColor: "transparent"})
+        setEstiloOntem({backgroundColor: "#2596be"})
+        setEstiloAnte({backgroundColor: "transparent"})
+        break;
+      case "ante":
+        setEstiloHoje({backgroundColor: "transparent"})
+        setEstiloOntem({backgroundColor: "transparent"})
+        setEstiloAnte({backgroundColor: "#2596be"})
+        break;
+      default:
+        break;
+    }
+  }
+
+  function mudarPlacar(nomePlacar){
+    if(nomePlacar === "pontos"){
+      switch (localStorage["diaAtual"]) {
+        case "hoje":
+          setPontoPlacar(localStorage["pontoshoje"])
+          break;
+        case "ontem":
+          setPontoPlacar(localStorage["pontosontem"])
+          break;
+        case "ante":
+          setPontoPlacar(localStorage["pontosante"])
+          break;
+        default:
+          break;
+      }
+    } else if (nomePlacar === "palpites"){
+      switch (localStorage["diaAtual"]) {
+      case "hoje":
+        setChutePlacar(localStorage["chuteshoje"])
+        break;
+      case "ontem":
+        setChutePlacar(localStorage["chutesontem"])
+        break;
+      case "ante":
+        setChutePlacar(localStorage["chutesante"])
+        break;
+      default:
+        break;
+      }
+    }
+  }
 
   useEffect(() => {
     fetchData()
     // atualizaVariaveis()
     limparCache()
-    if(typeof localStorage["sumirRegras"] == "undefined"){
+    if(typeof localStorage["sumirRegras"] === "undefined"){
       document.getElementById("containerRegras").style.display = "flex";
       document.getElementById("containerRegras").style.opacity = 1;
     }
   }, [])
 
   useEffect(() => {
-    if(pontos == 9){
+    if(pontos === 9 || pontosOntem === 9 || pontosAnte === 9){
       completaTabuleiro()
-      vitoria()
+      vitoria(true)
       document.getElementById("desistir").disabled = true
     }
-  }, [pontos])
+    mudarPlacar("pontos")
+  }, [pontos, pontosOntem, pontosAnte])
+
+  useEffect(() => {
+    mudarPlacar("palpites")
+  }, [chutes, chutesOntem, chutesAnte])
 
   useEffect(() => {
     if (perdeu){
@@ -162,20 +381,79 @@ function Boxd() {
   }, [perdeu])
 
   let fetchData = async() => {
-    if (dataControle != ""){
+    if (dataControle !== ""){
+      let controleFormat = converteData(dataControle)
       dataCompleta = dataControle
+      dataCompleta_ontem = new Date(new Date().setDate(controleFormat.getDate() - 1))
+      dataCompleta_ante = new Date(new Date().setDate(dataCompleta_ontem.getDate() - 1))
+
+      let dia = String(controleFormat.getDate()).padStart(2, "0")
+      let mes = String(controleFormat.getMonth() + 1).padStart(2,"0")
+      let ano = controleFormat.getFullYear()
+      mesAno = mes + "-" + ano
+
+      document.getElementById("botao-hoje").textContent=(dia+"/"+mes)
+      dia = String(dataCompleta_ontem.getDate()).padStart(2, "0")
+      mes = String(dataCompleta_ontem.getMonth() + 1).padStart(2,"0")
+      ano = dataCompleta_ontem.getFullYear()
+      mesAno_ontem = mes + "-" + ano
+      dataCompleta_ontem = dia + "-" + mesAno_ontem
+
+      document.getElementById("botao-ontem").textContent=(dia+"/"+mes)
+      dia = String(dataCompleta_ante.getDate()).padStart(2, "0")
+      mes = String(dataCompleta_ante.getMonth() + 1).padStart(2,"0")
+      ano = dataCompleta_ante.getFullYear()
+      mesAno_ante = mes + "-" + ano
+      document.getElementById("botao-ante").textContent=(dia+"/"+mes)
+      dataCompleta_ante = dia + "-" + mesAno_ante
+
+
+      // document.getElementById("botao-ontem").textContent=(dia_ontem+"/"+mes_ontem)
+      // document.getElementById("botao-ante").textContent=(dia_ante+"/"+mes_ante)
+
       mesAno = dataCompleta.slice(3)
       diaSemana = converteData(dataCompleta).getDay()
     } else {
       let hoje = new Date()
-      diaSemana = hoje.getDay()
+      localStorage["semana-hoje"] = hoje.getDay()
       let dia = String(hoje.getDate()).padStart(2, "0")
       let mes = String(hoje.getMonth() + 1).padStart(2,"0")
       let ano = hoje.getFullYear()
       mesAno = mes + "-" + ano
       dataCompleta = dia+"-"+mes+"-"+ano
+
+      let ontem = new Date(new Date().setDate(new Date().getDate()-1))
+      localStorage["semana-ontem"] = ontem.getDay()
+      let dia_ontem = String(ontem.getDate()).padStart(2, "0")
+      let mes_ontem = String(ontem.getMonth() + 1).padStart(2,"0")
+      let ano_ontem = ontem.getFullYear()
+      mesAno_ontem = mes_ontem + "-" + ano_ontem
+      dataCompleta_ontem = dia_ontem+"-"+mes_ontem+"-"+ano_ontem
+
+      let ante = new Date(new Date().setDate(new Date().getDate() - 2))
+      localStorage["semana-ante"] = ante.getDay()
+      let dia_ante = String(ante.getDate()).padStart(2, "0")
+      let mes_ante = String(ante.getMonth() + 1).padStart(2,"0")
+      let ano_ante = ante.getFullYear()
+      mesAno_ante = mes_ante + "-" + ano_ante
+      dataCompleta_ante = dia_ante+"-"+mes_ante+"-"+ano_ante
+
+      document.getElementById("botao-hoje").textContent=(dia+"/"+mes)
+      document.getElementById("botao-ontem").textContent=(dia_ontem+"/"+mes_ontem)
+      document.getElementById("botao-ante").textContent=(dia_ante+"/"+mes_ante)
     }
-    console.log(mesAno)
+    let atorFoto = ["", "", ""]
+    if(converteData(dataCompleta).getDay() === 1 || converteData(dataCompleta).getDay() === 3){
+      atorFoto[0] = "sim"
+    }
+    if(converteData(dataCompleta_ontem).getDay() === 1 || converteData(dataCompleta_ontem).getDay() === 3){
+      atorFoto[1] = "sim"
+    }
+    if(converteData(dataCompleta_ante).getDay() === 1 || converteData(dataCompleta_ante).getDay() === 3){
+      atorFoto[2] = "sim"
+    }
+    setTemAtor(atorFoto)
+    
     let endereco = "/"+ mesAno + "/" + dataCompleta + ".txt"
     let resp = await fetch(endereco)
     let final = await resp.text()
@@ -184,23 +462,41 @@ function Boxd() {
     for (let i = 0; i < lista.length; i++){
       lista[i] = lista[i].replace("\r", "")
     }
-    setColuna1([lista[0], [lista[1], lista[2]]])
-    setColuna2([lista[3], [lista[4], lista[5]]])
-    setColuna3([lista[6], [lista[7], lista[8]]])
-    setLinha1([lista[9], [lista[10], lista[11]]])
-    setLinha2([lista[12], [lista[13], lista[14]]])
-    setLinha3([lista[15], [lista[16], lista[17]]])
 
-    if(diaSemana == 1 || diaSemana == 3){
-      urlPessoa = "https://media.themoviedb.org/t/p/w300_and_h450_bestv2"
-      let urlImagem = await setUrlPessoa(lista[9])
-      setFotoAtor(urlPessoa + urlImagem)
-      setEstiloFoto({
-        display : "block",
-        opacity : 1,
-      })
+
+    if(localStorage["diaAtual"] === "hoje"){
+      mudarCategorias(lista, "hoje", atorFoto[0])
     }
+    setCatHoje(lista)
+
+    let endereco_ontem = "/"+ mesAno_ontem + "/" + dataCompleta_ontem + ".txt"
+    console.log("Ontem" + endereco_ontem)
+    let resp_ontem = await fetch(endereco_ontem)
+    let final_ontem = await resp_ontem.text()
+    lista = final_ontem.split("\n")
+
+    for (let i = 0; i < lista.length; i++){
+      lista[i] = lista[i].replace("\r", "")
+    }
+   
+    
+    if(localStorage["diaAtual"] === "ontem") mudarCategorias(lista, "ontem", atorFoto[1])
+    setCatOntem(lista)
+
+    let endereco_ante = "/"+ mesAno_ante + "/" + dataCompleta_ante + ".txt"
+    console.log("Ante" + endereco_ante)
+    let resp_ante = await fetch(endereco_ante)
+    let final_ante = await resp_ante.text()
+    lista = final_ante.split("\n")
+    console.log(lista)
+    for (let i = 0; i < lista.length; i++){
+      lista[i] = lista[i].replace("\r", "")
+    }
+
+    if(localStorage["diaAtual"] === "ante") mudarCategorias(lista, "ante", atorFoto[2])
+    setCatAnte(lista)
   }
+
 
   function palpite(fromButton = false){
     if (!mostraPalpite && fromButton){
@@ -221,8 +517,8 @@ function Boxd() {
     document.getElementById("erroAviso").textContent = "";
     }
 
-  function vitoria(){
-    if (mostraVitoria){
+  function vitoria(vitoriaBool){
+    if (vitoriaBool){
       setEstiloVitoria({
         display : "flex",
         opacity : 1,
@@ -239,12 +535,12 @@ function Boxd() {
     document.getElementById("parabens").textContent = "Não foi dessa vez! 😓"
     setPerdeu(true)
     let textDerrota = "Você acertou " + pontos
-    if (pontos == 1){
+    if (pontos === 1){
       textDerrota += " filme em "
     } else {
       textDerrota += " filmes em "
     }
-    if (chutes == 1){
+    if (chutes === 1){
       textDerrota += (chutes + " tentativa") 
     } else {
       textDerrota += (chutes + " tentativas")
@@ -258,7 +554,7 @@ function Boxd() {
     document.getElementById("desistir").disabled = true
     for (let i = 0; i < 9; i++){
         document.getElementById(botoesLista[i]).disabled = true
-        if (document.getElementById(botoesLista[i]).textContent == "."){
+        if (document.getElementById(botoesLista[i]).textContent === "."){
           document.getElementById(botoesLista[i]).style.backgroundColor = "#ce171c"
           document.getElementById(botoesLista[i]).style.fontSize = "0px"
         }
@@ -291,7 +587,7 @@ function Boxd() {
  function copiar(){
   if(perdeu){
     textoShare = "Joguei boxd.com.br " + dataCompleta + " e acertei " + pontos + " de 9 filmes em "
-    if (chutes == 1){
+    if (chutes === 1){
       textoShare += (chutes + " tentativa\n") 
     } else {
       textoShare += (chutes + " tentativas\n")
@@ -303,16 +599,15 @@ function Boxd() {
   }
     document.getElementById("compartilhar").textContent="🔗 Copiado!"
   }
-
   
   async function jogar(linha, coluna, palpite){
     enviarBotao.textContent="⌚";/*⏳*/
     enviarBotao.disabled=true;
-    if (!(palpite == "" || palpite.replaceAll(" ", "") == "")){
+    if (!(palpite === "" || palpite.replaceAll(" ", "") === "")){
       const sucesso = await validarResposta(linha, coluna, palpite)
 
       //Valida se o filme já foi usado
-      if(sessionStorage["usado"] == "1"){
+      if(sessionStorage["usado"] === "1"){
         avisoTexto.textContent = "Filme já usado 🔂";
         document.getElementById("palpite-input").value = "";
         enviarBotao.textContent="Enviar";
@@ -320,7 +615,7 @@ function Boxd() {
         sessionStorage["usado"] = 0
 
       //Valida se encontrou algum filme
-      } else if (sessionStorage["nExiste"] == "1") {
+      } else if (sessionStorage["nExiste"] === "1") {
         avisoTexto.textContent = "Filme não encontrado 🔎";
         document.getElementById("palpite-input").value = "";
         enviarBotao.textContent="Enviar";
@@ -328,17 +623,15 @@ function Boxd() {
         sessionStorage["nExiste"] = 0
       } 
       else{
-        setChute(chutes + 1)
-        localStorage["chutes"] = chutes + 1
+        aumentarChutes();
         if (sucesso){
-          setPonto(pontos + 1)
-          localStorage["pontos"] = pontos + 1
+          aumentarPontos();
           setMostraPalpite(!mostraPalpite)
           setEstiloPalpite({
             visibility : "hidden",
             opacity : 0,
           })
-          if (botaoAtual.value == 0){
+          if (botaoAtual.value === "0"){
             botaoAtual.style.backgroundColor = "#1b961b";
             salvarTabuleiro(btAtual, 1)
           } else {
@@ -346,8 +639,8 @@ function Boxd() {
             salvarTabuleiro(btAtual, 2)
           }
           const filmeBt = "filme" + btAtual
-          localStorage[filmeBt] = localStorage["filmeAcerto"]
-          botaoAtual.textContent = localStorage[filmeBt]/*"✅"*/;
+          localStorage[filmeBt + localStorage["diaAtual"]] = localStorage["filmeAcerto"]
+          botaoAtual.textContent = localStorage[filmeBt + localStorage["diaAtual"]]/*"✅"*/;
           botaoAtual.disabled = true;
         } 
         else {
@@ -371,18 +664,18 @@ function Boxd() {
   function completaTabuleiro(){
     tabuleiroTexto = ""
     for (let i = 0; i < 9; i++){
-      if (document.getElementById(botoesLista[i]).textContent == "."){
+      if (document.getElementById(botoesLista[i]).textContent === "."){
         tabuleiroTexto = tabuleiroTexto + "🟥";
-      } else if (document.getElementById(botoesLista[i]).value == 0){
+      } else if (document.getElementById(botoesLista[i]).value === "0"){
         tabuleiroTexto = tabuleiroTexto + "🟩";
       } else {
         tabuleiroTexto = tabuleiroTexto + "🟨";
       }
-      if ((i+1) % 3 == 0){
+      if ((i+1) % 3 === 0){
         tabuleiroTexto = tabuleiroTexto + "\n"
       }
     }
-    console.log(tabuleiroTexto)
+    console.log("Completa: " + tabuleiroTexto)
   }
 
   function controlaRegras(limpar = false){
@@ -395,12 +688,17 @@ function Boxd() {
 
   return (
     <div>
-    <div class="vict">
+    <div class="logo">
       <img src="/logotipo.png"></img>
     </div>
-    <div class="vict">
-    </div>
+    <div class="logo"></div> {/*Espaçamento*/}
   
+    <div class="reprise">
+      <button id="botao-ante" onClick={() => {mudarCategorias(categoriasAnte, "ante", temAtor[2]); replicarTabuleiro(); atualizarVitoria()}} style={estiloAnte}>-</button>
+      <button id="botao-ontem" onClick={() => {mudarCategorias(categoriasOntem, "ontem", temAtor[1]); replicarTabuleiro(); atualizarVitoria()}} style={estiloOntem}>-</button>
+      <button id="botao-hoje" onClick={() => {mudarCategorias(categoriasHoje, "hoje", temAtor[0]); replicarTabuleiro(); atualizarVitoria()}} style={estiloHoje}>-</button>
+    </div>
+
     <div class= "vict" style={estiloVitoria}>
       <div class = "vitoria">
         <a style={{marginTop: "8px"}} id="parabens">Parabéns!</a>
@@ -422,8 +720,8 @@ function Boxd() {
           <th><div class="brdrLinha">{linha1[0]}</div></th>
           <td><button class="botao" id="btNO" value="0"
               style={{borderTopLeftRadius : "30px"}} 
-              onClick={() => {setLinha(linha1); setColuna(coluna1); palpite(true); setBtAtual("btNO") }}>.</button></td>
-          <td><button class="botao" id="btN" value="0" onClick={() => {setLinha(linha1); setColuna(coluna2); palpite(true); setBtAtual("btN") }}>.</button></td>
+              onClick={() => {setLinha(linha1); setColuna(coluna1); palpite(true); setBtAtual("btNO");}}>.</button></td>
+          <td><button class="botao" id="btN" value="0" onClick={() => {setLinha(linha1); setColuna(coluna2); palpite(true); setBtAtual("btN"); }}>.</button></td>
           <td><button class="botao" id="btNE" value="0"
               style={{borderTopRightRadius : "30px"}}
               onClick={() => {setLinha(linha1); setColuna(coluna3); palpite(true); setBtAtual("btNE") }}>.</button></td>
@@ -447,8 +745,8 @@ function Boxd() {
       </table>
       <div class="pontuacao">
         <table>
-          <td style={{textAlign: "left", width: "50%"}}>Acertos: {pontos}</td>
-          <td style={{textAlign: "right", width: "50%"}}>Palpites: {chutes}</td>
+          <td style={{textAlign: "left", width: "50%"}}>Acertos: {pontosPlacar}</td>
+          <td style={{textAlign: "right", width: "50%"}}>Palpites: {chutesPlacar}</td>
         </table>
       </div>
     </div>
@@ -476,7 +774,7 @@ function Boxd() {
           <button id="fecharP"  onClick={() => {palpite()}}>X</button>
           <h3 style={{width: "100%"}}>{linhaAtual[0]} + <br></br> {colunaAtual[0]}</h3>
           <a id="erroAviso"></a>
-          <input type="text" id="palpite-input" onKeyDown={(e) => {handler(e)}} autoComplete="off"></input>
+          <input type="text" id="palpite-input" onKeyDown={(e) => {handler(e)}} autoComplete="off" ></input>
           <button id="enviar" onClick={() => jogar(linhaAtual[1], colunaAtual[1], document.getElementById('palpite-input').value)}>Enviar</button> 
       </div>  
     </div>

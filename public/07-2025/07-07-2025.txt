@@ -1,18 +1,18 @@
-Terror
+Aventura
 genero
-Terror
-Nacional
-nacional
-Nacional
-Suspense
-genero
-Suspense
-Fernanda Montenegro
-elenco
-Fernanda Montenegro
-Fantasia
-genero
-Fantasia
-1990
+Aventura
+2010
 ano
-1990
+2010
+Drama
+genero
+Drama
+Anya Taylor Joy
+elenco
+Anya Taylor Joy
+Ficção científica
+genero
+Ficção científica
+Romance
+genero
+Romance

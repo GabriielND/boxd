@@ -1,18 +1,18 @@
-2000
+Anime
+keyword
+anime
+1990
 ano
-2000
-Animação
+1990
+Baseado em um livro
+keyword
+based on novel or book
+Fantasia
 genero
-Animação
-Terror
-genero
-Terror
+Fantasia
 Distopia
 keyword
 dystopia
-Baseado em um video game
-keyword
-based on video game
-Super Heróis
-keyword
-superhero
+Ficção científica
+genero
+Ficção científica

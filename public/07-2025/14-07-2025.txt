@@ -1,18 +1,18 @@
-Nacional
-nacional
-Nacional
-2020
+Suspense
+genero
+Suspense
+1990
 ano
-2020
-Crime
+1990
+Animação
 genero
-Crime
-Selton Mello
+Animação
+Cher
 elenco
-Selton Mello
-Comédia
+Cher
+Ficção científica
 genero
-Comédia
+Ficção científica
 Ação
 genero
 Ação

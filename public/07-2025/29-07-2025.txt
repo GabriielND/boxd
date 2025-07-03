@@ -1,18 +1,18 @@
-Drama
+Comédia
 genero
-Drama
-2010
-ano
-2010
-Suspense
+Comédia
+Ficção científica
 genero
-Suspense
+Ficção científica
+Romance
+genero
+Romance
+Baseado em um quadrinho
+keyword
+based on comic
+Aventura
+genero
+Aventura
 Baseado em um livro
 keyword
 based on novel or book
-Distopia
-keyword
-dystopia
-Ficção científica
-genero
-Ficção científica

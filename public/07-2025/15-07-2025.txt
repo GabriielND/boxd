@@ -1,18 +1,18 @@
-Super Heróis
-keyword
-superhero
-Ficção científica
+Aventura
 genero
-Ficção científica
-Pixar
+Aventura
+Disney Animation
 produtora
-Pixar
-Drama
-genero
-Drama
-Aventura
-genero
-Aventura
+Disney Animation
+Slasher
+keyword
+slasher
+2000
+ano
+2000
+1980
+ano
+1980
 2010
 ano
 2010

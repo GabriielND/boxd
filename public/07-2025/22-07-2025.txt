@@ -1,18 +1,18 @@
-Super Heróis
+Pixar
+produtora
+Pixar
+DreamWorks Animation
+produtora
+DreamWorks Animation
+Esportes
 keyword
-superhero
-1990
+sports
+2010
 ano
-1990
-Slasher
-keyword
-slasher
-Fantasia
-genero
-Fantasia
-Crime
-genero
-Crime
-Ficção científica
-genero
-Ficção científica
+2010
+2000
+ano
+2000
+2020
+ano
+2020

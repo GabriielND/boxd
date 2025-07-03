@@ -1,18 +1,18 @@
-Coming of Age
+Anime
 keyword
-coming of age
-Pixar
-produtora
-Pixar
-Baseado em um livro
-keyword
-based on novel or book
+anime
+Comédia
+genero
+Comédia
 2000
 ano
 2000
-2010
-ano
-2010
 Aventura
 genero
 Aventura
+Sequência
+keyword
+sequel
+Romance
+genero
+Romance

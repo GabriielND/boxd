@@ -1,18 +1,18 @@
-Musical
+Anime
 keyword
-musical
-Disney Animation
+anime
+1980
+ano
+1980
+Blue Sky
 produtora
-Disney Animation
-Ficção científica
+Blue Sky
+Ação
 genero
-Ficção científica
-Drama
+Ação
+Aventura
 genero
-Drama
-Coming of Age
-keyword
-coming of age
-Fantasia
+Aventura
+Comédia
 genero
-Fantasia
+Comédia
