@@ -111,9 +111,9 @@ async function validarGenero(generoResp, filmeResp, index){
         const filmeDetal = await buscarIdFilme(filmeResp["results"][index]["id"])
         const generosFilme = filmeDetal["genres"]
         for (let i = 0; i < generosFilme.length; i++) {
-            if (generosFilme[i]["name"] == generoResp){
+            if (generosFilme[i]["name"] === generoResp){
                 return true
-            } else if ((generosFilme[i]["name"] == "Mistério" || generosFilme[i]["name"] == "Thriller") && generoResp == "Suspense"){
+            } else if ((generosFilme[i]["name"] === "Mistério" || generosFilme[i]["name"] === "Thriller") && generoResp === "Suspense"){
                 return true
             }
         }
@@ -132,7 +132,7 @@ async function validarNacional(filmeResp, index){
         const nacionalidade = filmeDetal["production_countries"][0]["name"]
         // filmeAcerto = filmeResp["results"][index]["title"]
         // filmeAtual = filmeResp["results"][index]["id"]
-        if (nacionalidade == "Brazil") {
+        if (nacionalidade === "Brazil") {
             // localStorage["filmeAcerto"] = filmeAcerto
             return true
         } else {
@@ -156,6 +156,7 @@ async function validarProdutora(produtoraResp, filmeResp, index){
         alteraDois(filmeResp["results"])
         const filmeDetal = await buscarIdFilme(filmeResp["results"][index]["id"])
         const produtoras = filmeDetal["production_companies"]
+        const generos = filmeDetal["genres"]
         // filmeAcerto = filmeResp["results"][index]["title"]
         // filmeAtual = filmeResp["results"][index]["id"]
         for (let i = 0; i < produtoras.length; i++){
@@ -165,6 +166,8 @@ async function validarProdutora(produtoraResp, filmeResp, index){
                 // localStorage["filmeAcerto"] = filmeAcerto
                 return true
             } else if (produtoras[i]["name"].includes(formatProdutora[0]) && produtoras[i]["name"].includes("Productions")){
+                return true
+            } else if (produtoras[i]["name"].includes("Walt Disney Pictures")){
                 return true
             }
         }
@@ -253,7 +256,7 @@ async function validarLista(listaResp, filmeResp, index){
         alteraDois(filmeResp["results"])
         let idLista = 0
         for(let o = 0; o < idsListas.length; o++){
-            if(idsListas[o]["lista"] == listaResp){
+            if(idsListas[o]["lista"] === listaResp){
                 idLista = idsListas[o]["id"]
             }
         }
@@ -284,12 +287,12 @@ async function validarElenco(elencoResp, filmeResp, index){
         // filmeAcerto = filmeResp["results"][index]["title"]
         // filmeAtual = filmeResp["results"][index]["id"]
         for (let i = 0; i < elencoFilme.length; i++){
-            if (elencoFilme[i]["name"] == elencoResp){
+            if (elencoFilme[i]["name"] === elencoResp){
                 return true
             }
         }
         for (let i = 0; i < equipeFilme.length; i++){
-            if (equipeFilme[i]["name"] == elencoResp){
+            if (equipeFilme[i]["name"] === elencoResp){
                 return true
             }
         }
@@ -335,7 +338,7 @@ export async function validarResposta(catg1, catg2, filme){
         let filmeResp = await buscarFilme(filme)
         
         //Valida se pelo menos 1 filme foi encontrado
-        if (filmeResp["results"].length == 0){
+        if (filmeResp["results"].length === 0){
             //Correção de pra -> para
             if (filme.includes("pra") && !trocouPara){
                 trocouPara = true;
