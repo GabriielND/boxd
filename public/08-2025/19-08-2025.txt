@@ -1,18 +1,18 @@
 Anime
 keyword
 anime
-Drama
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Fantasia
 genero
-Drama
-Baseado em um quadrinho
+Fantasia
+1980
+ano
+1980
+2010
+ano
+2010
+Super Heróis
 keyword
-based on comic
-2020
-ano
-2020
-Romance
-genero
-Romance
-2010
-ano
-2010
+superhero

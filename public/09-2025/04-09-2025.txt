@@ -1,18 +1,18 @@
-Loop temporal
+Musical
 keyword
-zombie
-1980
+musical
+2000
 ano
-1980
-Pixar
+2000
+Sequência
+keyword
+sequel
+Romance
+genero
+Romance
+Fantasia
+genero
+Fantasia
+DreamWorks Animation
 produtora
-Pixar
-Ficção científica
-genero
-Ficção científica
-Fantasia
-genero
-Fantasia
-Ação
-genero
-Ação
+DreamWorks Animation

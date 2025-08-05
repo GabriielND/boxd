@@ -1,18 +1,18 @@
-Terror
+Suspense
 genero
-Terror
-Animação
+Suspense
+Crime
 genero
-Animação
-Drama
-genero
-Drama
-Jeff Goldblum
-elenco
-Jeff Goldblum
-1980
+Crime
+2020
 ano
-1980
+2020
+Natalie Portman
+elenco
+Natalie Portman
 Ficção científica
 genero
 Ficção científica
+Terror
+genero
+Terror

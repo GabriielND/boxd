@@ -1,18 +1,18 @@
-2010
-ano
-2010
-2020
-ano
-2020
-Comédia
+Fantasia
 genero
-Comédia
+Fantasia
+Aventura
+genero
+Aventura
+Baseado em um quadrinho
+keyword
+based on comic
 Sequência
 keyword
 sequel
-Super Heróis
-keyword
-superhero
-Coming of Age
-keyword
-coming of age
+1990
+ano
+1990
+Nacional
+nacional
+Nacional

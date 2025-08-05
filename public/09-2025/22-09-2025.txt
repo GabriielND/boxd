@@ -1,18 +1,18 @@
-2020
-ano
-2020
-1990
-ano
-1990
+Animação
+genero
+Animação
 2010
 ano
 2010
-Octavia Spencer
+Terror
+genero
+Terror
+Mark Ruffalo
 elenco
-Octavia Spencer
-Nacional
-nacional
-Nacional
+Mark Ruffalo
+Ficção científica
+genero
+Ficção científica
 Fantasia
 genero
 Fantasia

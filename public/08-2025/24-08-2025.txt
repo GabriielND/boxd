@@ -1,18 +1,18 @@
-1990
+Pixar
+produtora
+Pixar
+Baseado em um livro
+keyword
+based on novel or book
+Coming of Age
+keyword
+coming of age
+2000
 ano
-1990
-Ficção científica
+2000
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Drama
 genero
-Ficção científica
-Suspense
-genero
-Suspense
-Slasher
-keyword
-slasher
-Sequência
-keyword
-sequel
-Crime
-genero
-Crime
+Drama

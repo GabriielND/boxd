@@ -6,7 +6,7 @@ keyword
 based on video game
 Loop temporal
 keyword
-zombie
+time loop
 2020
 ano
 2020

@@ -1,18 +1,18 @@
-2010
-ano
-2010
-Marvel
-produtora
-Marvel
+Baseado em um livro
+keyword
+based on novel or book
+Musical
+keyword
+musical
 Stop Motion
 keyword
 stop motion
-Aventura
-genero
-Aventura
-Animação
-genero
-Animação
-Comédia
-genero
-Comédia
+Sequência
+keyword
+sequel
+2010
+ano
+2010
+2000
+ano
+2000

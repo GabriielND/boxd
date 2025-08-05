@@ -1,18 +1,18 @@
-Slasher
-keyword
-slasher
-Nacional
-nacional
-Nacional
-Super Heróis
-keyword
-superhero
-Ficção científica
+Terror
 genero
-Ficção científica
-Ação
+Terror
+Comédia
 genero
-Ação
-1990
+Comédia
+Esportes
+keyword
+sports
+Suspense
+genero
+Suspense
+1980
 ano
-1990
+1980
+Ação
+genero
+Ação

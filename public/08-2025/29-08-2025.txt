@@ -1,18 +1,18 @@
-Distopia
+Musical
 keyword
-dystopia
-Ação
+musical
+2010
+ano
+2010
+Fantasia
 genero
-Ação
-DreamWorks Animation
-produtora
-DreamWorks Animation
+Fantasia
+Ficção científica
+genero
+Ficção científica
 Sequência
 keyword
 sequel
-Drama
-genero
-Drama
-2000
-ano
-2000
+Baseado em um livro
+keyword
+based on novel or book

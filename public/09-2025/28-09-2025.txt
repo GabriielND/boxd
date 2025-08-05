@@ -1,18 +1,18 @@
+1990
+ano
+1990
+Nacional
+nacional
+Nacional
 Suspense
 genero
 Suspense
-Sequência
+Baseado em um quadrinho
 keyword
-sequel
-Pixar
-produtora
-Pixar
-2000
-ano
-2000
-2010
-ano
-2010
-Romance
+based on comic
+Crime
 genero
-Romance
+Crime
+Comédia
+genero
+Comédia

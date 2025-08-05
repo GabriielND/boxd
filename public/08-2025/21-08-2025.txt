@@ -1,18 +1,18 @@
-Musical
-keyword
-musical
-Fantasia
-genero
-Fantasia
-Ação
-genero
-Ação
-Disney Animation
-produtora
-Disney Animation
-2020
+1980
 ano
-2020
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
+1980
+Sequência
+keyword
+sequel
+Marvel
+produtora
+Marvel
+Animação
+genero
+Animação
+Ação
+genero
+Ação
+Comédia
+genero
+Comédia

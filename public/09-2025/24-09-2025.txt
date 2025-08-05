@@ -1,18 +1,18 @@
-Nacional
-nacional
-Nacional
-2020
-ano
-2020
-Aventura
+Romance
 genero
-Aventura
-Selton Mello
+Romance
+Ação
+genero
+Ação
+Animação
+genero
+Animação
+Natalie Portman
 elenco
-Selton Mello
-Ficção científica
-genero
-Ficção científica
+Natalie Portman
 Fantasia
 genero
 Fantasia
+Ficção científica
+genero
+Ficção científica

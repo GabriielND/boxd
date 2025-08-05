@@ -1,18 +1,18 @@
-Suspense
-genero
-Suspense
-Sequência
-keyword
-sequel
-Fantasia
-genero
-Fantasia
-Ação
-genero
-Ação
+1980
+ano
+1980
 Baseado em um livro
 keyword
 based on novel or book
-Ficção científica
+Baseado em um video game
+keyword
+based on video game
+Distopia
+keyword
+dystopia
+Aventura
 genero
-Ficção científica
+Aventura
+Fantasia
+genero
+Fantasia

@@ -1,18 +1,18 @@
-Stop Motion
-keyword
-stop motion
-Nacional
-nacional
-Nacional
 Sequência
 keyword
 sequel
-Comédia
+Romance
 genero
-Comédia
-Animação
-genero
-Animação
+Romance
+Musical
+keyword
+musical
 2020
 ano
 2020
+1990
+ano
+1990
+Fantasia
+genero
+Fantasia

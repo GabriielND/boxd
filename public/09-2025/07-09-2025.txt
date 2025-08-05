@@ -1,18 +1,18 @@
-Romance
-genero
-Romance
-Baseado em um livro
-keyword
-based on novel or book
 Distopia
 keyword
 dystopia
-Drama
+Esportes
+keyword
+sports
+Ação
 genero
-Drama
-Animação
+Ação
+Anime
+keyword
+anime
+Fantasia
 genero
-Animação
+Fantasia
 2000
 ano
 2000

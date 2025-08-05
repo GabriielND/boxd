@@ -1,18 +1,18 @@
-Drama
+Blue Sky
+produtora
+Blue Sky
+2020
+ano
+2020
+Comédia
 genero
-Drama
-Musical
-keyword
-musical
-Distopia
-keyword
-dystopia
-2000
-ano
-2000
-Baseado em um livro
-keyword
-based on novel or book
-2010
-ano
-2010
+Comédia
+Aventura
+genero
+Aventura
+Ação
+genero
+Ação
+Nacional
+nacional
+Nacional

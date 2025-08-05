@@ -1,18 +1,18 @@
-Romance
+Crime
 genero
-Romance
-Ficção científica
+Crime
+Terror
 genero
-Ficção científica
-2010
-ano
-2010
-Daniel Radcliffe
+Terror
+Animação
+genero
+Animação
+Anne Hathaway
 elenco
-Daniel Radcliffe
-Ação
-genero
-Ação
-Aventura
-genero
-Aventura
+Anne Hathaway
+2000
+ano
+2000
+1990
+ano
+1990

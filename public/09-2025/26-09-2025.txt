@@ -1,18 +1,18 @@
-Slasher
+Sequência
 keyword
-slasher
-Anime
-keyword
-anime
-Distopia
-keyword
-dystopia
-2010
-ano
-2010
-1990
-ano
-1990
-Ficção científica
+sequel
+Fantasia
 genero
-Ficção científica
+Fantasia
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Baseado em um quadrinho
+keyword
+based on comic
+Musical
+keyword
+musical
+Romance
+genero
+Romance

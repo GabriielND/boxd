@@ -1,18 +1,18 @@
-Nacional
-nacional
-Nacional
-Aventura
-genero
-Aventura
-Fantasia
-genero
-Fantasia
-Wagner Moura
-elenco
-Wagner Moura
-Ação
-genero
-Ação
-1990
+2010
 ano
-1990
+2010
+1980
+ano
+1980
+Crime
+genero
+Crime
+Angelina Jolie
+elenco
+Angelina Jolie
+Comédia
+genero
+Comédia
+Animação
+genero
+Animação

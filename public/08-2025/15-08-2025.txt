@@ -1,18 +1,18 @@
 Pixar
 produtora
 Pixar
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-Super Heróis
-keyword
-superhero
-Fantasia
-genero
-Fantasia
 1990
 ano
 1990
-Ação
+2000
+ano
+2000
+Sequência
+keyword
+sequel
+Comédia
 genero
-Ação
+Comédia
+Esportes
+keyword
+sports

@@ -1,18 +1,18 @@
-Ficção científica
-genero
-Ficção científica
-2020
-ano
-2020
-Aventura
-genero
-Aventura
-Rachel Zegler
-elenco
-Rachel Zegler
 Nacional
 nacional
 Nacional
+Drama
+genero
+Drama
+2020
+ano
+2020
+Fernanda Torres
+elenco
+Fernanda Torres
 Romance
 genero
 Romance
+Ficção científica
+genero
+Ficção científica

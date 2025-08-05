@@ -1,18 +1,18 @@
-Ação
+Animação
 genero
-Ação
-2010
+Animação
+Crime
+genero
+Crime
+1990
 ano
-2010
-Terror
-genero
-Terror
-Elizabeth Olsen
+1990
+Angelina Jolie
 elenco
-Elizabeth Olsen
-Suspense
+Angelina Jolie
+Ficção científica
 genero
-Suspense
-Crime
+Ficção científica
+Fantasia
 genero
-Crime
+Fantasia
