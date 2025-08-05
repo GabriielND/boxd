@@ -163,7 +163,7 @@ button:hover{
   margin-bottom: 8px;
 }
 
-.vict {
+.logo, .vict {
   transition: visibility 300ms linear 0s, opacity 300ms;
   width: 50%;
   display: flex;
@@ -176,8 +176,23 @@ button:hover{
   margin-bottom: 0px;
 }
 
-.vict img{
+.logo img{
   width: 180px;
+}
+
+.reprise{
+  align-content: center;
+  text-align: center;
+  margin: 15px;
+}
+
+.reprise button{
+  padding-inline: 20px;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font: inherit;
+  background-color: transparent;
 }
 
 .pontuacao, .desistencia{

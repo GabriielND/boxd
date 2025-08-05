@@ -188,6 +188,7 @@ const variantes = [
     ["zombie", "undead"],
     ["ghost", "spirit"],
     ["witch", "wizard", "sorcerer", "sorcerer's apprentice", "witch trial", "child witch"]
+    ["time loop", "groundhog day"]
 ]
 
 async function validarKeywords(kwResp, filmeResp, index){

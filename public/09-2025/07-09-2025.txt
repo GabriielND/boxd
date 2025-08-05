@@ -1,0 +1,18 @@
+Romance
+genero
+Romance
+Baseado em um livro
+keyword
+based on novel or book
+Distopia
+keyword
+dystopia
+Drama
+genero
+Drama
+Animação
+genero
+Animação
+2000
+ano
+2000

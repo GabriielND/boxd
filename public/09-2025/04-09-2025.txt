@@ -1,18 +1,18 @@
-Anime
+Loop temporal
 keyword
-anime
-Marvel
-produtora
-Marvel
+zombie
 1980
 ano
 1980
+Pixar
+produtora
+Pixar
 Ficção científica
 genero
 Ficção científica
-Aventura
+Fantasia
 genero
-Aventura
+Fantasia
 Ação
 genero
 Ação

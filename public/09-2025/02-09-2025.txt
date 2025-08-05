@@ -1,0 +1,18 @@
+Suspense
+genero
+Suspense
+Sequência
+keyword
+sequel
+Fantasia
+genero
+Fantasia
+Ação
+genero
+Ação
+Baseado em um livro
+keyword
+based on novel or book
+Ficção científica
+genero
+Ficção científica
