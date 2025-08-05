@@ -1,0 +1,18 @@
+Baseado em um livro
+keyword
+based on novel or book
+Crime
+genero
+Crime
+Comédia
+genero
+Comédia
+Suspense
+genero
+Suspense
+Sequência
+keyword
+sequel
+2000
+ano
+2000
