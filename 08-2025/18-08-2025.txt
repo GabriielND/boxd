@@ -1,18 +1,18 @@
-Suspense
+Nacional
+nacional
+Nacional
+Ficção científica
 genero
-Suspense
-2000
-ano
-2000
-Fantasia
+Ficção científica
+Animação
 genero
-Fantasia
-Margot Robbie
+Animação
+Wagner Moura
 elenco
-Margot Robbie
-Comédia
-genero
-Comédia
+Wagner Moura
+2020
+ano
+2020
 Aventura
 genero
 Aventura

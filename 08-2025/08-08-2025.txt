@@ -1,18 +1,18 @@
-Suspense
-genero
-Suspense
-Terror
-genero
-Terror
-Musical
+Esportes
 keyword
-musical
-2010
+sports
+Disney Animation
+produtora
+Disney Animation
+Ficção científica
+genero
+Ficção científica
+Ação
+genero
+Ação
+Coming of Age
+keyword
+coming of age
+2000
 ano
-2010
-Drama
-genero
-Drama
-Fantasia
-genero
-Fantasia
+2000

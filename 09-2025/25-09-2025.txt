@@ -1,18 +1,18 @@
-Terror
+2010
+ano
+2010
+Pixar
+produtora
+Pixar
+2020
+ano
+2020
+Aventura
 genero
-Terror
-Romance
-genero
-Romance
-Baseado em um video game
+Aventura
+Super Heróis
 keyword
-based on video game
-Ação
-genero
-Ação
-Comédia
-genero
-Comédia
-Sequência
-keyword
-sequel
+superhero
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme

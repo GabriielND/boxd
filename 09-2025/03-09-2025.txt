@@ -1,18 +1,18 @@
-2020
-ano
-2020
 Drama
 genero
 Drama
-2010
-ano
-2010
-Dakota Johnson
+Comédia
+genero
+Comédia
+Terror
+genero
+Terror
+Viola Davis
 elenco
-Dakota Johnson
-Nacional
-nacional
-Nacional
-Romance
+Viola Davis
+Ficção científica
 genero
-Romance
+Ficção científica
+Suspense
+genero
+Suspense

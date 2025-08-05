@@ -1,18 +1,18 @@
-Marvel
-produtora
-Marvel
-Musical
+Loop temporal
 keyword
-musical
-Baseado em um video game
+time loop
+Esportes
 keyword
-based on video game
-2000
+sports
+1990
 ano
-2000
-2010
-ano
-2010
+1990
+Terror
+genero
+Terror
+Suspense
+genero
+Suspense
 Fantasia
 genero
 Fantasia

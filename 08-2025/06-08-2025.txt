@@ -1,18 +1,18 @@
-2010
-ano
-2010
-Aventura
+Suspense
 genero
-Aventura
-Fantasia
+Suspense
+Terror
 genero
-Fantasia
-Jeff Goldblum
+Terror
+Crime
+genero
+Crime
+Sarah Paulson
 elenco
-Jeff Goldblum
+Sarah Paulson
+1980
+ano
+1980
 Ficção científica
 genero
 Ficção científica
-Suspense
-genero
-Suspense

@@ -1,18 +1,18 @@
-1990
-ano
-1990
-Suspense
-genero
-Suspense
-Pixar
-produtora
-Pixar
-Fantasia
-genero
-Fantasia
+Loop temporal
+keyword
+time loop
 Baseado em um quadrinho
 keyword
 based on comic
-Comédia
+Drama
 genero
-Comédia
+Drama
+Romance
+genero
+Romance
+2010
+ano
+2010
+Ficção científica
+genero
+Ficção científica

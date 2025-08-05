@@ -1,18 +1,18 @@
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-Baseado em um livro
+Baseado em um video game
 keyword
-based on novel or book
-DreamWorks Animation
+based on video game
+2010
+ano
+2010
+Marvel
 produtora
-DreamWorks Animation
-2020
-ano
-2020
-1990
-ano
-1990
+Marvel
 Ação
 genero
 Ação
+Animação
+genero
+Animação
+Aventura
+genero
+Aventura

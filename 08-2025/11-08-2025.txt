@@ -1,18 +1,18 @@
 Drama
 genero
 Drama
+Terror
+genero
+Terror
 Comédia
 genero
 Comédia
-Romance
-genero
-Romance
-Florence Pugh
+Rachel Zegler
 elenco
-Florence Pugh
-1990
-ano
-1990
-1980
-ano
-1980
+Rachel Zegler
+Suspense
+genero
+Suspense
+Fantasia
+genero
+Fantasia

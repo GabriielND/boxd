@@ -1,18 +1,18 @@
-Baseado em um quadrinho
-keyword
-based on comic
-Sequência
-keyword
-sequel
-DreamWorks Animation
-produtora
-DreamWorks Animation
-Ficção científica
-genero
-Ficção científica
-2020
+1980
 ano
-2020
+1980
+2010
+ano
+2010
 Drama
 genero
 Drama
+Aventura
+genero
+Aventura
+Distopia
+keyword
+dystopia
+Disney Animation
+produtora
+Disney Animation

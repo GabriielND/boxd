@@ -1,18 +1,18 @@
-Baseado em um quadrinho
+Drama
+genero
+Drama
+Super Heróis
 keyword
-based on comic
-Esportes
+superhero
+Stop Motion
 keyword
-sports
-Coming of Age
-keyword
-coming of age
-2020
+stop motion
+Comédia
+genero
+Comédia
+Animação
+genero
+Animação
+2010
 ano
-2020
-Nacional
-nacional
-Nacional
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
+2010

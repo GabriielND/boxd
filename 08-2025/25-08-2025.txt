@@ -1,18 +1,18 @@
-Aventura
+Animação
 genero
-Aventura
-Nacional
-nacional
-Nacional
-2000
+Animação
+Crime
+genero
+Crime
+1990
 ano
-2000
-Fernanda Montenegro
+1990
+Ryan Reynolds
 elenco
-Fernanda Montenegro
+Ryan Reynolds
 Fantasia
 genero
 Fantasia
-Romance
+Ficção científica
 genero
-Romance
+Ficção científica

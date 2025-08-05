@@ -1,18 +1,18 @@
 Ficção científica
 genero
 Ficção científica
-Distopia
+Baseado em um quadrinho
 keyword
-dystopia
-2010
+based on comic
+Loop temporal
+keyword
+time loop
+2000
 ano
-2010
-Aventura
+2000
+2020
+ano
+2020
+Ação
 genero
-Aventura
-Fantasia
-genero
-Fantasia
-Sequência
-keyword
-sequel
+Ação

@@ -1,18 +1,18 @@
+Aventura
+genero
+Aventura
+Drama
+genero
+Drama
+Ficção científica
+genero
+Ficção científica
+1980
+ano
+1980
 Baseado em um livro
 keyword
 based on novel or book
-2020
-ano
-2020
-Blue Sky
-produtora
-Blue Sky
-Ação
-genero
-Ação
-Fantasia
-genero
-Fantasia
-Comédia
-genero
-Comédia
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme

@@ -1,18 +1,18 @@
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-Terror
-genero
-Terror
-Stop Motion
+Nacional
+nacional
+Nacional
+2020
+ano
+2020
+Anime
 keyword
-stop motion
-2010
-ano
-2010
-2000
-ano
-2000
-Comédia
+anime
+Ficção científica
 genero
-Comédia
+Ficção científica
+Fantasia
+genero
+Fantasia
+Aventura
+genero
+Aventura

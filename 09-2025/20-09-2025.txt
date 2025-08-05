@@ -1,18 +1,18 @@
-1990
-ano
-1990
-Pixar
-produtora
-Pixar
+Slasher
+keyword
+slasher
+Anime
+keyword
+anime
 Musical
 keyword
 musical
-Coming of Age
-keyword
-coming of age
-Comédia
-genero
-Comédia
-Drama
-genero
-Drama
+1990
+ano
+1990
+1980
+ano
+1980
+2020
+ano
+2020

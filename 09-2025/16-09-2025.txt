@@ -1,18 +1,18 @@
-Baseado em um livro
-keyword
-based on novel or book
-Crime
-genero
-Crime
-Comédia
-genero
-Comédia
-Suspense
-genero
-Suspense
-Sequência
-keyword
-sequel
-2000
+1980
 ano
-2000
+1980
+Fantasia
+genero
+Fantasia
+Loop temporal
+keyword
+time loop
+Slasher
+keyword
+slasher
+Ação
+genero
+Ação
+Comédia
+genero
+Comédia

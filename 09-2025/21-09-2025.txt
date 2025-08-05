@@ -1,18 +1,18 @@
-Disney Animation
+Drama
+genero
+Drama
+Pixar
 produtora
-Disney Animation
-Super Heróis
+Pixar
+Baseado em um livro
 keyword
-superhero
-2000
-ano
-2000
-Ficção científica
+based on novel or book
+Sequência
+keyword
+sequel
+Aventura
 genero
-Ficção científica
-Ação
+Aventura
+Comédia
 genero
-Ação
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
+Comédia

@@ -1,18 +1,18 @@
-Blue Sky
-produtora
-Blue Sky
-Distopia
+Ficção científica
+genero
+Ficção científica
+Fantasia
+genero
+Fantasia
+Nacional
+nacional
+Nacional
+Comédia
+genero
+Comédia
+Baseado em um livro
 keyword
-dystopia
-Ação
-genero
-Ação
-2010
+based on novel or book
+2000
 ano
-2010
-Ficção científica
-genero
-Ficção científica
-Aventura
-genero
-Aventura
+2000

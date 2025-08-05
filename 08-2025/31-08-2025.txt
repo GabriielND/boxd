@@ -1,18 +1,18 @@
-Nacional
-nacional
-Nacional
-Esportes
+Stop Motion
 keyword
-sports
-Baseado em um quadrinho
-keyword
-based on comic
-Crime
+stop motion
+Animação
 genero
-Crime
-Drama
+Animação
+Fantasia
 genero
-Drama
+Fantasia
+2020
+ano
+2020
 Sequência
 keyword
 sequel
+2000
+ano
+2000

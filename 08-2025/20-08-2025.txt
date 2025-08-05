@@ -1,18 +1,18 @@
-Animação
+Romance
 genero
-Animação
-Terror
+Romance
+Aventura
 genero
-Terror
-Suspense
+Aventura
+Ficção científica
 genero
-Suspense
-Samuel L. Jackson
+Ficção científica
+Nicole Kidman
 elenco
-Samuel L. Jackson
-1980
-ano
-1980
-Comédia
+Nicole Kidman
+Suspense
 genero
-Comédia
+Suspense
+2020
+ano
+2020

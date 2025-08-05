@@ -1,18 +1,18 @@
-Musical
+Baseado em um quadrinho
 keyword
-musical
-Loop temporal
+based on comic
+Studio Ghibli
+produtora
+Studio Ghibli
+Viagem no tempo
 keyword
-zombie
-Romance
+time travel
+Aventura
 genero
-Romance
-Fantasia
+Aventura
+Drama
 genero
-Fantasia
+Drama
 Comédia
 genero
 Comédia
-Ficção científica
-genero
-Ficção científica

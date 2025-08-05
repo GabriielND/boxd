@@ -1,18 +1,18 @@
-Romance
+Ação
 genero
-Romance
-1990
-ano
-1990
-2020
-ano
-2020
-Sandra Bullock
+Ação
+Drama
+genero
+Drama
+Nacional
+nacional
+Nacional
+Fernanda Montenegro
 elenco
-Sandra Bullock
-Animação
+Fernanda Montenegro
+1990
+ano
+1990
+Ficção científica
 genero
-Animação
-Comédia
-genero
-Comédia
+Ficção científica
