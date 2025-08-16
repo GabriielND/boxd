@@ -375,7 +375,7 @@ function Boxd() {
     if(pontos === 9){
       completaTabuleiro()
       vitoria(true)
-      document.getElementById("desistir").disabled = true
+      // document.getElementById("desistir").disabled = true
     }
     mudarPlacar("pontos")
   }, [pontos])
@@ -384,7 +384,7 @@ function Boxd() {
     if(pontosOntem === 9){
       completaTabuleiro()
       vitoria(true)
-      document.getElementById("desistir").disabled = true
+      // document.getElementById("desistir").disabled = true
     }
     mudarPlacar("pontos")
   }, [pontosOntem])
@@ -393,7 +393,7 @@ function Boxd() {
     if(pontosAnte === 9){
       completaTabuleiro()
       vitoria(true)
-      document.getElementById("desistir").disabled = true
+      // document.getElementById("desistir").disabled = true
     }
     mudarPlacar("pontos")
   }, [pontosAnte])
@@ -585,7 +585,7 @@ function Boxd() {
     if(mostraDesiste){
       desistir();
     }
-    document.getElementById("desistir").disabled = true
+    // document.getElementById("desistir").disabled = true
     for (let i = 0; i < 9; i++){
         document.getElementById(botoesLista[i]).disabled = true
         if (document.getElementById(botoesLista[i]).textContent === "."){
