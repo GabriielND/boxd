@@ -7,12 +7,12 @@ dystopia
 Filmes com zumbis
 keyword
 zombie
-1980
+Anos 1980
 ano
 1980
 Animação
 genero
 Animação
-2020
+Anos 2020
 ano
 2020

@@ -7,10 +7,10 @@ superhero
 Filmes com fantasmas
 keyword
 ghost
-1980
+Anos 1980
 ano
 1980
-1990
+Anos 1990
 ano
 1990
 Fantasia
