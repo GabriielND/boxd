@@ -1,0 +1,18 @@
+Comédia
+genero
+Comédia
+Suspense
+genero
+Suspense
+Crime
+genero
+Crime
+Jamie Lee Curtis
+elenco
+Jamie Lee Curtis
+1980
+ano
+1980
+Baseado em um quadrinho
+keyword
+based on comic

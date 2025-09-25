@@ -1,0 +1,18 @@
+Loop temporal
+keyword
+time loop
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Ação
+genero
+Ação
+2010
+ano
+2010
+Romance
+genero
+Romance
+Comédia
+genero
+Comédia
