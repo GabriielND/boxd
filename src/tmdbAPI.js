@@ -178,71 +178,44 @@ async function validarProdutora(produtoraResp, filmeResp, index){
     }
 }
 
-const variantes = [
-    ["sports", "sport", "olympic sport"],
-    ["based on novel or book", "based on book", "based-on-novel", "based on novel", "based on young adult novel", "based on graphic novel", "based on memoir or autobiography", "based on children's book", "based on fairy tale"],
-    ["stop motion", "stopmotion"],
-    ["based on comic", "based on graphic novel", "based on manga"],
-    ["superhero", "teen superhero", "superhero team"],
-    ["based on video game", "video game"],
-    ["zombie", "undead"],
-    ["ghost", "spirit"],
-    ["witch", "wizard", "sorcerer", "sorcerer's apprentice", "witch trial", "child witch"],
-    ["time loop", "groundhog day"],
-    ["time travel", "time machine", "time-manipulation"],
-]
+const variantes = {
+  "sports": ["sports", "sport", "olympic sport"],
+  "based on novel or book": ["based on novel or book", "based on book", "based-on-novel", "based on novel", "based on young adult novel", "based on graphic novel", "based on memoir or autobiography", "based on children's book", "based on fairy tale"],
+  "stop motion": ["stop motion", "stopmotion"],
+  "based on comic": ["based on comic", "based on graphic novel", "based on manga"],
+  "superhero": ["superhero", "teen superhero", "superhero team"],
+  "based on video game": ["based on video game", "video game"],
+  "zombie": ["zombie", "undead"],
+  "ghost": ["ghost", "spirit"],
+  "witch": ["witch", "wizard", "sorcerer", "sorcerer's apprentice", "witch trial", "child witch"],
+  "time loop": ["time loop", "groundhog day"],
+  "time travel": ["time travel", "time machine", "time-manipulation"],
+  "based on true story": ["based on true story", "biography", "inspired by true events"]
+};
 
-async function validarKeywords(kwResp, filmeResp, index){
-    let keywords = []
-    kwResp = kwResp.toLowerCase();
-    try{
-        switch (kwResp) {
-            case "sports":
-                keywords = keywords.concat(variantes[0])
-                break;
-            case "based on novel or book":
-                keywords = keywords.concat(variantes[1])
-                break;
-            case "stop motion":
-                keywords = keywords.concat(variantes[2])
-                break;
-            case "based on comic":
-                keywords = keywords.concat(variantes[3])
-                break;
-            case "superhero":
-                keywords = keywords.concat(variantes[4])
-                break;
-            case "based on video game":
-                keywords = keywords.concat(variantes[5])
-                break;
-            case "zombie":
-                keywords = keywords.concat(variantes[6])
-                break;
-            case "ghost":
-                keywords = keywords.concat(variantes[7])
-                break;
-            case "witch":
-                keywords = keywords.concat(variantes[8])
-            default:
-                keywords.push(kwResp);
-        }
-        // const filmeGeral = await buscarFilme(filmeResp)
-        alteraDois(filmeResp["results"])
-        const filmeDetal = await buscarKWFilme(filmeResp["results"][index]["id"])
-        const kwsFilme = filmeDetal["keywords"]
-        // filmeAcerto = filmeResp["results"][index]["title"]
-        // filmeAtual = filmeResp["results"][index]["id"]
-        for (let i = 0; i < kwsFilme.length; i++) {
-            if (keywords.includes(kwsFilme[i]["name"])){
-                // localStorage["filmeAcerto"] = filmeAcerto
-                return true
-            }
-        }
-        return false
-    } catch (Exception){
-        console.log(Exception)
-        return false
+async function validarKeywords(kwResp, filmeResp, index) {
+  let keywords = [];
+  kwResp = kwResp.toLowerCase();
+  // Se a keyword existe nas variantes, concatena todas as variantes correspondentes
+  if (variantes[kwResp]) {
+    keywords = keywords.concat(variantes[kwResp]);
+  } else {
+    keywords.push(kwResp);
+  }
+  try {
+    alteraDois(filmeResp["results"]);
+    const filmeDetal = await buscarKWFilme(filmeResp["results"][index]["id"]);
+    const kwsFilme = filmeDetal["keywords"];
+    for (let i = 0; i < kwsFilme.length; i++) {
+      if (keywords.includes(kwsFilme[i]["name"])) {
+        return true;
+      }
     }
+    return false;
+  } catch (Exception) {
+    console.log(Exception);
+    return false;
+  }
 }
 
 const idsListas = [
