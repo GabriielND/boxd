@@ -164,12 +164,12 @@ async function validarProdutora(produtoraResp, filmeResp, index){
             console.log(formatProdutora)
             if (produtoras[i]["name"].includes(formatProdutora[0]) && produtoras[i]["name"].includes(formatProdutora[1])){
                 // localStorage["filmeAcerto"] = filmeAcerto
-                return true
-            } else if (produtoras[i]["name"].includes(formatProdutora[0]) && produtoras[i]["name"].includes("Productions")){
-                return true
-            } else if (produtoras[i]["name"].includes("Walt Disney Pictures")){
-                return true
-            }
+                return true}
+            // } else if (produtoras[i]["name"].includes(formatProdutora[0]) && produtoras[i]["name"].includes("Productions")){
+            //     return true
+            // } else if (produtoras[i]["name"].includes("Walt Disney Pictures")){
+            //     return true
+            // }
         }
         return false
     } catch (Exception){
