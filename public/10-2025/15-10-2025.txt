@@ -4,9 +4,9 @@ ano
 Indicado a Melhor Filme (Oscar)
 lista
 Indicados ao Oscar de Melhor Filme
-Baseado em um livro
-keyword
-based on novel or book
+Fantasia
+genero
+Fantasia
 Fernanda Montenegro
 elenco
 Fernanda Montenegro
