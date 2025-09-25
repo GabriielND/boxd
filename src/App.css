@@ -257,7 +257,7 @@ button:hover{
   cursor: default;
 }
 
-.tmdb, .confirmaDesiste{
+.tmdb, .confirmaDesiste, .twitter{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -271,6 +271,12 @@ button:hover{
 
 .tmdb img{
   width: 60px;
+}
+
+.twitter img{
+  border-radius: 10px;
+  margin-top: 15px;
+  width: 180px;
 }
 
 .confirmaDesiste{
