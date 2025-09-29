@@ -1,18 +1,18 @@
-Animação
-genero
-Animação
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
 Romance
 genero
 Romance
-Animação
+Disney Animation
+produtora
+Disney Animation
+Drama
 genero
-Animação
-Musical
+Drama
+Coming of Age
 keyword
-musical
-Ação
-genero
-Ação
+coming of age
+Anos 2000
+ano
+2000
+Anos 1990
+ano
+1990
