@@ -410,10 +410,16 @@ function Boxd() {
 
   let fetchData = async() => {
     if (dataControle !== ""){
-      let controleFormat = converteData(dataControle)
-      dataCompleta = dataControle
-      dataCompleta_ontem = new Date(new Date().setDate(controleFormat.getDate() - 1))
-      dataCompleta_ante = new Date(new Date().setDate(dataCompleta_ontem.getDate() - 1))
+      let controleFormat = converteData(dataControle);
+      dataCompleta = dataControle;
+
+      let ontemDate = new Date(controleFormat);
+      ontemDate.setDate(controleFormat.getDate() - 1);
+      dataCompleta_ontem = ontemDate;
+
+      let anteDate = new Date(ontemDate);
+      anteDate.setDate(ontemDate.getDate() - 1);
+      dataCompleta_ante = anteDate;
 
       let dia = String(controleFormat.getDate()).padStart(2, "0")
       let mes = String(controleFormat.getMonth() + 1).padStart(2,"0")

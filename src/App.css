@@ -65,7 +65,7 @@ button:hover{
   object-fit: cover;
   display: flex;
   margin: auto;
-  object-position: 0 20%;
+  object-position: 0 40%;
   border-radius: 20px;
 }
 

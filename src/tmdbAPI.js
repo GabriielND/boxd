@@ -353,8 +353,13 @@ export async function validarResposta(catg1, catg2, filme){
 
 async function getPersonId(ator){
     let detalhesPessoa = await getActorDetails(ator)
-    const id = detalhesPessoa.results[0].id
-    return id
+    for (let ator = 0; ator < 3; ator++){
+        if(detalhesPessoa.results[ator].popularity > 1){
+            const id = detalhesPessoa.results[ator].id
+            console.log(id)
+            return id
+        }
+    }
 }
 
 async function getUrlPessoa(id){
