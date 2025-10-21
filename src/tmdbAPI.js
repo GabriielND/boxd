@@ -262,12 +262,12 @@ async function validarElenco(elencoResp, filmeResp, index){
         // filmeAcerto = filmeResp["results"][index]["title"]
         // filmeAtual = filmeResp["results"][index]["id"]
         for (let i = 0; i < elencoFilme.length; i++){
-            if (elencoFilme[i]["name"] === elencoResp){
+            if (elencoFilme[i]["name"].toLowerCase() === elencoResp.toLowerCase()){
                 return true
             }
         }
         for (let i = 0; i < equipeFilme.length; i++){
-            if (equipeFilme[i]["name"] === elencoResp){
+            if (equipeFilme[i]["name"].toLowerCase() === elencoResp.toLowerCase()){
                 return true
             }
         }
