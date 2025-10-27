@@ -354,7 +354,7 @@ export async function validarResposta(catg1, catg2, filme){
 async function getPersonId(ator){
     let detalhesPessoa = await getActorDetails(ator)
     for (let ator = 0; ator < 3; ator++){
-        if(detalhesPessoa.results[ator].popularity > 1){
+        if(detalhesPessoa.results[ator].popularity > 0.5){
             const id = detalhesPessoa.results[ator].id
             console.log(id)
             return id
