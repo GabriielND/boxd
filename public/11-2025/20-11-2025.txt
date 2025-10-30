@@ -1,18 +1,18 @@
-Terror
+Fantasia
 genero
-Terror
-DreamWorks Animation
-produtora
-DreamWorks Animation
+Fantasia
 Baseado em um quadrinho
 keyword
 based on comic
 Ficção científica
 genero
 Ficção científica
-Anos 2020
-ano
-2020
-Sequência
+Distopia
 keyword
-sequel
+dystopia
+Anime
+keyword
+anime
+Animação
+genero
+Animação
