@@ -1,0 +1,18 @@
+Ação
+genero
+Ação
+Musical
+keyword
+musical
+Stop Motion
+keyword
+stop motion
+Aventura
+genero
+Aventura
+Comédia
+genero
+Comédia
+Animação
+genero
+Animação

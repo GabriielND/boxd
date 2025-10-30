@@ -1,0 +1,18 @@
+Ação
+genero
+Ação
+Comédia
+genero
+Comédia
+Esportes
+keyword
+sports
+Viagem no tempo
+keyword
+time travel
+Aventura
+genero
+Aventura
+Nacional
+nacional
+Nacional
