@@ -1,0 +1,18 @@
+Aventura
+genero
+Aventura
+Comédia
+genero
+Comédia
+Anos 2000
+ano
+2000
+Robert Downey Jr.
+elenco
+Robert Downey Jr.
+Baseado em um quadrinho
+keyword
+based on comic
+Nacional
+nacional
+Nacional
