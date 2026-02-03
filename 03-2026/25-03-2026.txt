@@ -1,0 +1,18 @@
+Romance
+genero
+Romance
+Terror
+genero
+Terror
+Ação
+genero
+Ação
+Jennifer Lawrence
+elenco
+Jennifer Lawrence
+Anos 2000
+ano
+2000
+Loop temporal
+keyword
+time loop
