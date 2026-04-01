@@ -3,7 +3,7 @@ import './App.css';
 import {setUrlPessoa, validarResposta} from './tmdbAPI.js';
 
 const versaoAtual = "19032026"
-const dataControle = ""
+const dataControle = "01-04-2026"
 let tabuleiroTexto
 let textoShare
 let dataCompleta
@@ -18,6 +18,7 @@ let tabuleiroCache = "000000000"
 let tabuleiroCacheOntem = "000000000"
 let tabuleiroCacheAnte = "000000000"
 let botoesLista = ["btNO","btN","btNE","btO","btC","btL","btSO","btS","btSE"]
+let dica = []
 
 function setCharAt(str,index,chr) {
   if(index > str.length-1) return str;
@@ -263,6 +264,36 @@ function Boxd() {
     if (typeof localStorage["diaAtual"] !== "undefined" && localStorage["diaAtual"] !== "NaN") setDiaPuzzle(localStorage["diaAtual"])
   }
 
+  async function atualizaDicas(lista){
+    dica = []
+    for (let i = 0; i < 6; i++){
+      let index = i * 3 + 1
+      switch (lista[index]) {
+        case "genero":
+          dica[i] = "É do gênero:"
+          break;
+        case "ano":
+          dica[i] = "Foi lançado nos:"
+          break;
+        case "keyword":
+          dica[i] = "Tipo de filme:"
+          break;
+        case "produtora":
+          dica[i] = "Produzido por:"
+          break;
+        case "elenco":
+          dica[i] = "Está no elenco do filme:"
+          break;
+        case "nacional":
+          dica[i] = "Filme brasileiro"
+          break;
+      
+        default:
+          break;
+      }
+    }
+  }
+
   async function mudarCategorias(lista, dia, ator = ""){
     console.log("Categorias: " + lista[0])
     setColuna1([lista[0], [lista[1], lista[2]]])
@@ -483,13 +514,13 @@ function Boxd() {
       localStorage["data-ante"] = (dia_ante+"/"+mes_ante)
     }
     let atorFoto = ["", "", ""]
-    if(converteData(dataCompleta).getDay() === 1 || converteData(dataCompleta).getDay() === 3){
+    if(converteData(dataCompleta).getDay() === 1 || converteData(dataCompleta).getDay() === 4){
       atorFoto[0] = "sim"
     }
-    if(converteData(dataCompleta_ontem).getDay() === 1 || converteData(dataCompleta_ontem).getDay() === 3){
+    if(converteData(dataCompleta_ontem).getDay() === 1 || converteData(dataCompleta_ontem).getDay() === 4){
       atorFoto[1] = "sim"
     }
-    if(converteData(dataCompleta_ante).getDay() === 1 || converteData(dataCompleta_ante).getDay() === 3){
+    if(converteData(dataCompleta_ante).getDay() === 1 || converteData(dataCompleta_ante).getDay() === 4){
       atorFoto[2] = "sim"
     }
     setTemAtor(atorFoto)
@@ -506,7 +537,8 @@ function Boxd() {
 
     if(localStorage["diaAtual"] === "hoje"){
       mudarCategorias(lista, "hoje", atorFoto[0])
-    }
+      atualizaDicas(lista)
+    } 
     setCatHoje(lista)
 
     let endereco_ontem = "/"+ mesAno_ontem + "/" + dataCompleta_ontem + ".txt"
@@ -520,7 +552,10 @@ function Boxd() {
     }
    
     
-    if(localStorage["diaAtual"] === "ontem") mudarCategorias(lista, "ontem", atorFoto[1])
+    if(localStorage["diaAtual"] === "ontem"){
+      mudarCategorias(lista, "ontem", atorFoto[1])
+      atualizaDicas(lista)
+    } 
     setCatOntem(lista)
 
     let endereco_ante = "/"+ mesAno_ante + "/" + dataCompleta_ante + ".txt"
@@ -533,7 +568,10 @@ function Boxd() {
       lista[i] = lista[i].replace("\r", "")
     }
 
-    if(localStorage["diaAtual"] === "ante") mudarCategorias(lista, "ante", atorFoto[2])
+    if(localStorage["diaAtual"] === "ante"){
+      mudarCategorias(lista, "ante", atorFoto[2])
+      atualizaDicas(lista)
+    } 
     setCatAnte(lista)
   }
 
@@ -747,9 +785,9 @@ function Boxd() {
     <div class="logo"></div> {/*Espaçamento*/}
   
     <div class="reprise">
-      <button id="botao-ante" onClick={() => {mudarCategorias(categoriasAnte, "ante", temAtor[2]); atualizarVitoria(); replicarTabuleiro(); completaTabuleiro();}} style={estiloAnte}>-</button>
-      <button id="botao-ontem" onClick={() => {mudarCategorias(categoriasOntem, "ontem", temAtor[1]); atualizarVitoria(); replicarTabuleiro(); completaTabuleiro();}} style={estiloOntem}>-</button>
-      <button id="botao-hoje" onClick={() => {mudarCategorias(categoriasHoje, "hoje", temAtor[0]); atualizarVitoria(); replicarTabuleiro(); completaTabuleiro();}} style={estiloHoje}>-</button>
+      <button id="botao-ante" onClick={() => {mudarCategorias(categoriasAnte, "ante", temAtor[2]); atualizaDicas(categoriasAnte); atualizarVitoria(); replicarTabuleiro(); completaTabuleiro();}} style={estiloAnte}>-</button>
+      <button id="botao-ontem" onClick={() => {mudarCategorias(categoriasOntem, "ontem", temAtor[1]); atualizaDicas(categoriasOntem); atualizarVitoria(); replicarTabuleiro(); completaTabuleiro();}} style={estiloOntem}>-</button>
+      <button id="botao-hoje" onClick={() => {mudarCategorias(categoriasHoje, "hoje", temAtor[0]); atualizaDicas(categoriasHoje); atualizarVitoria(); replicarTabuleiro(); completaTabuleiro();}} style={estiloHoje}>-</button>
     </div>
 
     <div class= "vict" style={estiloVitoria}>
@@ -765,12 +803,12 @@ function Boxd() {
       <table class = "grid">
         <tr>
           <td id="vazio"><img src={fotoAtor} style={estiloFoto}></img></td>
-          <th><div class="brdrColuna"><a style={{lineBreak: "strict"}}>{coluna1[0]}</a></div></th>
-          <th><div class="brdrColuna">{coluna2[0]}</div></th>
-          <th><div class="brdrColuna">{coluna3[0]}</div></th>
+          <th><div class="brdrColuna" id="coluna1"><a style={{lineBreak: "strict"}}>{coluna1[0]}</a><span class="tooltip" id="dica1">{dica[0]}</span></div></th>
+          <th><div class="brdrColuna" id="coluna2">{coluna2[0]}<span class="tooltip" id="dica2">{dica[1]}</span></div></th>
+          <th><div class="brdrColuna" id="coluna3">{coluna3[0]}<span class="tooltip" id="dica3">{dica[2]}</span></div></th>
         </tr>
         <tr>
-          <th><div class="brdrLinha">{linha1[0]}</div></th>
+          <th><div class="brdrLinha" id="linha1">{linha1[0]}<span class="tooltip" id="dica4">{dica[3]}</span></div></th>
           <td><button class="botao" id="btNO" value="0"
               style={{borderTopLeftRadius : "30px"}} 
               onClick={() => {setLinha(linha1); setColuna(coluna1); palpite(true); setBtAtual("btNO");}}>.</button></td>
@@ -780,13 +818,13 @@ function Boxd() {
               onClick={() => {setLinha(linha1); setColuna(coluna3); palpite(true); setBtAtual("btNE") }}>.</button></td>
         </tr>
         <tr>
-          <th><div class="brdrLinha">{linha2[0]}</div></th>
+          <th><div class="brdrLinha" id="linha2">{linha2[0]}<span class="tooltip" id="dica5">{dica[4]}</span></div></th>
           <td><button class="botao" id="btO" value="0" onClick={() => {setLinha(linha2); setColuna(coluna1); palpite(true); setBtAtual("btO") }}>.</button></td>
           <td><button class="botao" id="btC" value="0" onClick={() => {setLinha(linha2); setColuna(coluna2); palpite(true); setBtAtual("btC") }}>.</button></td>
           <td><button class="botao" id="btL" value="0" onClick={() => {setLinha(linha2); setColuna(coluna3); palpite(true); setBtAtual("btL") }}>.</button></td>
         </tr>
         <tr>
-          <th><div class="brdrLinha">{linha3[0]}</div></th>
+          <th><div class="brdrLinha" id="linha3">{linha3[0]}<span class="tooltip" id="dica6">{dica[5]}</span></div></th>
           <td><button class="botao" id="btSO" value="0"
               style={{borderBottomLeftRadius : "30px"}}
               onClick={() => {setLinha(linha3); setColuna(coluna1); palpite(true); setBtAtual("btSO") }}>.</button></td>
@@ -796,18 +834,22 @@ function Boxd() {
               onClick={() => {setLinha(linha3); setColuna(coluna3); palpite(true); setBtAtual("btSE") }}>.</button></td>
         </tr>
       </table>
-      <div class="pontuacao">
-        <table>
-          <td style={{textAlign: "left", width: "50%"}}>Acertos: {pontosPlacar}</td>
-          <td style={{textAlign: "right", width: "50%"}}>Palpites: {chutesPlacar}</td>
-        </table>
-      </div>
+      {/* <div class="menus"> */}
+        <div class="pontuacao">
+          <p>Acertos: {pontosPlacar}</p>
+          <p>Palpites: {chutesPlacar}</p>
+          {/* <table>
+            <td style={{textAlign: "left", width: "50%"}}>Acertos: {pontosPlacar}</td>
+            <td style={{textAlign: "right", width: "50%"}}>Palpites: {chutesPlacar}</td>
+          </table> */}
+        </div>
+      {/* </div> */}
     </div>
 
     
-    <div class="twitter">
+    {/* <div class="twitter">
       <a href="https://x.com/jogueboxd" target="_blank"><img src="/boxdTwitter.png"></img></a>
-    </div>
+    </div> */}
     <div class="tmdb">
       <a class="dados">Dados fornecidos por:</a>
       <a href="https://www.themoviedb.org" target="_blank"><img src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"></img></a>
@@ -816,7 +858,7 @@ function Boxd() {
     <div class = "container" style={estiloPalpite}>
       <div class = "palpite">
           <button id="fecharP"  onClick={() => {palpite()}}>X</button>
-          <h3 style={{width: "100%"}}>{linhaAtual[0]} + <br></br> {colunaAtual[0]}</h3>
+          <h3 style={{width: "100%"}}>{linhaAtual[0]}<br></br> + <br></br> {colunaAtual[0]}</h3>
           <a id="erroAviso"></a>
           <input type="text" id="palpite-input" onKeyDown={(e) => {handler(e)}} autoComplete="off" ></input>
           <button id="enviar" onClick={() => jogar(linhaAtual[1], colunaAtual[1], document.getElementById('palpite-input').value)}>Enviar</button> 
