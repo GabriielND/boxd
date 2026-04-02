@@ -1,18 +1,18 @@
 Baseado em um livro
 keyword
 based on novel or book
+Loop temporal
+keyword
+time loop
 Anos 2020
 ano
 2020
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-Florence Pugh
-elenco
-Florence Pugh
 Comédia
 genero
 Comédia
 Romance
 genero
 Romance
+Terror
+genero
+Terror

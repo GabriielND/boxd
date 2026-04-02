@@ -1,18 +1,18 @@
-Suspense
+Drama
 genero
-Suspense
-Loop temporal
+Drama
+Baseado em fatos reais
 keyword
-time loop
-Blue Sky
+based on true story
+Marvel
 produtora
-Blue Sky
+Marvel
+Anos 2000
+ano
+2000
 Anos 2010
 ano
 2010
-Ação
-genero
-Ação
-Fantasia
-genero
-Fantasia
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme

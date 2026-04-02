@@ -1,18 +1,18 @@
-Ação
+Ficção científica
 genero
-Ação
-Baseado em fatos reais
+Ficção científica
+Slasher
 keyword
-based on true story
-Crime
-genero
-Crime
+slasher
+Super Heróis
+keyword
+superhero
 Anos 2020
 ano
 2020
-Anos 1990
+Ação
+genero
+Ação
+Anos 2010
 ano
-1990
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
+2010

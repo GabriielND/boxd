@@ -1,18 +1,18 @@
-Marvel
+Blue Sky
 produtora
-Marvel
-Fantasia
-genero
-Fantasia
-Slasher
+Blue Sky
+Stop Motion
 keyword
-slasher
+stop motion
+Baseado em um quadrinho
+keyword
+based on comic
+Aventura
+genero
+Aventura
+Anos 2010
+ano
+2010
 Anos 2000
 ano
 2000
-Ação
-genero
-Ação
-Anos 2020
-ano
-2020

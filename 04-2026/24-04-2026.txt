@@ -1,18 +1,18 @@
 Anos 1980
 ano
 1980
-Fantasia
-genero
-Fantasia
+Blue Sky
+produtora
+Blue Sky
 Musical
 keyword
 musical
-Baseado em um livro
-keyword
-based on novel or book
-Indicado a Melhor Filme (Oscar)
-lista
-Indicados ao Oscar de Melhor Filme
-Animação
+Comédia
 genero
-Animação
+Comédia
+Ficção científica
+genero
+Ficção científica
+Aventura
+genero
+Aventura

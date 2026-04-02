@@ -1,18 +1,18 @@
-Terror
-genero
-Terror
 Crime
 genero
 Crime
-Romance
+Ação
 genero
-Romance
-Toni Collette
+Ação
+Nacional
+nacional
+Nacional
+Wagner Moura
 elenco
-Toni Collette
-Comédia
+Wagner Moura
+Ficção científica
 genero
-Comédia
-Anos 2000
-ano
-2000
+Ficção científica
+Animação
+genero
+Animação

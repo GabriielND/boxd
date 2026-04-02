@@ -1,18 +1,18 @@
-Anos 1990
+Terror
+genero
+Terror
+Baseado em um livro
+keyword
+based on novel or book
+Stop Motion
+keyword
+stop motion
+Anos 2010
 ano
-1990
-Ficção científica
-genero
-Ficção científica
-Esportes
+2010
+Sequência
 keyword
-sports
-Viagem no tempo
-keyword
-time travel
-Pixar
-produtora
-Pixar
-Animação
+sequel
+Comédia
 genero
-Animação
+Comédia

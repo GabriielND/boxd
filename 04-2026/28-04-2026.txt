@@ -1,18 +1,18 @@
-Pixar
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Studio Ghibli
 produtora
-Pixar
-Romance
-genero
-Romance
-Musical
+Studio Ghibli
+Baseado em um video game
 keyword
-musical
+based on video game
+Anos 2010
+ano
+2010
+Comédia
+genero
+Comédia
 Anos 2000
 ano
 2000
-Sequência
-keyword
-sequel
-Fantasia
-genero
-Fantasia
