@@ -1,18 +1,18 @@
-Baseado em um quadrinho
+Crime
+genero
+Crime
+Anime
 keyword
-based on comic
-Crime
-genero
-Crime
-Suspense
-genero
-Suspense
-Angelina Jolie
-elenco
-Angelina Jolie
+anime
+Baseado em um livro
+keyword
+based on novel or book
+Anos 1980
+ano
+1980
+Anos 1990
+ano
+1990
 Ação
 genero
 Ação
-Fantasia
-genero
-Fantasia

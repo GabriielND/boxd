@@ -1,18 +1,18 @@
+Ficção científica
+genero
+Ficção científica
+Baseado em um quadrinho
+keyword
+based on comic
+Baseado em um livro
+keyword
+based on novel or book
+Aventura
+genero
+Aventura
 Anos 2000
 ano
 2000
-Pixar
-produtora
-Pixar
-Stop Motion
-keyword
-stop motion
-Fantasia
-genero
-Fantasia
-Drama
-genero
-Drama
-Comédia
-genero
-Comédia
+Anos 2010
+ano
+2010

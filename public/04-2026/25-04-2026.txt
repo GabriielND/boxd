@@ -1,18 +1,18 @@
-Baseado em fatos reais
-keyword
-based on true story
+Ação
+genero
+Ação
+Anos 1980
+ano
+1980
 Anos 2010
 ano
 2010
-Sequência
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Super Heróis
 keyword
-sequel
-Ação
-genero
-Ação
-Esportes
+superhero
+Anime
 keyword
-sports
-Crime
-genero
-Crime
+anime

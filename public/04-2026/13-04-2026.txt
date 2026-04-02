@@ -1,18 +1,18 @@
+Suspense
+genero
+Suspense
 Anos 2000
 ano
 2000
-Aventura
-genero
-Aventura
-Super Heróis
-keyword
-superhero
-Angelina Jolie
+Anos 2020
+ano
+2020
+Natalie Portman
 elenco
-Angelina Jolie
+Natalie Portman
 Sequência
 keyword
 sequel
-Drama
-genero
-Drama
+Slasher
+keyword
+slasher

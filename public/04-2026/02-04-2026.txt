@@ -1,18 +1,18 @@
-Fantasia
-genero
-Fantasia
-Slasher
+Indicado a Melhor Filme (Oscar)
+lista
+Indicados ao Oscar de Melhor Filme
+Super Heróis
 keyword
-slasher
-Viagem no tempo
-keyword
-time travel
-Comédia
+superhero
+Anos 2020
+ano
+2020
+Florence Pugh
+elenco
+Florence Pugh
+Aventura
 genero
-Comédia
-Anos 1990
-ano
-1990
-Anos 2010
-ano
-2010
+Aventura
+Drama
+genero
+Drama

@@ -1,18 +1,18 @@
+Anime
+keyword
+anime
 Fantasia
 genero
 Fantasia
-Anos 2010
-ano
-2010
-Anos 2020
-ano
-2020
-Disney Animation
-produtora
-Disney Animation
-Slasher
+Esportes
 keyword
-slasher
-Baseado em um quadrinho
-keyword
-based on comic
+sports
+Aventura
+genero
+Aventura
+Anos 1990
+ano
+1990
+Drama
+genero
+Drama

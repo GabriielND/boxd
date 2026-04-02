@@ -1,18 +1,18 @@
 Anos 2010
 ano
 2010
-Romance
+Terror
 genero
-Romance
-Coming of Age
+Terror
+Fantasia
+genero
+Fantasia
+Anya Taylor-joy
+elenco
+Anya Taylor-joy
+Suspense
+genero
+Suspense
+Baseado em um livro
 keyword
-coming of age
-Disney Animation
-produtora
-Disney Animation
-Comédia
-genero
-Comédia
-Aventura
-genero
-Aventura
+based on novel or book

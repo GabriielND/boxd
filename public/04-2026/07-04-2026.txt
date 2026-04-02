@@ -1,18 +1,18 @@
-Musical
+Baseado em um video game
 keyword
-musical
-Blue Sky
+based on video game
+Sequência
+keyword
+sequel
+Marvel
 produtora
-Blue Sky
-Anime
-keyword
-anime
-Anos 2010
+Marvel
+Anos 2020
 ano
-2010
-Ficção científica
+2020
+Fantasia
 genero
-Ficção científica
-Aventura
-genero
-Aventura
+Fantasia
+Anos 2000
+ano
+2000

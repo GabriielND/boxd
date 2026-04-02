@@ -1,18 +1,18 @@
-Anos 1990
+Musical
+keyword
+musical
+Anos 2020
 ano
-1990
-Anos 2010
-ano
-2010
+2020
+Comédia
+genero
+Comédia
+Zac Efron
+elenco
+Zac Efron
+Animação
+genero
+Animação
 Indicado a Melhor Filme (Oscar)
 lista
 Indicados ao Oscar de Melhor Filme
-Leonardo Dicaprio
-elenco
-Leonardo Dicaprio
-Baseado em um livro
-keyword
-based on novel or book
-Super Heróis
-keyword
-superhero
