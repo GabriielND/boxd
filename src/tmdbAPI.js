@@ -190,7 +190,8 @@ const variantes = {
   "witch": ["witch", "wizard", "sorcerer", "sorcerer's apprentice", "witch trial", "child witch"],
   "time loop": ["time loop", "groundhog day"],
   "time travel": ["time travel", "time machine", "time-manipulation"],
-  "based on true story": ["based on true story", "biography", "inspired by true events"]
+  "based on true story": ["based on true story", "biography", "inspired by true events"],
+  "coming of age": ["coming of age", "coming-of-age", "a coming of age story", "post coming of age", "late coming of age"],
 };
 
 async function validarKeywords(kwResp, filmeResp, index) {
