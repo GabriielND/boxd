@@ -513,18 +513,7 @@ function Boxd() {
       document.getElementById("botao-ante").textContent=(dia_ante+"/"+mes_ante)
       localStorage["data-ante"] = (dia_ante+"/"+mes_ante)
     }
-    let atorFoto = ["", "", ""]
-    if(converteData(dataCompleta).getDay() === 1 || converteData(dataCompleta).getDay() === 4){
-      atorFoto[0] = "sim"
-    }
-    if(converteData(dataCompleta_ontem).getDay() === 1 || converteData(dataCompleta_ontem).getDay() === 4){
-      atorFoto[1] = "sim"
-    }
-    if(converteData(dataCompleta_ante).getDay() === 1 || converteData(dataCompleta_ante).getDay() === 4){
-      atorFoto[2] = "sim"
-    }
-    setTemAtor(atorFoto)
-    
+
     let endereco = "/"+ mesAno + "/" + dataCompleta + ".txt"
     let resp = await fetch(endereco)
     let final = await resp.text()
@@ -534,6 +523,9 @@ function Boxd() {
       lista[i] = lista[i].replace("\r", "")
     }
 
+    let atorFoto = ["", "", ""]
+    if(lista.includes("elenco")) atorFoto[0] = "sim"
+    setTemAtor(atorFoto)
 
     if(localStorage["diaAtual"] === "hoje"){
       mudarCategorias(lista, "hoje", atorFoto[0])
@@ -550,6 +542,9 @@ function Boxd() {
     for (let i = 0; i < lista.length; i++){
       lista[i] = lista[i].replace("\r", "")
     }
+
+    if(lista.includes("elenco")) atorFoto[1] = "sim"
+    setTemAtor(atorFoto)
    
     
     if(localStorage["diaAtual"] === "ontem"){
@@ -567,6 +562,9 @@ function Boxd() {
     for (let i = 0; i < lista.length; i++){
       lista[i] = lista[i].replace("\r", "")
     }
+
+    if(lista.includes("elenco")) atorFoto[2] = "sim"
+    setTemAtor(atorFoto)
 
     if(localStorage["diaAtual"] === "ante"){
       mudarCategorias(lista, "ante", atorFoto[2])
