@@ -1,0 +1,18 @@
+Loop temporal
+keyword
+time loop
+Baseado em um quadrinho
+keyword
+based on comic
+Ação
+genero
+Ação
+Drama
+genero
+Drama
+Anos 1990
+ano
+1990
+Suspense
+genero
+Suspense

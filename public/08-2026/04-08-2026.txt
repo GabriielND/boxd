@@ -1,0 +1,18 @@
+Musical
+keyword
+musical
+Baseado em um livro
+keyword
+based on novel or book
+Anime
+keyword
+anime
+Aventura
+genero
+Aventura
+Romance
+genero
+Romance
+Anos 2020
+ano
+2020
