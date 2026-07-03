@@ -1,0 +1,18 @@
+Anime
+keyword
+anime
+Slasher
+keyword
+slasher
+Romance
+genero
+Romance
+Anos 1980
+ano
+1980
+Anos 1990
+ano
+1990
+Anos 2020
+ano
+2020
