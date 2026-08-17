@@ -1,18 +1,18 @@
-Baseado em um livro
-keyword
-based on novel or book
-Crime
-genero
-Crime
-Baseado em fatos reais
-keyword
-based on true story
-Daniel Radcliffe
-elenco
-Daniel Radcliffe
-Sequência
-keyword
-sequel
 Indicado a Melhor Filme (Oscar)
 lista
 Indicados ao Oscar de Melhor Filme
+Comédia
+genero
+Comédia
+Anos 1990
+ano
+1990
+Toni Collette
+elenco
+Toni Collette
+Coming of Age
+keyword
+slasher
+Fantasia
+genero
+Fantasia
