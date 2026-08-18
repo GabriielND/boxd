@@ -207,7 +207,7 @@ button:hover{
 }
 
 .vitoria span{
-  width: 30%;
+  width: 25%;
   margin-top: 4px;
   margin-bottom: 8px;
 }
@@ -233,6 +233,11 @@ button:hover{
   align-content: center;
   text-align: center;
   margin: 15px;
+  margin-inline: auto;
+  width: 41%;
+  background-color: #032b4e;
+  border-radius: 20px;
+  padding: 3px;
 }
 
 .reprise button{
